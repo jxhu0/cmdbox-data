@@ -2,17 +2,17 @@
   "boards": [
     {
       "id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
-      "name": "Commands",
-      "icon": "💻",
+      "name": "Command",
+      "icon": "📉",
       "created_at": "2026-03-18T15:57:45.108066",
-      "updated_at": "2026-03-18T15:57:45.108066"
+      "updated_at": "2026-03-19T15:17:06.419794"
     },
     {
       "id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
-      "name": "Prompts",
+      "name": "Prompt",
       "icon": "🤖",
       "created_at": "2026-03-18T15:57:45.108107",
-      "updated_at": "2026-03-18T15:57:45.108107"
+      "updated_at": "2026-03-19T14:44:18.825565"
     }
   ],
   "commands": [
