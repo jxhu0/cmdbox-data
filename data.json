@@ -17,6 +17,19 @@
   ],
   "commands": [
     {
+      "id": "b1066766-8a4c-4876-a533-0cbdba25ce69",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "查看某用户所有进程",
+      "content": "ps ux -u hujiaxi",
+      "description": "",
+      "tags": [
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-19T09:08:17.859704",
+      "updated_at": "2026-03-19T09:08:17.859704"
+    },
+    {
       "id": "6657ba18-f18c-43f0-ab02-4437e70d905c",
       "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
       "title": "自动调用run.py刷因子",
