@@ -13,7 +13,10 @@
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
-.com.apple.timemachine.donotpresent
+.com.apple.timemachine.donopresent
+
+# 备份文件
+*.bak
 
 # 目录配置
 AppleDB
