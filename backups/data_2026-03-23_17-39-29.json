@@ -31,14 +31,6 @@
       "description": "",
       "created_at": "2026-03-20T16:45:59.715881",
       "updated_at": "2026-03-20T16:45:59.715881"
-    },
-    {
-      "id": "da38e6b5-1cc1-4cbc-80ad-fcfad4636c7a",
-      "name": "new",
-      "icon": "🔥",
-      "description": "",
-      "created_at": "2026-03-20T23:31:29.918074",
-      "updated_at": "2026-03-20T23:31:29.918074"
     }
   ],
   "commands": [
@@ -110,6 +102,19 @@
       "updated_at": "2026-03-19T17:45:26.546143"
     },
     {
+      "id": "9bae9a59-ac6d-45b2-814a-6e17648ebceb",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "服务器之间传输文件",
+      "content": "sync.py /home/hujiaxi/room/ml_alpha -t gy38",
+      "description": "",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-18T18:00:17.165564",
+      "updated_at": "2026-03-18T18:17:02.046030"
+    },
+    {
       "id": "c98659cd-dbac-4c05-9563-2419bc75881a",
       "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
       "title": "第四步：安装claude code cli",
@@ -123,9 +128,22 @@
       "updated_at": "2026-03-19T17:45:24.162820"
     },
     {
+      "id": "2fcd6b9c-808e-4732-8080-e1f023c6aeaa",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "第五步：验证claude code",
+      "content": "claude --version",
+      "description": "如果成功显示version，则输入claude命令，打开claude",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-23T15:46:13.496310",
+      "updated_at": "2026-03-23T15:46:13.496310"
+    },
+    {
       "id": "443be85e-61f2-4613-a23c-41838a0586b2",
       "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
-      "title": "第五步：绕过cc登陆",
+      "title": "第六步：绕过cc登陆",
       "content": "\"hasCompletedProjectOnboarding\": true",
       "description": "在~/.claude.json中添加",
       "tags": [
@@ -133,12 +151,12 @@
       ],
       "is_favorite": false,
       "created_at": "2026-03-19T17:40:22.863422",
-      "updated_at": "2026-03-19T17:45:20.512963"
+      "updated_at": "2026-03-23T15:46:44.523908"
     },
     {
       "id": "1f8401d3-3139-4476-8b1f-f31a0fac2ff3",
       "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
-      "title": "第六步：配置api",
+      "title": "第七步：配置api",
       "content": "{\n  \"env\": {\n    \"ANTHROPIC_AUTH_TOKEN\": \"your_api_token\",\n    \"ANTHROPIC_BASE_URL\": \"https://open.bigmodel.cn/api/anthropic\",\n    \"ANTHROPIC_DEFAULT_HAIKU_MODEL\": \"glm-4.7\",\n    \"ANTHROPIC_DEFAULT_SONNET_MODEL\": \"glm-5\",\n    \"ANTHROPIC_DEFAULT_OPUS_MODEL\": \"glm-5\",\n    \"API_TIMEOUT_MS\": \"3000000\",\n    \"CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC\": \"1\",\n    \"HTTP_PROXY\": \"http://gy245:strategy@10.24.10.245:3128\",\n    \"HTTPS_PROXY\": \"http://gy245:strategy@10.24.10.245:3128\"\n  },\n  \"enabledPlugins\": {\n    \"document-skills@anthropic-agent-skills\": true,\n    \"superpowers@claude-plugins-official\": true\n  },\n  \"language\": \"中文\"\n}",
       "description": "写入~/.claude/settings.json",
       "tags": [
@@ -146,20 +164,7 @@
       ],
       "is_favorite": false,
       "created_at": "2026-03-19T17:45:08.428335",
-      "updated_at": "2026-03-19T17:45:08.428335"
-    },
-    {
-      "id": "9bae9a59-ac6d-45b2-814a-6e17648ebceb",
-      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
-      "title": "服务器之间传输文件",
-      "content": "sync.py /home/hujiaxi/room/ml_alpha -t gy38",
-      "description": "",
-      "tags": [
-        "gy"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-03-18T18:00:17.165564",
-      "updated_at": "2026-03-18T18:17:02.046030"
+      "updated_at": "2026-03-23T15:46:50.194107"
     },
     {
       "id": "567f5d8e-61aa-460d-a84d-2ee57dcd8ee4",
