@@ -197,6 +197,97 @@
       "is_favorite": false,
       "created_at": "2026-03-18T18:03:21.544853",
       "updated_at": "2026-03-18T18:17:28.553237"
+    },
+    {
+      "id": "23cceb89-4e3d-49a0-b8a0-e743bc0872a9",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加官方插件市场",
+      "content": "/plugin marketplace add anthropics/skills",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:32:24.101870",
+      "updated_at": "2026-03-24T15:32:24.101870"
+    },
+    {
+      "id": "27e8c3a0-399f-40de-8e94-b10158b78307",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加skill：document",
+      "content": "/plugin install document-skills@anthropic-agent-skills",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:32:38.964924",
+      "updated_at": "2026-03-24T15:32:38.964924"
+    },
+    {
+      "id": "94b8c06c-b96a-40d2-ad49-bb8799891af4",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加应用市场：superpowers",
+      "content": "/plugin marketplace add obra/superpowers-marketplace",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:33:15.214622",
+      "updated_at": "2026-03-24T15:37:53.035512"
+    },
+    {
+      "id": "36037dcc-f535-4cff-a243-05ad068893a0",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加skill：superpowers",
+      "content": "/plugin install superpowers@superpowers-marketplace",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:33:38.060871",
+      "updated_at": "2026-03-24T15:38:59.696576"
+    },
+    {
+      "id": "0d5585f0-043d-4514-98d6-b037c1e8c29e",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加应用市场：claude-hud",
+      "content": "/plugin marketplace add jarrodwatts/claude-hud",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:37:35.950007",
+      "updated_at": "2026-03-24T15:37:46.224812"
+    },
+    {
+      "id": "636c213b-6fc3-4cb0-8334-c05432594a79",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加skill：claude-hud",
+      "content": "/plugin install claude-hud",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:38:49.931823",
+      "updated_at": "2026-03-24T15:38:49.931823"
+    },
+    {
+      "id": "d280eba9-32bc-4f13-9b7f-94807532b694",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "配置skill：claude-hud",
+      "content": "/claude-hud:setup",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:39:12.784518",
+      "updated_at": "2026-03-24T15:39:12.784518"
     }
   ]
 }
