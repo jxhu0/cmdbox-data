@@ -23,14 +23,6 @@
       "description": "服务器安装Claude Code指南",
       "created_at": "2026-03-19T17:22:08.841857",
       "updated_at": "2026-03-19T22:34:56.110191"
-    },
-    {
-      "id": "797fa2e4-c504-480c-956d-0a8e94c9531d",
-      "name": "test",
-      "icon": "📅",
-      "description": "",
-      "created_at": "2026-03-20T16:45:59.715881",
-      "updated_at": "2026-03-20T16:45:59.715881"
     }
   ],
   "commands": [
@@ -69,11 +61,12 @@
       "content": "rsync -av --progress /shared_data_gy3/shared_data/home/hujiaxi/nvm/.nvm /home/hujiaxi/",
       "description": "因为网络限制，这里选择从/shared_data复制",
       "tags": [
-        "cc"
+        "cc",
+        "self"
       ],
       "is_favorite": true,
       "created_at": "2026-03-19T17:34:00.764480",
-      "updated_at": "2026-03-20T10:29:28.448166"
+      "updated_at": "2026-03-25T14:20:49.777812"
     },
     {
       "id": "ab62887f-988c-41ca-bdbc-76f1e2107ce8",
