@@ -51,6 +51,19 @@
   ],
   "commands": [
     {
+      "id": "3fcd3ab4-a7ca-46ba-b9f8-bde61ed37de3",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "查看定时任务",
+      "content": "crontab -e",
+      "description": "",
+      "tags": [
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-18T17:56:48.477542",
+      "updated_at": "2026-03-25T16:17:35.808916"
+    },
+    {
       "id": "6657ba18-f18c-43f0-ab02-4437e70d905c",
       "board_id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
       "title": "自动调用run.py刷因子",
@@ -62,19 +75,6 @@
       "is_favorite": false,
       "created_at": "2026-03-18T23:26:58.171438",
       "updated_at": "2026-03-25T15:10:09.977167"
-    },
-    {
-      "id": "3fcd3ab4-a7ca-46ba-b9f8-bde61ed37de3",
-      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
-      "title": "查看定时任务",
-      "content": "crontab -e",
-      "description": "",
-      "tags": [
-        "linux"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-03-18T17:56:48.477542",
-      "updated_at": "2026-03-25T16:07:41.349313"
     },
     {
       "id": "172d5cd7-3c88-4c70-b2cf-bc14538ac4a8",
