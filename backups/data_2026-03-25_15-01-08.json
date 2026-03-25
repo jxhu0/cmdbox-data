@@ -22,15 +22,15 @@
       "icon": "💻",
       "description": "服务器安装Claude Code指南",
       "created_at": "2026-03-19T17:22:08.841857",
-      "updated_at": "2026-03-19T22:34:56.110191"
+      "updated_at": "2026-03-25T14:53:36.099830"
     },
     {
-      "id": "797fa2e4-c504-480c-956d-0a8e94c9531d",
-      "name": "test",
-      "icon": "📅",
-      "description": "",
-      "created_at": "2026-03-20T16:45:59.715881",
-      "updated_at": "2026-03-20T16:45:59.715881"
+      "id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "name": "NewServer",
+      "icon": "🌐",
+      "description": "策略组新开服务器后的操作",
+      "created_at": "2026-03-25T14:53:11.883663",
+      "updated_at": "2026-03-25T14:58:30.554046"
     }
   ],
   "commands": [
@@ -69,11 +69,12 @@
       "content": "rsync -av --progress /shared_data_gy3/shared_data/home/hujiaxi/nvm/.nvm /home/hujiaxi/",
       "description": "因为网络限制，这里选择从/shared_data复制",
       "tags": [
-        "cc"
+        "cc",
+        "self"
       ],
       "is_favorite": true,
       "created_at": "2026-03-19T17:34:00.764480",
-      "updated_at": "2026-03-20T10:29:28.448166"
+      "updated_at": "2026-03-25T14:20:49.777812"
     },
     {
       "id": "ab62887f-988c-41ca-bdbc-76f1e2107ce8",
@@ -204,6 +205,203 @@
       "is_favorite": false,
       "created_at": "2026-03-18T18:03:21.544853",
       "updated_at": "2026-03-18T18:17:28.553237"
+    },
+    {
+      "id": "23cceb89-4e3d-49a0-b8a0-e743bc0872a9",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加官方插件市场",
+      "content": "/plugin marketplace add anthropics/skills",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:32:24.101870",
+      "updated_at": "2026-03-24T15:32:24.101870"
+    },
+    {
+      "id": "27e8c3a0-399f-40de-8e94-b10158b78307",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加skill：document",
+      "content": "/plugin install document-skills@anthropic-agent-skills",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:32:38.964924",
+      "updated_at": "2026-03-24T15:32:38.964924"
+    },
+    {
+      "id": "94b8c06c-b96a-40d2-ad49-bb8799891af4",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加应用市场：superpowers",
+      "content": "/plugin marketplace add obra/superpowers-marketplace",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:33:15.214622",
+      "updated_at": "2026-03-24T15:37:53.035512"
+    },
+    {
+      "id": "36037dcc-f535-4cff-a243-05ad068893a0",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加skill：superpowers",
+      "content": "/plugin install superpowers@superpowers-marketplace",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:33:38.060871",
+      "updated_at": "2026-03-24T15:38:59.696576"
+    },
+    {
+      "id": "0d5585f0-043d-4514-98d6-b037c1e8c29e",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加应用市场：claude-hud",
+      "content": "/plugin marketplace add jarrodwatts/claude-hud",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:37:35.950007",
+      "updated_at": "2026-03-24T15:37:46.224812"
+    },
+    {
+      "id": "636c213b-6fc3-4cb0-8334-c05432594a79",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加skill：claude-hud",
+      "content": "/plugin install claude-hud",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:38:49.931823",
+      "updated_at": "2026-03-24T15:38:49.931823"
+    },
+    {
+      "id": "d280eba9-32bc-4f13-9b7f-94807532b694",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "配置skill：claude-hud",
+      "content": "/claude-hud:setup",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:39:12.784518",
+      "updated_at": "2026-03-24T15:39:12.784518"
+    },
+    {
+      "id": "ffb71674-78b6-410c-9fb9-374e09f1ddee",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第一步：复制room",
+      "content": "cp /opt/room-stable ~/room -rf",
+      "description": "",
+      "tags": [
+        "gy",
+        "self"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:54:57.295189",
+      "updated_at": "2026-03-25T14:58:15.017694"
+    },
+    {
+      "id": "1f390f91-c946-4d26-8f3b-911b2235d522",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第二步：复制antigen",
+      "content": "cp -r /shared_data_gy3/shared_data/home/hujiaxi/antigen/.antigen/ ~",
+      "description": "个人保存在shared_data了",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:55:37.232404",
+      "updated_at": "2026-03-25T14:55:37.232404"
+    },
+    {
+      "id": "8abd9a99-23bc-40ba-99fd-c4fd2bdbf83b",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第三步：复制zshrc",
+      "content": "cp /opt/config/.zshrc ~/",
+      "description": "",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:56:01.168344",
+      "updated_at": "2026-03-25T14:56:01.168344"
+    },
+    {
+      "id": "eca8d68b-240c-47f0-9947-befac3c307fd",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第四步：复制tmux.conf",
+      "content": "cp /opt/config/.tmux.conf ~/",
+      "description": "然后打开一个zsh再关上",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:57:22.834563",
+      "updated_at": "2026-03-25T14:57:22.834563"
+    },
+    {
+      "id": "c04ff0f8-52ff-4623-ae4b-c8752d5b7251",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第五步：复制antigen.zsh",
+      "content": "cp /shared_data_gy3/shared_data/home/hujiaxi/antigen/antigen.zsh /home/hujiaxi/.local/bin/antigen.zsh",
+      "description": "个人保存在shared_data了",
+      "tags": [
+        "gy",
+        "self"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:57:45.809263",
+      "updated_at": "2026-03-25T14:58:11.557211"
+    },
+    {
+      "id": "b669b2cc-51d9-4c2c-bc49-4f513172de63",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第六步：tmux鼠标滚轮支持",
+      "content": "set -g mouse on",
+      "description": "/home/hujiaxi/.tmux.conf 里面添加",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:59:06.464233",
+      "updated_at": "2026-03-25T14:59:06.464233"
+    },
+    {
+      "id": "82d9d69e-50aa-4d55-935d-7307741b1a24",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第七步：tmux改动生效",
+      "content": "tmux source-file ~/.tmux.conf",
+      "description": "先tmux打开窗口，然后输入指令",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:59:42.182850",
+      "updated_at": "2026-03-25T14:59:42.182850"
+    },
+    {
+      "id": "cb269da1-4454-4f34-ae09-be2ff4097754",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "新建一个指定名称的tmux会话",
+      "content": "tmux new -s <name>",
+      "description": "",
+      "tags": [
+        "tmux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T15:00:50.896259",
+      "updated_at": "2026-03-25T15:00:50.896259"
     }
   ]
 }

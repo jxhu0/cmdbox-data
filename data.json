@@ -22,7 +22,15 @@
       "icon": "💻",
       "description": "服务器安装Claude Code指南",
       "created_at": "2026-03-19T17:22:08.841857",
-      "updated_at": "2026-03-19T22:34:56.110191"
+      "updated_at": "2026-03-25T14:53:36.099830"
+    },
+    {
+      "id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "name": "NewServer",
+      "icon": "🌐",
+      "description": "策略组新开服务器后的操作",
+      "created_at": "2026-03-25T14:53:11.883663",
+      "updated_at": "2026-03-25T14:58:30.554046"
     }
   ],
   "commands": [
@@ -288,6 +296,112 @@
       "is_favorite": false,
       "created_at": "2026-03-24T15:39:12.784518",
       "updated_at": "2026-03-24T15:39:12.784518"
+    },
+    {
+      "id": "ffb71674-78b6-410c-9fb9-374e09f1ddee",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第一步：复制room",
+      "content": "cp /opt/room-stable ~/room -rf",
+      "description": "",
+      "tags": [
+        "gy",
+        "self"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:54:57.295189",
+      "updated_at": "2026-03-25T14:58:15.017694"
+    },
+    {
+      "id": "1f390f91-c946-4d26-8f3b-911b2235d522",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第二步：复制antigen",
+      "content": "cp -r /shared_data_gy3/shared_data/home/hujiaxi/antigen/.antigen/ ~",
+      "description": "个人保存在shared_data了",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:55:37.232404",
+      "updated_at": "2026-03-25T14:55:37.232404"
+    },
+    {
+      "id": "8abd9a99-23bc-40ba-99fd-c4fd2bdbf83b",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第三步：复制zshrc",
+      "content": "cp /opt/config/.zshrc ~/",
+      "description": "",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:56:01.168344",
+      "updated_at": "2026-03-25T14:56:01.168344"
+    },
+    {
+      "id": "eca8d68b-240c-47f0-9947-befac3c307fd",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第四步：复制tmux.conf",
+      "content": "cp /opt/config/.tmux.conf ~/",
+      "description": "然后打开一个zsh再关上",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:57:22.834563",
+      "updated_at": "2026-03-25T14:57:22.834563"
+    },
+    {
+      "id": "c04ff0f8-52ff-4623-ae4b-c8752d5b7251",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第五步：复制antigen.zsh",
+      "content": "cp /shared_data_gy3/shared_data/home/hujiaxi/antigen/antigen.zsh /home/hujiaxi/.local/bin/antigen.zsh",
+      "description": "个人保存在shared_data了",
+      "tags": [
+        "gy",
+        "self"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:57:45.809263",
+      "updated_at": "2026-03-25T14:58:11.557211"
+    },
+    {
+      "id": "b669b2cc-51d9-4c2c-bc49-4f513172de63",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第六步：tmux鼠标滚轮支持",
+      "content": "set -g mouse on",
+      "description": "/home/hujiaxi/.tmux.conf 里面添加",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:59:06.464233",
+      "updated_at": "2026-03-25T14:59:06.464233"
+    },
+    {
+      "id": "82d9d69e-50aa-4d55-935d-7307741b1a24",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第七步：tmux改动生效",
+      "content": "tmux source-file ~/.tmux.conf",
+      "description": "先tmux打开窗口，然后输入指令",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:59:42.182850",
+      "updated_at": "2026-03-25T14:59:42.182850"
+    },
+    {
+      "id": "cb269da1-4454-4f34-ae09-be2ff4097754",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "新建一个指定名称的tmux会话",
+      "content": "tmux new -s <name>",
+      "description": "",
+      "tags": [
+        "tmux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T15:00:50.896259",
+      "updated_at": "2026-03-25T15:00:50.896259"
     }
   ]
 }
