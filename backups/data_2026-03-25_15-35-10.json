@@ -2,11 +2,11 @@
   "boards": [
     {
       "id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
-      "name": "Command",
-      "icon": "📖",
-      "description": "",
+      "name": "System",
+      "icon": "📚",
+      "description": "策略组系统内置命令",
       "created_at": "2026-03-18T15:57:45.108066",
-      "updated_at": "2026-03-19T17:22:33.473539"
+      "updated_at": "2026-03-25T15:07:11.183932"
     },
     {
       "id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
@@ -31,22 +31,37 @@
       "description": "策略组新开服务器后的操作",
       "created_at": "2026-03-25T14:53:11.883663",
       "updated_at": "2026-03-25T14:58:30.554046"
+    },
+    {
+      "id": "9734029c-6505-4802-a8b8-e037324a0525",
+      "name": "Linux",
+      "icon": "📖",
+      "description": "Linux常用命令",
+      "created_at": "2026-03-25T15:08:02.810939",
+      "updated_at": "2026-03-25T15:08:02.810939"
+    },
+    {
+      "id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
+      "name": "Self",
+      "icon": "🗺️",
+      "description": "个人自定义命令",
+      "created_at": "2026-03-25T15:08:43.895252",
+      "updated_at": "2026-03-25T15:08:52.735398"
     }
   ],
   "commands": [
     {
       "id": "6657ba18-f18c-43f0-ab02-4437e70d905c",
-      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "board_id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
       "title": "自动调用run.py刷因子",
       "content": "python /home/hujiaxi/room/utils/run_alphas.py /home/hujiaxi/room/hjx_alphas/hjx_l2_new/hujiaxi_search.xml --out_dir /home/hujiaxi/room/hjx_alphas/hjx_l2_new  --dump_json_path /home/hujiaxi/room/hjx_alphas/hjx_l2_new/json --log_path /home/hujiaxi/room/hjx_alphas/hjx_l2_new/search.log --alpha_prefix hujiaxi_l2_cc",
-      "description": "",
+      "description": "jxq245",
       "tags": [
-        "self",
-        "tool"
+        "self"
       ],
       "is_favorite": false,
       "created_at": "2026-03-18T23:26:58.171438",
-      "updated_at": "2026-03-19T23:18:05.603943"
+      "updated_at": "2026-03-25T15:10:09.977167"
     },
     {
       "id": "3fcd3ab4-a7ca-46ba-b9f8-bde61ed37de3",
@@ -103,19 +118,6 @@
       "updated_at": "2026-03-19T17:45:26.546143"
     },
     {
-      "id": "9bae9a59-ac6d-45b2-814a-6e17648ebceb",
-      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
-      "title": "服务器之间传输文件",
-      "content": "sync.py /home/hujiaxi/room/ml_alpha -t gy38",
-      "description": "",
-      "tags": [
-        "gy"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-03-18T18:00:17.165564",
-      "updated_at": "2026-03-18T18:17:02.046030"
-    },
-    {
       "id": "c98659cd-dbac-4c05-9563-2419bc75881a",
       "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
       "title": "第四步：安装claude code cli",
@@ -168,21 +170,8 @@
       "updated_at": "2026-03-23T15:46:50.194107"
     },
     {
-      "id": "567f5d8e-61aa-460d-a84d-2ee57dcd8ee4",
-      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
-      "title": "股衍服务器联网",
-      "content": "export http_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTP_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport https_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTPS_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"",
-      "description": "除gy245外，其他服务器需要将这个命令加到~/.zshrc才能联网",
-      "tags": [
-        "gy"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-03-19T17:25:40.582838",
-      "updated_at": "2026-03-19T17:25:40.582838"
-    },
-    {
       "id": "b1066766-8a4c-4876-a533-0cbdba25ce69",
-      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "board_id": "9734029c-6505-4802-a8b8-e037324a0525",
       "title": "查看某用户所有进程",
       "content": "ps ux -u hujiaxi",
       "description": "",
@@ -191,11 +180,11 @@
       ],
       "is_favorite": true,
       "created_at": "2026-03-19T09:08:17.859704",
-      "updated_at": "2026-03-19T23:23:24.366946"
+      "updated_at": "2026-03-25T15:11:25.549997"
     },
     {
       "id": "69deacf3-980a-4099-9dee-d1fe3d2e452d",
-      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "board_id": "9734029c-6505-4802-a8b8-e037324a0525",
       "title": "快速检查目录",
       "content": "ncdu -e /dir/path",
       "description": "可以可视化地快速检查自己目录下的大目录和文件 然后按m可以查看文件最后更新时间",
@@ -204,7 +193,7 @@
       ],
       "is_favorite": false,
       "created_at": "2026-03-18T18:03:21.544853",
-      "updated_at": "2026-03-18T18:17:28.553237"
+      "updated_at": "2026-03-25T15:11:41.534180"
     },
     {
       "id": "23cceb89-4e3d-49a0-b8a0-e743bc0872a9",
@@ -285,19 +274,6 @@
       "updated_at": "2026-03-24T15:38:49.931823"
     },
     {
-      "id": "d280eba9-32bc-4f13-9b7f-94807532b694",
-      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
-      "title": "配置skill：claude-hud",
-      "content": "/claude-hud:setup",
-      "description": "",
-      "tags": [
-        "cc"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-03-24T15:39:12.784518",
-      "updated_at": "2026-03-24T15:39:12.784518"
-    },
-    {
       "id": "ffb71674-78b6-410c-9fb9-374e09f1ddee",
       "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
       "title": "第一步：复制room",
@@ -310,6 +286,19 @@
       "is_favorite": false,
       "created_at": "2026-03-25T14:54:57.295189",
       "updated_at": "2026-03-25T14:58:15.017694"
+    },
+    {
+      "id": "d280eba9-32bc-4f13-9b7f-94807532b694",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "配置skill：claude-hud",
+      "content": "/claude-hud:setup",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:39:12.784518",
+      "updated_at": "2026-03-24T15:39:12.784518"
     },
     {
       "id": "1f390f91-c946-4d26-8f3b-911b2235d522",
@@ -393,7 +382,7 @@
     {
       "id": "cb269da1-4454-4f34-ae09-be2ff4097754",
       "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
-      "title": "新建一个指定名称的tmux会话",
+      "title": "tmux：新建一个指定名称的会话",
       "content": "tmux new -s <name>",
       "description": "",
       "tags": [
@@ -401,7 +390,111 @@
       ],
       "is_favorite": false,
       "created_at": "2026-03-25T15:00:50.896259",
-      "updated_at": "2026-03-25T15:00:50.896259"
+      "updated_at": "2026-03-25T15:03:02.315798"
+    },
+    {
+      "id": "aa4fe9d3-4345-49d3-8501-1a942a62dad1",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "tmux：接入指定会话",
+      "content": "tmux a -t <name>",
+      "description": "",
+      "tags": [
+        "tmux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T15:02:34.885183",
+      "updated_at": "2026-03-25T15:03:07.033110"
+    },
+    {
+      "id": "aad4fd3b-085e-4c18-8fff-bbc7f0a07ae8",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "tmux：杀死某个会话",
+      "content": "tmux kill-session -t <name>",
+      "description": "",
+      "tags": [
+        "tmux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T15:02:50.749373",
+      "updated_at": "2026-03-25T15:03:12.620463"
+    },
+    {
+      "id": "682f23fc-740b-42a9-b8e5-7000eb007af6",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "tmux：重命名对话",
+      "content": "tmux rename-session -t <name> <new-name>",
+      "description": "",
+      "tags": [
+        "tmux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T15:03:29.805462",
+      "updated_at": "2026-03-25T15:03:29.805462"
+    },
+    {
+      "id": "de25e70e-9769-4f7b-b1c9-3184196c463f",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "tmux：快捷键",
+      "content": "ctrlb+c 创建新的窗口\r\nctrlb+% 将当前panel分割为左右两个panel\r\nexit 杀死某个panel、窗口或会话\r\nctrlb+d 将当前会话与窗口分离（不杀死，回到zsh）\r\nctrlb <n> 切换到第n个窗口\r\nctrlb w 列出所有窗口切换\r\nctrlb ， 重命名窗口",
+      "description": "",
+      "tags": [
+        "tmux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T15:04:09.249362",
+      "updated_at": "2026-03-25T15:04:09.249362"
+    },
+    {
+      "id": "567f5d8e-61aa-460d-a84d-2ee57dcd8ee4",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "股衍服务器联网",
+      "content": "export http_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTP_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport https_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTPS_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"",
+      "description": "除gy245外，其他服务器需要将这个命令加到~/.zshrc才能联网",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-19T17:25:40.582838",
+      "updated_at": "2026-03-25T15:18:46.522307"
+    },
+    {
+      "id": "49f39d4d-bb73-4609-8c2f-40653386deec",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "从数据库用sql获取数据",
+      "content": "data.py hk_consensus_y1 --dir <py>",
+      "description": "",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T15:13:32.513182",
+      "updated_at": "2026-03-25T15:18:08.558404"
+    },
+    {
+      "id": "19a9e786-7177-41ec-997b-8d233f626da4",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "统计某股票池里股票的数据并导出",
+      "content": "stats.py -T <xml> -d 20241002  -e 'EXST;volume/shares;close;shares*close;value' --file <csv>",
+      "description": "这里的例子是EXST股票池，gy81",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T15:15:10.938895",
+      "updated_at": "2026-03-25T15:17:30.342270"
+    },
+    {
+      "id": "bc438159-32ed-4e15-bfbd-255601e398e8",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "传输本服务器上的文件到另外的服务器",
+      "content": "sync.py <file> -t gy38",
+      "description": "这里gy38是简写，也可以写为172.24.137.245",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T15:16:58.986872",
+      "updated_at": "2026-03-25T15:16:58.986872"
     }
   ]
 }
