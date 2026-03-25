@@ -261,19 +261,6 @@
       "updated_at": "2026-03-24T15:37:46.224812"
     },
     {
-      "id": "567f5d8e-61aa-460d-a84d-2ee57dcd8ee4",
-      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
-      "title": "股衍服务器联网",
-      "content": "export http_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTP_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport https_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTPS_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"",
-      "description": "除gy245外，其他服务器需要将这个命令加到~/.zshrc才能联网",
-      "tags": [
-        "gy"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-03-19T17:25:40.582838",
-      "updated_at": "2026-03-25T15:18:46.522307"
-    },
-    {
       "id": "636c213b-6fc3-4cb0-8334-c05432594a79",
       "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
       "title": "添加skill：claude-hud",
@@ -456,6 +443,19 @@
       "is_favorite": false,
       "created_at": "2026-03-25T15:04:09.249362",
       "updated_at": "2026-03-25T15:04:09.249362"
+    },
+    {
+      "id": "567f5d8e-61aa-460d-a84d-2ee57dcd8ee4",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "股衍服务器联网",
+      "content": "export http_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTP_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport https_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTPS_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"",
+      "description": "除gy245外，其他服务器需要将这个命令加到~/.zshrc才能联网",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-19T17:25:40.582838",
+      "updated_at": "2026-03-25T15:18:46.522307"
     },
     {
       "id": "49f39d4d-bb73-4609-8c2f-40653386deec",
