@@ -1,0 +1,500 @@
+{
+  "boards": [
+    {
+      "id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "name": "System",
+      "icon": "📚",
+      "description": "策略组系统内置命令",
+      "created_at": "2026-03-18T15:57:45.108066",
+      "updated_at": "2026-03-25T15:07:11.183932"
+    },
+    {
+      "id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "name": "Prompt",
+      "icon": "💡",
+      "description": "",
+      "created_at": "2026-03-18T15:57:45.108107",
+      "updated_at": "2026-03-19T17:22:46.673704"
+    },
+    {
+      "id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "name": "Claude",
+      "icon": "💻",
+      "description": "服务器安装Claude Code指南",
+      "created_at": "2026-03-19T17:22:08.841857",
+      "updated_at": "2026-03-25T14:53:36.099830"
+    },
+    {
+      "id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "name": "NewServer",
+      "icon": "🌐",
+      "description": "策略组新开服务器后的操作",
+      "created_at": "2026-03-25T14:53:11.883663",
+      "updated_at": "2026-03-25T14:58:30.554046"
+    },
+    {
+      "id": "9734029c-6505-4802-a8b8-e037324a0525",
+      "name": "Linux",
+      "icon": "📖",
+      "description": "Linux常用命令",
+      "created_at": "2026-03-25T15:08:02.810939",
+      "updated_at": "2026-03-25T15:08:02.810939"
+    },
+    {
+      "id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
+      "name": "Self",
+      "icon": "🗺️",
+      "description": "个人自定义命令",
+      "created_at": "2026-03-25T15:08:43.895252",
+      "updated_at": "2026-03-25T15:08:52.735398"
+    }
+  ],
+  "commands": [
+    {
+      "id": "6657ba18-f18c-43f0-ab02-4437e70d905c",
+      "board_id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
+      "title": "自动调用run.py刷因子",
+      "content": "python /home/hujiaxi/room/utils/run_alphas.py /home/hujiaxi/room/hjx_alphas/hjx_l2_new/hujiaxi_search.xml --out_dir /home/hujiaxi/room/hjx_alphas/hjx_l2_new  --dump_json_path /home/hujiaxi/room/hjx_alphas/hjx_l2_new/json --log_path /home/hujiaxi/room/hjx_alphas/hjx_l2_new/search.log --alpha_prefix hujiaxi_l2_cc",
+      "description": "jxq245",
+      "tags": [
+        "self"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-18T23:26:58.171438",
+      "updated_at": "2026-03-25T15:10:09.977167"
+    },
+    {
+      "id": "3fcd3ab4-a7ca-46ba-b9f8-bde61ed37de3",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "查看定时任务",
+      "content": "crontab -e",
+      "description": "",
+      "tags": [
+        "linux",
+        "tool"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-18T17:56:48.477542",
+      "updated_at": "2026-03-19T23:17:21.689028"
+    },
+    {
+      "id": "172d5cd7-3c88-4c70-b2cf-bc14538ac4a8",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "第一步：安装nvm",
+      "content": "rsync -av --progress /shared_data_gy3/shared_data/home/hujiaxi/nvm/.nvm /home/hujiaxi/",
+      "description": "因为网络限制，这里选择从/shared_data复制",
+      "tags": [
+        "cc",
+        "self"
+      ],
+      "is_favorite": true,
+      "created_at": "2026-03-19T17:34:00.764480",
+      "updated_at": "2026-03-25T14:20:49.777812"
+    },
+    {
+      "id": "ab62887f-988c-41ca-bdbc-76f1e2107ce8",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "第二步：zshrc配置",
+      "content": "export NVM_DIR=\"$HOME/.nvm\"\r\n[ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\"\r\n[ -s \"$NVM_DIR/bash_completion\" ] && \\. \"$NVM_DIR/bash_completion\"\r\nexport http_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTP_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport https_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTPS_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-19T17:35:29.082295",
+      "updated_at": "2026-03-20T10:24:41.948979"
+    },
+    {
+      "id": "6357feca-4fb5-44b6-9223-e4f1e53d5db8",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "第三步：安装node.js",
+      "content": "nvm install node",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-19T17:38:02.057376",
+      "updated_at": "2026-03-19T17:45:26.546143"
+    },
+    {
+      "id": "c98659cd-dbac-4c05-9563-2419bc75881a",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "第四步：安装claude code cli",
+      "content": "npm install -g @anthropic-ai/claude-code",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-19T17:39:02.587827",
+      "updated_at": "2026-03-19T17:45:24.162820"
+    },
+    {
+      "id": "2fcd6b9c-808e-4732-8080-e1f023c6aeaa",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "第五步：验证claude code",
+      "content": "claude --version",
+      "description": "如果成功显示version，则输入claude命令，打开claude",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-23T15:46:13.496310",
+      "updated_at": "2026-03-23T15:46:13.496310"
+    },
+    {
+      "id": "443be85e-61f2-4613-a23c-41838a0586b2",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "第六步：绕过cc登陆",
+      "content": "\"hasCompletedProjectOnboarding\": true",
+      "description": "在~/.claude.json中添加",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-19T17:40:22.863422",
+      "updated_at": "2026-03-23T15:46:44.523908"
+    },
+    {
+      "id": "1f8401d3-3139-4476-8b1f-f31a0fac2ff3",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "第七步：配置api",
+      "content": "{\n  \"env\": {\n    \"ANTHROPIC_AUTH_TOKEN\": \"your_api_token\",\n    \"ANTHROPIC_BASE_URL\": \"https://open.bigmodel.cn/api/anthropic\",\n    \"ANTHROPIC_DEFAULT_HAIKU_MODEL\": \"glm-4.7\",\n    \"ANTHROPIC_DEFAULT_SONNET_MODEL\": \"glm-5\",\n    \"ANTHROPIC_DEFAULT_OPUS_MODEL\": \"glm-5\",\n    \"API_TIMEOUT_MS\": \"3000000\",\n    \"CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC\": \"1\",\n    \"HTTP_PROXY\": \"http://gy245:strategy@10.24.10.245:3128\",\n    \"HTTPS_PROXY\": \"http://gy245:strategy@10.24.10.245:3128\"\n  },\n  \"enabledPlugins\": {\n    \"document-skills@anthropic-agent-skills\": true,\n    \"superpowers@claude-plugins-official\": true\n  },\n  \"language\": \"中文\"\n}",
+      "description": "写入~/.claude/settings.json",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-19T17:45:08.428335",
+      "updated_at": "2026-03-23T15:46:50.194107"
+    },
+    {
+      "id": "b1066766-8a4c-4876-a533-0cbdba25ce69",
+      "board_id": "9734029c-6505-4802-a8b8-e037324a0525",
+      "title": "查看某用户所有进程",
+      "content": "ps ux -u hujiaxi",
+      "description": "",
+      "tags": [
+        "linux"
+      ],
+      "is_favorite": true,
+      "created_at": "2026-03-19T09:08:17.859704",
+      "updated_at": "2026-03-25T15:11:25.549997"
+    },
+    {
+      "id": "69deacf3-980a-4099-9dee-d1fe3d2e452d",
+      "board_id": "9734029c-6505-4802-a8b8-e037324a0525",
+      "title": "快速检查目录",
+      "content": "ncdu -e /dir/path",
+      "description": "可以可视化地快速检查自己目录下的大目录和文件 然后按m可以查看文件最后更新时间",
+      "tags": [
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-18T18:03:21.544853",
+      "updated_at": "2026-03-25T15:11:41.534180"
+    },
+    {
+      "id": "23cceb89-4e3d-49a0-b8a0-e743bc0872a9",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加官方插件市场",
+      "content": "/plugin marketplace add anthropics/skills",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:32:24.101870",
+      "updated_at": "2026-03-24T15:32:24.101870"
+    },
+    {
+      "id": "27e8c3a0-399f-40de-8e94-b10158b78307",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加skill：document",
+      "content": "/plugin install document-skills@anthropic-agent-skills",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:32:38.964924",
+      "updated_at": "2026-03-24T15:32:38.964924"
+    },
+    {
+      "id": "94b8c06c-b96a-40d2-ad49-bb8799891af4",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加应用市场：superpowers",
+      "content": "/plugin marketplace add obra/superpowers-marketplace",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:33:15.214622",
+      "updated_at": "2026-03-24T15:37:53.035512"
+    },
+    {
+      "id": "36037dcc-f535-4cff-a243-05ad068893a0",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加skill：superpowers",
+      "content": "/plugin install superpowers@superpowers-marketplace",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:33:38.060871",
+      "updated_at": "2026-03-24T15:38:59.696576"
+    },
+    {
+      "id": "0d5585f0-043d-4514-98d6-b037c1e8c29e",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加应用市场：claude-hud",
+      "content": "/plugin marketplace add jarrodwatts/claude-hud",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:37:35.950007",
+      "updated_at": "2026-03-24T15:37:46.224812"
+    },
+    {
+      "id": "636c213b-6fc3-4cb0-8334-c05432594a79",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加skill：claude-hud",
+      "content": "/plugin install claude-hud",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:38:49.931823",
+      "updated_at": "2026-03-24T15:38:49.931823"
+    },
+    {
+      "id": "ffb71674-78b6-410c-9fb9-374e09f1ddee",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第一步：复制room",
+      "content": "cp /opt/room-stable ~/room -rf",
+      "description": "",
+      "tags": [
+        "gy",
+        "self"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:54:57.295189",
+      "updated_at": "2026-03-25T14:58:15.017694"
+    },
+    {
+      "id": "d280eba9-32bc-4f13-9b7f-94807532b694",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "配置skill：claude-hud",
+      "content": "/claude-hud:setup",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:39:12.784518",
+      "updated_at": "2026-03-24T15:39:12.784518"
+    },
+    {
+      "id": "1f390f91-c946-4d26-8f3b-911b2235d522",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第二步：复制antigen",
+      "content": "cp -r /shared_data_gy3/shared_data/home/hujiaxi/antigen/.antigen/ ~",
+      "description": "个人保存在shared_data了",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:55:37.232404",
+      "updated_at": "2026-03-25T14:55:37.232404"
+    },
+    {
+      "id": "8abd9a99-23bc-40ba-99fd-c4fd2bdbf83b",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第三步：复制zshrc",
+      "content": "cp /opt/config/.zshrc ~/",
+      "description": "",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:56:01.168344",
+      "updated_at": "2026-03-25T14:56:01.168344"
+    },
+    {
+      "id": "eca8d68b-240c-47f0-9947-befac3c307fd",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第四步：复制tmux.conf",
+      "content": "cp /opt/config/.tmux.conf ~/",
+      "description": "然后打开一个zsh再关上",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:57:22.834563",
+      "updated_at": "2026-03-25T14:57:22.834563"
+    },
+    {
+      "id": "c04ff0f8-52ff-4623-ae4b-c8752d5b7251",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第五步：复制antigen.zsh",
+      "content": "cp /shared_data_gy3/shared_data/home/hujiaxi/antigen/antigen.zsh /home/hujiaxi/.local/bin/antigen.zsh",
+      "description": "个人保存在shared_data了",
+      "tags": [
+        "gy",
+        "self"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:57:45.809263",
+      "updated_at": "2026-03-25T14:58:11.557211"
+    },
+    {
+      "id": "b669b2cc-51d9-4c2c-bc49-4f513172de63",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第六步：tmux鼠标滚轮支持",
+      "content": "set -g mouse on",
+      "description": "/home/hujiaxi/.tmux.conf 里面添加",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:59:06.464233",
+      "updated_at": "2026-03-25T14:59:06.464233"
+    },
+    {
+      "id": "82d9d69e-50aa-4d55-935d-7307741b1a24",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第七步：tmux改动生效",
+      "content": "tmux source-file ~/.tmux.conf",
+      "description": "先tmux打开窗口，然后输入指令",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T14:59:42.182850",
+      "updated_at": "2026-03-25T14:59:42.182850"
+    },
+    {
+      "id": "cb269da1-4454-4f34-ae09-be2ff4097754",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "tmux：新建一个指定名称的会话",
+      "content": "tmux new -s <name>",
+      "description": "",
+      "tags": [
+        "tmux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T15:00:50.896259",
+      "updated_at": "2026-03-25T15:03:02.315798"
+    },
+    {
+      "id": "aa4fe9d3-4345-49d3-8501-1a942a62dad1",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "tmux：接入指定会话",
+      "content": "tmux a -t <name>",
+      "description": "",
+      "tags": [
+        "tmux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T15:02:34.885183",
+      "updated_at": "2026-03-25T15:03:07.033110"
+    },
+    {
+      "id": "aad4fd3b-085e-4c18-8fff-bbc7f0a07ae8",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "tmux：杀死某个会话",
+      "content": "tmux kill-session -t <name>",
+      "description": "",
+      "tags": [
+        "tmux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T15:02:50.749373",
+      "updated_at": "2026-03-25T15:03:12.620463"
+    },
+    {
+      "id": "682f23fc-740b-42a9-b8e5-7000eb007af6",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "tmux：重命名对话",
+      "content": "tmux rename-session -t <name> <new-name>",
+      "description": "",
+      "tags": [
+        "tmux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T15:03:29.805462",
+      "updated_at": "2026-03-25T15:03:29.805462"
+    },
+    {
+      "id": "de25e70e-9769-4f7b-b1c9-3184196c463f",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "tmux：快捷键",
+      "content": "ctrlb+c 创建新的窗口\r\nctrlb+% 将当前panel分割为左右两个panel\r\nexit 杀死某个panel、窗口或会话\r\nctrlb+d 将当前会话与窗口分离（不杀死，回到zsh）\r\nctrlb <n> 切换到第n个窗口\r\nctrlb w 列出所有窗口切换\r\nctrlb ， 重命名窗口",
+      "description": "",
+      "tags": [
+        "tmux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T15:04:09.249362",
+      "updated_at": "2026-03-25T15:04:09.249362"
+    },
+    {
+      "id": "567f5d8e-61aa-460d-a84d-2ee57dcd8ee4",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "股衍服务器联网",
+      "content": "export http_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTP_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport https_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTPS_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"",
+      "description": "除gy245外，其他服务器需要将这个命令加到~/.zshrc才能联网",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-19T17:25:40.582838",
+      "updated_at": "2026-03-25T15:18:46.522307"
+    },
+    {
+      "id": "49f39d4d-bb73-4609-8c2f-40653386deec",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "从数据库用sql获取数据",
+      "content": "data.py hk_consensus_y1 --dir <py>",
+      "description": "",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T15:13:32.513182",
+      "updated_at": "2026-03-25T15:18:08.558404"
+    },
+    {
+      "id": "19a9e786-7177-41ec-997b-8d233f626da4",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "统计某股票池里股票的数据并导出",
+      "content": "stats.py -T <xml> -d 20241002  -e 'EXST;volume/shares;close;shares*close;value' --file <csv>",
+      "description": "这里的例子是EXST股票池，gy81",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T15:15:10.938895",
+      "updated_at": "2026-03-25T15:17:30.342270"
+    },
+    {
+      "id": "bc438159-32ed-4e15-bfbd-255601e398e8",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "传输本服务器上的文件到另外的服务器",
+      "content": "sync.py <file> -t gy38",
+      "description": "这里gy38是简写，也可以写为172.24.137.245",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T15:16:58.986872",
+      "updated_at": "2026-03-25T15:16:58.986872"
+    }
+  ]
+}
