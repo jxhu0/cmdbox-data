@@ -22,9 +22,6 @@
       "icon": "💻",
       "description": "服务器安装Claude Code指南",
       "created_at": "2026-03-19T17:22:08.841857",
-<<<<<<<< HEAD:backups/data_2026-03-26_10-04-41.json
-      "updated_at": "2026-03-19T22:34:56.110191"
-========
       "updated_at": "2026-03-25T14:53:36.099830"
     },
     {
@@ -50,7 +47,6 @@
       "description": "个人自定义命令",
       "created_at": "2026-03-25T15:08:43.895252",
       "updated_at": "2026-03-25T15:08:52.735398"
->>>>>>>> 5e32739e3312039d2fcd3380700b5dc9504c368d:backups/data_2026-03-25_15-29-36.json
     }
   ],
   "commands": [
@@ -74,12 +70,11 @@
       "content": "crontab -e",
       "description": "",
       "tags": [
-        "linux",
-        "tool"
+        "linux"
       ],
       "is_favorite": false,
       "created_at": "2026-03-18T17:56:48.477542",
-      "updated_at": "2026-03-19T23:17:21.689028"
+      "updated_at": "2026-03-25T16:07:41.349313"
     },
     {
       "id": "172d5cd7-3c88-4c70-b2cf-bc14538ac4a8",
@@ -468,11 +463,12 @@
       "content": "data.py hk_consensus_y1 --dir <py>",
       "description": "",
       "tags": [
-        "gy"
+        "gy",
+        "data"
       ],
       "is_favorite": false,
       "created_at": "2026-03-25T15:13:32.513182",
-      "updated_at": "2026-03-25T15:18:08.558404"
+      "updated_at": "2026-03-25T16:10:15.080837"
     },
     {
       "id": "19a9e786-7177-41ec-997b-8d233f626da4",
@@ -481,11 +477,12 @@
       "content": "stats.py -T <xml> -d 20241002  -e 'EXST;volume/shares;close;shares*close;value' --file <csv>",
       "description": "这里的例子是EXST股票池，gy81",
       "tags": [
-        "gy"
+        "gy",
+        "hk"
       ],
       "is_favorite": false,
       "created_at": "2026-03-25T15:15:10.938895",
-      "updated_at": "2026-03-25T15:17:30.342270"
+      "updated_at": "2026-03-25T16:10:08.135210"
     },
     {
       "id": "bc438159-32ed-4e15-bfbd-255601e398e8",
@@ -499,6 +496,103 @@
       "is_favorite": false,
       "created_at": "2026-03-25T15:16:58.986872",
       "updated_at": "2026-03-25T15:16:58.986872"
+    },
+    {
+      "id": "565e1f92-919a-4a86-99ab-1bbea1965d03",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "运行oracle sql语句（指定ddb文件）",
+      "content": "oracle.py -l './hk/oracle_test.ddb'",
+      "description": "",
+      "tags": [
+        "gy",
+        "data"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T15:59:24.580583",
+      "updated_at": "2026-03-25T16:09:43.766171"
+    },
+    {
+      "id": "7652dbda-c0ee-4bb1-9ca6-20017759ca70",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "直接运行oracle sql语句",
+      "content": "oracle.py '{SQL}'",
+      "description": "",
+      "tags": [
+        "gy",
+        "data"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T16:00:30.498653",
+      "updated_at": "2026-03-25T16:09:48.597975"
+    },
+    {
+      "id": "20dbca51-f1b7-4a9f-96b5-a0151e602063",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "查看港股数据",
+      "content": "stats.py -e 'close' -T /home/hujiaxi/room/hk/update_hk_stock.xml --begdate 20240601 -c 0700.HK",
+      "description": "gy81",
+      "tags": [
+        "gy",
+        "hk"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T16:01:24.422064",
+      "updated_at": "2026-03-25T16:07:36.585249"
+    },
+    {
+      "id": "0b932935-9fef-491d-925d-3890d3f64db8",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "命令行回测因子",
+      "content": "auto.py -e 'close-open' -o 'pow,dk5,mktneu' -T <xml> --begdate 20200101 -u GGT -S 10",
+      "description": "指定股票池、分层，gy81",
+      "tags": [
+        "gy",
+        "hk"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T16:07:21.021794",
+      "updated_at": "2026-03-25T16:07:29.701143"
+    },
+    {
+      "id": "ea192995-6a01-40da-9ad8-b15ba2bd5d1b",
+      "board_id": "9734029c-6505-4802-a8b8-e037324a0525",
+      "title": "查看文件夹下文件数量",
+      "content": "ls -1 /data/ashare/pool | wc -l",
+      "description": "",
+      "tags": [
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T16:11:05.628152",
+      "updated_at": "2026-03-25T16:11:05.628152"
+    },
+    {
+      "id": "a35f3920-c768-44c1-85c3-481fc34cfd6e",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "上传日频因子到因子库",
+      "content": "upload_pool.py <xml>",
+      "description": "",
+      "tags": [
+        "gy",
+        "alpha"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T16:12:10.068268",
+      "updated_at": "2026-03-25T16:12:19.383449"
+    },
+    {
+      "id": "04d06257-3a19-43a2-8c83-27464aefa75c",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "上传15m因子到因子库",
+      "content": "upload_pool.py {xml} -T wangce_ashare_15min",
+      "description": "",
+      "tags": [
+        "gy",
+        "alpha"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T16:14:30.330935",
+      "updated_at": "2026-03-25T16:14:36.862340"
     }
   ]
 }
