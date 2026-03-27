@@ -288,12 +288,11 @@
       "content": "cp /opt/room-stable ~/room -rf",
       "description": "",
       "tags": [
-        "gy",
-        "self"
+        "gy"
       ],
       "is_favorite": false,
       "created_at": "2026-03-25T14:54:57.295189",
-      "updated_at": "2026-03-25T14:58:15.017694"
+      "updated_at": "2026-03-27T11:00:21.787817"
     },
     {
       "id": "d280eba9-32bc-4f13-9b7f-94807532b694",
@@ -791,6 +790,19 @@
       "is_favorite": false,
       "created_at": "2026-03-25T16:18:59.393526",
       "updated_at": "2026-03-25T16:19:53.575275"
+    },
+    {
+      "id": "4192d18a-cae1-4c2f-a414-2f570bc12c5f",
+      "board_id": "9734029c-6505-4802-a8b8-e037324a0525",
+      "title": "免密登录",
+      "content": "第一步：在机器2上：\ncd \r\nmkdir ~/.ssh \n第二步：在机器1上：\ncd\r\nssh-keygen  # 需根据提示操作，全部按回车或默认值即可。注意，如果~/.ssh/id_rsa.pub文件已经存在，这个命令可省\r\nrsync .ssh/id_rsa.pub your_username_of_machine2@ip_of_machine2:~/\n第三步：在机器2上：\ncd ~/.ssh \r\ncat ../id_rsa.pub | tee -a authorized_keys\r\nchmod 600 authorized_keys \r\nrm ../id_rsa.pub",
+      "description": "登陆方式：ssh your_username_of_machine2@ip_of_machine2 ",
+      "tags": [
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-27T10:57:34.442793",
+      "updated_at": "2026-03-27T10:58:01.526836"
     }
   ]
 }
