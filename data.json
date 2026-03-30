@@ -768,14 +768,14 @@
       "id": "ca402ddc-74a9-40ab-acdd-86b48c8ca787",
       "board_id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
       "title": "一键将alphallm的改动同步到指定服务器",
-      "content": "/home/hujiaxi/room/utils/bash/alphallm_git_pull.sh gy38 gy69 jxq241 jxq243 gy212 jxq245",
+      "content": "/home/hujiaxi/room/utils/bash/alphallm_git_pull.sh gy38 gy69 jxq241 jxq243 gy213 jxq245",
       "description": "jxq245",
       "tags": [
         "self"
       ],
       "is_favorite": false,
       "created_at": "2026-03-25T16:30:06.720152",
-      "updated_at": "2026-03-25T16:30:06.720152"
+      "updated_at": "2026-03-30T14:23:49.860111"
     },
     {
       "id": "80c7e787-1786-489a-8d01-1ab91762b575",
