@@ -803,6 +803,130 @@
       "is_favorite": false,
       "created_at": "2026-03-27T10:57:34.442793",
       "updated_at": "2026-03-27T10:58:01.526836"
+    },
+    {
+      "id": "54758c34-eb4b-4b3c-a11c-92e380e21d11",
+      "board_id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "title": "将本地文件关联上远程项目",
+      "content": "git init 初始化当前本地仓库\r\ngit add . 将目录下所有文件添加到缓存区\r\ngit status 查看文件状态\r\ngit commit -m init 将缓存区的文件提交到本地仓库\r\ngit remote add origin http://10.24.10.244:1234/hujiaxi/hkstock.git 添加远程项目仓库\r\ngit fetch --all 合并远程项目\r\ngit rebase origin/master 将当前分支的更改重新应用在远程分支\r\ngit push -u origin master 推送合并后的远程项目",
+      "description": "",
+      "tags": [
+        "git",
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-31T10:26:30.673972",
+      "updated_at": "2026-03-31T10:26:30.673972"
+    },
+    {
+      "id": "91bed7dd-5b18-4e22-b78d-aed637ebe996",
+      "board_id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "title": "从远程仓库拉取指定的某一个分支",
+      "content": "git clone https://.../test.git 拉取整个远程代码库\r\nsync.py /home/hujiaxi/.gitconfig -t gy38 同步账号密码\r\ncd test 进入项目目录，也就是进入master主分支\r\ngit fetch 执行git fetch命令，将远程仓库的所有分支拷贝到本地仓库\r\ngit checkout dev 执行git checkout <分支名称>命令，切换到我们想要拉取的指定某一个分支的本地分支\r\ngit branch -a 执行git branch -a命令查看所有分支情况",
+      "description": "",
+      "tags": [
+        "git",
+        "linux",
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-31T10:27:35.154699",
+      "updated_at": "2026-03-31T10:27:35.154699"
+    },
+    {
+      "id": "23bc616c-455c-401b-93eb-710cf9e0aa72",
+      "board_id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "title": "文件更改后合并到远程项目",
+      "content": "git status 查看已修改的文件列表\r\ngit add --all 将所有改动文件添加到缓存区\r\ngit commit -m modified 将缓存区的文件提交到本地仓库\r\ngit pull origin hjx_dev 先拉取远程仓库的最新更改，以确保你的本地分支是最新的\r\ngit push origin hjx_dev 推送合并后的远程项目",
+      "description": "",
+      "tags": [
+        "git",
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-31T10:28:02.711503",
+      "updated_at": "2026-03-31T10:28:02.711503"
+    },
+    {
+      "id": "c5541168-72ed-431f-911c-b69754679496",
+      "board_id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "title": "断开本地仓库和远程仓库的连接",
+      "content": "rm -rf .git",
+      "description": "",
+      "tags": [
+        "git",
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-31T10:28:13.839195",
+      "updated_at": "2026-03-31T10:28:13.839195"
+    },
+    {
+      "id": "477de7d2-dc51-4e33-b332-f0bb5e9ef596",
+      "board_id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "title": "清除pycache文件夹以及其下的.pyc文件",
+      "content": "git rm -r --cached __pycache__\r\ngit rm -r --cached *.pyc 删除本地库里的对应文件\r\ngit commit -m \"Remove __pycache__ from Git tracking\" commit修改\r\ngit pull origin hjx_dev 先拉取远程仓库的最新更改，以确保你的本地分支是最新的\r\ngit push origin hjx_dev 推送合并后的远程项目\r\n打开.gitignore文件，添加__pycache__/ 和 *.pyc 两行",
+      "description": "",
+      "tags": [
+        "git",
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-31T10:28:53.418248",
+      "updated_at": "2026-03-31T10:28:53.418248"
+    },
+    {
+      "id": "61b78e2e-cc11-444b-bd8a-b9b940891a05",
+      "board_id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "title": "将父分支dev的改动merge到自己的分支hjx_dev",
+      "content": "git checkout dev 切换到父分支dev\r\ngit pull 拉取父分支最新改动\r\ngit checkout hjx_dev 切换回自己的分支hjx_dev\r\ngit merge origin/dev 把父分支dev的改动merge到本地的自己的分支\r\n（如果有冲突，需要自己手动选择修改）\r\n（git merge --abort 反悔了，取消merge）\r\ngit add --all 解决冲突后提交改动到缓存区\r\ngit commit -m \"\" 将缓存区的文件提交到本地仓库\r\ngit pull origin hjx_dev 先拉取远程仓库的最新更改，以确保你的本地分支是最新的\r\ngit push origin hjx_dev 推送合并后的远程项目",
+      "description": "",
+      "tags": [
+        "git",
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-31T10:29:37.032237",
+      "updated_at": "2026-03-31T10:29:37.032237"
+    },
+    {
+      "id": "8fdd2597-71b9-4b65-bc04-fe406d626579",
+      "board_id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "title": "只想merge目标分支的某个commit到自己的分支hjx_dev（cherry-pick）",
+      "content": "git checkout hjx_dev 切换到目标分支\r\ngit pull origin hjx_dev 确保分支是最新的\r\ngit cherry-pick {comit_id} 执行cherry-pick获取目标分支的merge\r\ngit push origin hjx_dev\r\n",
+      "description": "",
+      "tags": [
+        "git",
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-31T10:30:01.191483",
+      "updated_at": "2026-03-31T10:30:01.191483"
+    },
+    {
+      "id": "ef2aedc5-d4c2-4ea6-b739-0612f7475571",
+      "board_id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "title": "比较两个分支的差异",
+      "content": "git diff hjx_dev lzr_dev\r\ngit diff hjx_dev lzr_dev -- expr.py 单个文件/文件夹",
+      "description": "",
+      "tags": [
+        "git",
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-31T10:30:14.399463",
+      "updated_at": "2026-03-31T10:30:14.399463"
+    },
+    {
+      "id": "3b41fccb-3b66-4932-ab8e-26616182d6f9",
+      "board_id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "title": "本地和远程有两个提交出现分歧",
+      "content": "git pull origin hjx_dev --no-rebase 这将会创建一个合并提交，将两个分支的历史结合起来。\r\ngit pull origin hjx_dev --rebase 这会将你的本地提交\"移动\"到远程分支的最新提交之后，形成一条直线（一般用这个）\r\ngit pull origin hjx_dev --ff-only 这只在你的分支可以直接快进时才会成功（即没有分歧提交）",
+      "description": "",
+      "tags": [],
+      "is_favorite": false,
+      "created_at": "2026-03-31T10:30:23.775705",
+      "updated_at": "2026-03-31T10:30:23.775705"
     }
   ]
 }
