@@ -1,12 +1,36 @@
 {
   "boards": [
     {
+      "id": "9734029c-6505-4802-a8b8-e037324a0525",
+      "name": "Linux",
+      "icon": "📖",
+      "description": "Linux常用命令",
+      "created_at": "2026-03-25T15:08:02.810939",
+      "updated_at": "2026-03-25T15:08:02.810939"
+    },
+    {
       "id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
       "name": "System",
       "icon": "📚",
       "description": "策略组系统内置命令",
       "created_at": "2026-03-18T15:57:45.108066",
       "updated_at": "2026-03-25T15:07:11.183932"
+    },
+    {
+      "id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
+      "name": "Self",
+      "icon": "🗺️",
+      "description": "个人自定义命令",
+      "created_at": "2026-03-25T15:08:43.895252",
+      "updated_at": "2026-03-25T15:08:52.735398"
+    },
+    {
+      "id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "name": "Git",
+      "icon": "🔨",
+      "description": "",
+      "created_at": "2026-03-25T16:30:43.370368",
+      "updated_at": "2026-03-25T16:30:43.370368"
     },
     {
       "id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
@@ -31,30 +55,6 @@
       "description": "策略组新开服务器后的操作",
       "created_at": "2026-03-25T14:53:11.883663",
       "updated_at": "2026-03-25T14:58:30.554046"
-    },
-    {
-      "id": "9734029c-6505-4802-a8b8-e037324a0525",
-      "name": "Linux",
-      "icon": "📖",
-      "description": "Linux常用命令",
-      "created_at": "2026-03-25T15:08:02.810939",
-      "updated_at": "2026-03-25T15:08:02.810939"
-    },
-    {
-      "id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
-      "name": "Self",
-      "icon": "🗺️",
-      "description": "个人自定义命令",
-      "created_at": "2026-03-25T15:08:43.895252",
-      "updated_at": "2026-03-25T15:08:52.735398"
-    },
-    {
-      "id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
-      "name": "Git",
-      "icon": "🔨",
-      "description": "",
-      "created_at": "2026-03-25T16:30:43.370368",
-      "updated_at": "2026-03-25T16:30:43.370368"
     }
   ],
   "commands": [
@@ -288,12 +288,11 @@
       "content": "cp /opt/room-stable ~/room -rf",
       "description": "",
       "tags": [
-        "gy",
-        "self"
+        "gy"
       ],
       "is_favorite": false,
       "created_at": "2026-03-25T14:54:57.295189",
-      "updated_at": "2026-03-25T14:58:15.017694"
+      "updated_at": "2026-03-27T11:00:21.787817"
     },
     {
       "id": "d280eba9-32bc-4f13-9b7f-94807532b694",
@@ -539,7 +538,7 @@
       "id": "20dbca51-f1b7-4a9f-96b5-a0151e602063",
       "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
       "title": "查看港股数据",
-      "content": "stats.py -e 'close' -T /home/hujiaxi/room/hk/update_hk_stock.xml --begdate 20240601 -c 0700.HK",
+      "content": "stats.py -T /home/hujiaxi/room/hk/update_hk_stock.xml --begdate 20240601 -c 0700.HK -e 'close'",
       "description": "gy81",
       "tags": [
         "gy",
@@ -548,7 +547,7 @@
       ],
       "is_favorite": false,
       "created_at": "2026-03-25T16:01:24.422064",
-      "updated_at": "2026-03-25T16:19:58.744537"
+      "updated_at": "2026-03-27T08:57:06.131079"
     },
     {
       "id": "0b932935-9fef-491d-925d-3890d3f64db8",
@@ -791,6 +790,22 @@
       "is_favorite": false,
       "created_at": "2026-03-25T16:18:59.393526",
       "updated_at": "2026-03-25T16:19:53.575275"
+<<<<<<<< HEAD:backups/data_2026-03-31_10-32-47.json
+========
+    },
+    {
+      "id": "4192d18a-cae1-4c2f-a414-2f570bc12c5f",
+      "board_id": "9734029c-6505-4802-a8b8-e037324a0525",
+      "title": "免密登录",
+      "content": "第一步：在机器2上：\ncd \r\nmkdir ~/.ssh \n第二步：在机器1上：\ncd\r\nssh-keygen  # 需根据提示操作，全部按回车或默认值即可。注意，如果~/.ssh/id_rsa.pub文件已经存在，这个命令可省\r\nrsync .ssh/id_rsa.pub your_username_of_machine2@ip_of_machine2:~/\n第三步：在机器2上：\ncd ~/.ssh \r\ncat ../id_rsa.pub | tee -a authorized_keys\r\nchmod 600 authorized_keys \r\nrm ../id_rsa.pub",
+      "description": "登陆方式：ssh your_username_of_machine2@ip_of_machine2 ",
+      "tags": [
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-27T10:57:34.442793",
+      "updated_at": "2026-03-27T10:58:01.526836"
+>>>>>>>> a79019613c2ac3fb319ce241eab3a03cec8caa03:backups/data_2026-03-27_11-01-27.json
     }
   ]
 }

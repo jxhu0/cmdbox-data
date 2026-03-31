@@ -1,12 +1,36 @@
 {
   "boards": [
     {
+      "id": "9734029c-6505-4802-a8b8-e037324a0525",
+      "name": "Linux",
+      "icon": "📖",
+      "description": "Linux常用命令",
+      "created_at": "2026-03-25T15:08:02.810939",
+      "updated_at": "2026-03-25T15:08:02.810939"
+    },
+    {
       "id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
       "name": "System",
       "icon": "📚",
       "description": "策略组系统内置命令",
       "created_at": "2026-03-18T15:57:45.108066",
       "updated_at": "2026-03-25T15:07:11.183932"
+    },
+    {
+      "id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
+      "name": "Self",
+      "icon": "🗺️",
+      "description": "个人自定义命令",
+      "created_at": "2026-03-25T15:08:43.895252",
+      "updated_at": "2026-03-25T15:08:52.735398"
+    },
+    {
+      "id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "name": "Git",
+      "icon": "🔨",
+      "description": "",
+      "created_at": "2026-03-25T16:30:43.370368",
+      "updated_at": "2026-03-25T16:30:43.370368"
     },
     {
       "id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
@@ -34,6 +58,8 @@
       "description": "策略组新开服务器后的操作",
       "created_at": "2026-03-25T14:53:11.883663",
       "updated_at": "2026-03-25T14:58:30.554046"
+<<<<<<<< HEAD:backups/data_2026-03-27_08-57-21.json
+========
     },
     {
       "id": "9734029c-6505-4802-a8b8-e037324a0525",
@@ -62,21 +88,33 @@
 ========
 >>>>>>>> 5e32739e3312039d2fcd3380700b5dc9504c368d:backups/data_2026-03-25_15-29-36.json
 >>>>>>>> 0c65cc2961e77a53599afd12feae1e2d715ef92e:backups/data_2026-03-26_10-04-41.json
+>>>>>>>> fd9990679ac82d78c4d587c1d1c6868377eaa399:backups/data_2026-03-26_17-03-03.json
     }
   ],
   "commands": [
     {
       "id": "3fcd3ab4-a7ca-46ba-b9f8-bde61ed37de3",
+<<<<<<<< HEAD:backups/data_2026-03-27_08-57-21.json
+      "board_id": "9734029c-6505-4802-a8b8-e037324a0525",
+      "title": "查看定时任务",
+      "content": "crontab -e",
+      "description": "第一次进入会让选择编辑器，选择tiny-vim即可",
+========
       "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
       "title": "查看定时任务",
       "content": "crontab -e",
       "description": "",
+>>>>>>>> fd9990679ac82d78c4d587c1d1c6868377eaa399:backups/data_2026-03-26_17-03-03.json
       "tags": [
         "linux"
       ],
       "is_favorite": false,
       "created_at": "2026-03-18T17:56:48.477542",
+<<<<<<<< HEAD:backups/data_2026-03-27_08-57-21.json
+      "updated_at": "2026-03-26T14:02:58.497403"
+========
       "updated_at": "2026-03-25T16:17:35.808916"
+>>>>>>>> fd9990679ac82d78c4d587c1d1c6868377eaa399:backups/data_2026-03-26_17-03-03.json
     },
     {
       "id": "6657ba18-f18c-43f0-ab02-4437e70d905c",
@@ -546,7 +584,7 @@
       "id": "20dbca51-f1b7-4a9f-96b5-a0151e602063",
       "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
       "title": "查看港股数据",
-      "content": "stats.py -e 'close' -T /home/hujiaxi/room/hk/update_hk_stock.xml --begdate 20240601 -c 0700.HK",
+      "content": "stats.py -T /home/hujiaxi/room/hk/update_hk_stock.xml --begdate 20240601 -c 0700.HK -e 'close'",
       "description": "gy81",
       "tags": [
         "gy",
@@ -555,7 +593,11 @@
       ],
       "is_favorite": false,
       "created_at": "2026-03-25T16:01:24.422064",
+<<<<<<<< HEAD:backups/data_2026-03-27_08-57-21.json
+      "updated_at": "2026-03-27T08:57:06.131079"
+========
       "updated_at": "2026-03-25T16:19:58.744537"
+>>>>>>>> fd9990679ac82d78c4d587c1d1c6868377eaa399:backups/data_2026-03-26_17-03-03.json
     },
     {
       "id": "0b932935-9fef-491d-925d-3890d3f64db8",
@@ -614,6 +656,20 @@
       "updated_at": "2026-03-25T16:14:36.862340"
     },
     {
+<<<<<<<< HEAD:backups/data_2026-03-27_08-57-21.json
+      "id": "7a09064d-7d16-40fd-b302-1b2d4a0fae2b",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "上传CTA因子到因子库",
+      "content": "/opt/3rd/intra/bin/cta_script <xml>",
+      "description": "",
+      "tags": [
+        "alpha",
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-26T14:06:11.304049",
+      "updated_at": "2026-03-26T14:06:11.304049"
+========
       "id": "80c7e787-1786-489a-8d01-1ab91762b575",
       "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
       "title": "查看日内因子回测模型的数据",
@@ -626,6 +682,7 @@
       "is_favorite": false,
       "created_at": "2026-03-25T16:18:59.393526",
       "updated_at": "2026-03-25T16:19:53.575275"
+>>>>>>>> fd9990679ac82d78c4d587c1d1c6868377eaa399:backups/data_2026-03-26_17-03-03.json
     },
     {
       "id": "343d8c34-ada1-4d7a-a81a-ae60bcfbb45e",
@@ -784,6 +841,23 @@
       "is_favorite": false,
       "created_at": "2026-03-25T16:30:06.720152",
       "updated_at": "2026-03-25T16:30:06.720152"
+<<<<<<<< HEAD:backups/data_2026-03-27_08-57-21.json
+    },
+    {
+      "id": "80c7e787-1786-489a-8d01-1ab91762b575",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "查看日内因子回测模型的数据",
+      "content": "stats.py -T /data/ashare/xmlsample/research_cache_15min_template.xml --intra -c 600030.SH -d 20240131 -e \"intra_close\"  ",
+      "description": "",
+      "tags": [
+        "gy",
+        "stats"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-25T16:18:59.393526",
+      "updated_at": "2026-03-25T16:19:53.575275"
+========
+>>>>>>>> fd9990679ac82d78c4d587c1d1c6868377eaa399:backups/data_2026-03-26_17-03-03.json
     }
   ]
 }
