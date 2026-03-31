@@ -1,12 +1,36 @@
 {
   "boards": [
     {
+      "id": "9734029c-6505-4802-a8b8-e037324a0525",
+      "name": "Linux",
+      "icon": "📖",
+      "description": "Linux常用命令",
+      "created_at": "2026-03-25T15:08:02.810939",
+      "updated_at": "2026-03-25T15:08:02.810939"
+    },
+    {
       "id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
       "name": "System",
       "icon": "📚",
       "description": "策略组系统内置命令",
       "created_at": "2026-03-18T15:57:45.108066",
       "updated_at": "2026-03-25T15:07:11.183932"
+    },
+    {
+      "id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
+      "name": "Self",
+      "icon": "🗺️",
+      "description": "个人自定义命令",
+      "created_at": "2026-03-25T15:08:43.895252",
+      "updated_at": "2026-03-25T15:08:52.735398"
+    },
+    {
+      "id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "name": "Git",
+      "icon": "🔨",
+      "description": "Git系列操作",
+      "created_at": "2026-03-25T16:30:43.370368",
+      "updated_at": "2026-03-31T13:20:36.585104"
     },
     {
       "id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
@@ -31,30 +55,6 @@
       "description": "策略组新开服务器后的操作",
       "created_at": "2026-03-25T14:53:11.883663",
       "updated_at": "2026-03-25T14:58:30.554046"
-    },
-    {
-      "id": "9734029c-6505-4802-a8b8-e037324a0525",
-      "name": "Linux",
-      "icon": "📖",
-      "description": "Linux常用命令",
-      "created_at": "2026-03-25T15:08:02.810939",
-      "updated_at": "2026-03-25T15:08:02.810939"
-    },
-    {
-      "id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
-      "name": "Self",
-      "icon": "🗺️",
-      "description": "个人自定义命令",
-      "created_at": "2026-03-25T15:08:43.895252",
-      "updated_at": "2026-03-25T15:08:52.735398"
-    },
-    {
-      "id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
-      "name": "Git",
-      "icon": "🔨",
-      "description": "",
-      "created_at": "2026-03-25T16:30:43.370368",
-      "updated_at": "2026-03-25T16:30:43.370368"
     }
   ],
   "commands": [
@@ -288,12 +288,11 @@
       "content": "cp /opt/room-stable ~/room -rf",
       "description": "",
       "tags": [
-        "gy",
-        "self"
+        "gy"
       ],
       "is_favorite": false,
       "created_at": "2026-03-25T14:54:57.295189",
-      "updated_at": "2026-03-25T14:58:15.017694"
+      "updated_at": "2026-03-27T11:00:21.787817"
     },
     {
       "id": "d280eba9-32bc-4f13-9b7f-94807532b694",
@@ -539,7 +538,7 @@
       "id": "20dbca51-f1b7-4a9f-96b5-a0151e602063",
       "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
       "title": "查看港股数据",
-      "content": "stats.py -e 'close' -T /home/hujiaxi/room/hk/update_hk_stock.xml --begdate 20240601 -c 0700.HK",
+      "content": "stats.py -T /home/hujiaxi/room/hk/update_hk_stock.xml --begdate 20240601 -c 0700.HK -e 'close'",
       "description": "gy81",
       "tags": [
         "gy",
@@ -548,7 +547,7 @@
       ],
       "is_favorite": false,
       "created_at": "2026-03-25T16:01:24.422064",
-      "updated_at": "2026-03-25T16:19:58.744537"
+      "updated_at": "2026-03-27T08:57:06.131079"
     },
     {
       "id": "0b932935-9fef-491d-925d-3890d3f64db8",
@@ -769,14 +768,14 @@
       "id": "ca402ddc-74a9-40ab-acdd-86b48c8ca787",
       "board_id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
       "title": "一键将alphallm的改动同步到指定服务器",
-      "content": "/home/hujiaxi/room/utils/bash/alphallm_git_pull.sh gy38 gy69 jxq241 jxq243 gy212 jxq245",
+      "content": "/home/hujiaxi/room/utils/bash/alphallm_git_pull.sh gy38 gy69 jxq241 jxq243 gy213 jxq245",
       "description": "jxq245",
       "tags": [
         "self"
       ],
       "is_favorite": false,
       "created_at": "2026-03-25T16:30:06.720152",
-      "updated_at": "2026-03-25T16:30:06.720152"
+      "updated_at": "2026-03-30T14:23:49.860111"
     },
     {
       "id": "80c7e787-1786-489a-8d01-1ab91762b575",
@@ -791,6 +790,143 @@
       "is_favorite": false,
       "created_at": "2026-03-25T16:18:59.393526",
       "updated_at": "2026-03-25T16:19:53.575275"
+    },
+    {
+      "id": "4192d18a-cae1-4c2f-a414-2f570bc12c5f",
+      "board_id": "9734029c-6505-4802-a8b8-e037324a0525",
+      "title": "免密登录",
+      "content": "第一步：在机器2上：\ncd \r\nmkdir ~/.ssh \n第二步：在机器1上：\ncd\r\nssh-keygen  # 需根据提示操作，全部按回车或默认值即可。注意，如果~/.ssh/id_rsa.pub文件已经存在，这个命令可省\r\nrsync .ssh/id_rsa.pub your_username_of_machine2@ip_of_machine2:~/\n第三步：在机器2上：\ncd ~/.ssh \r\ncat ../id_rsa.pub | tee -a authorized_keys\r\nchmod 600 authorized_keys \r\nrm ../id_rsa.pub",
+      "description": "登陆方式：ssh your_username_of_machine2@ip_of_machine2 ",
+      "tags": [
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-27T10:57:34.442793",
+      "updated_at": "2026-03-27T10:58:01.526836"
+    },
+    {
+      "id": "54758c34-eb4b-4b3c-a11c-92e380e21d11",
+      "board_id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "title": "将本地文件关联上远程项目",
+      "content": "git init 初始化当前本地仓库\r\ngit add . 将目录下所有文件添加到缓存区\r\ngit status 查看文件状态\r\ngit commit -m init 将缓存区的文件提交到本地仓库\r\ngit remote add origin http://10.24.10.244:1234/hujiaxi/hkstock.git 添加远程项目仓库\r\ngit fetch --all 合并远程项目\r\ngit rebase origin/master 将当前分支的更改重新应用在远程分支\r\ngit push -u origin master 推送合并后的远程项目",
+      "description": "",
+      "tags": [
+        "git",
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-31T10:26:30.673972",
+      "updated_at": "2026-03-31T10:26:30.673972"
+    },
+    {
+      "id": "91bed7dd-5b18-4e22-b78d-aed637ebe996",
+      "board_id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "title": "从远程仓库拉取指定的某一个分支",
+      "content": "git clone https://.../test.git 拉取整个远程代码库\r\nsync.py /home/hujiaxi/.gitconfig -t gy38 同步账号密码\r\ncd test 进入项目目录，也就是进入master主分支\r\ngit fetch 执行git fetch命令，将远程仓库的所有分支拷贝到本地仓库\r\ngit checkout dev 执行git checkout <分支名称>命令，切换到我们想要拉取的指定某一个分支的本地分支\r\ngit branch -a 执行git branch -a命令查看所有分支情况",
+      "description": "",
+      "tags": [
+        "git",
+        "linux",
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-31T10:27:35.154699",
+      "updated_at": "2026-03-31T10:27:35.154699"
+    },
+    {
+      "id": "23bc616c-455c-401b-93eb-710cf9e0aa72",
+      "board_id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "title": "文件更改后合并到远程项目",
+      "content": "git status 查看已修改的文件列表\r\ngit add --all 将所有改动文件添加到缓存区\r\ngit commit -m modified 将缓存区的文件提交到本地仓库\r\ngit pull origin hjx_dev 先拉取远程仓库的最新更改，以确保你的本地分支是最新的\r\ngit push origin hjx_dev 推送合并后的远程项目",
+      "description": "",
+      "tags": [
+        "git",
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-31T10:28:02.711503",
+      "updated_at": "2026-03-31T10:28:02.711503"
+    },
+    {
+      "id": "c5541168-72ed-431f-911c-b69754679496",
+      "board_id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "title": "断开本地仓库和远程仓库的连接",
+      "content": "rm -rf .git",
+      "description": "",
+      "tags": [
+        "git",
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-31T10:28:13.839195",
+      "updated_at": "2026-03-31T10:28:13.839195"
+    },
+    {
+      "id": "477de7d2-dc51-4e33-b332-f0bb5e9ef596",
+      "board_id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "title": "清除pycache文件夹以及其下的.pyc文件",
+      "content": "git rm -r --cached __pycache__\r\ngit rm -r --cached *.pyc 删除本地库里的对应文件\r\ngit commit -m \"Remove __pycache__ from Git tracking\" commit修改\r\ngit pull origin hjx_dev 先拉取远程仓库的最新更改，以确保你的本地分支是最新的\r\ngit push origin hjx_dev 推送合并后的远程项目\r\n打开.gitignore文件，添加__pycache__/ 和 *.pyc 两行",
+      "description": "",
+      "tags": [
+        "git",
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-31T10:28:53.418248",
+      "updated_at": "2026-03-31T10:28:53.418248"
+    },
+    {
+      "id": "61b78e2e-cc11-444b-bd8a-b9b940891a05",
+      "board_id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "title": "将父分支dev的改动merge到自己的分支hjx_dev",
+      "content": "git checkout dev 切换到父分支dev\r\ngit pull 拉取父分支最新改动\r\ngit checkout hjx_dev 切换回自己的分支hjx_dev\r\ngit merge origin/dev 把父分支dev的改动merge到本地的自己的分支\r\n（如果有冲突，需要自己手动选择修改）\r\n（git merge --abort 反悔了，取消merge）\r\ngit add --all 解决冲突后提交改动到缓存区\r\ngit commit -m \"\" 将缓存区的文件提交到本地仓库\r\ngit pull origin hjx_dev 先拉取远程仓库的最新更改，以确保你的本地分支是最新的\r\ngit push origin hjx_dev 推送合并后的远程项目",
+      "description": "",
+      "tags": [
+        "git",
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-31T10:29:37.032237",
+      "updated_at": "2026-03-31T10:29:37.032237"
+    },
+    {
+      "id": "8fdd2597-71b9-4b65-bc04-fe406d626579",
+      "board_id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "title": "只想merge目标分支的某个commit到自己的分支hjx_dev（cherry-pick）",
+      "content": "git checkout hjx_dev 切换到目标分支\r\ngit pull origin hjx_dev 确保分支是最新的\r\ngit cherry-pick {comit_id} 执行cherry-pick获取目标分支的merge\r\ngit push origin hjx_dev\r\n",
+      "description": "",
+      "tags": [
+        "git",
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-31T10:30:01.191483",
+      "updated_at": "2026-03-31T10:30:01.191483"
+    },
+    {
+      "id": "ef2aedc5-d4c2-4ea6-b739-0612f7475571",
+      "board_id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "title": "比较两个分支的差异",
+      "content": "git diff hjx_dev lzr_dev\r\ngit diff hjx_dev lzr_dev -- expr.py 单个文件/文件夹",
+      "description": "",
+      "tags": [
+        "git",
+        "linux"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-31T10:30:14.399463",
+      "updated_at": "2026-03-31T10:30:14.399463"
+    },
+    {
+      "id": "3b41fccb-3b66-4932-ab8e-26616182d6f9",
+      "board_id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
+      "title": "本地和远程有两个提交出现分歧",
+      "content": "git pull origin hjx_dev --no-rebase 这将会创建一个合并提交，将两个分支的历史结合起来。\r\ngit pull origin hjx_dev --rebase 这会将你的本地提交\"移动\"到远程分支的最新提交之后，形成一条直线（一般用这个）\r\ngit pull origin hjx_dev --ff-only 这只在你的分支可以直接快进时才会成功（即没有分歧提交）",
+      "description": "",
+      "tags": [],
+      "is_favorite": false,
+      "created_at": "2026-03-31T10:30:23.775705",
+      "updated_at": "2026-03-31T10:30:23.775705"
     }
   ]
 }
