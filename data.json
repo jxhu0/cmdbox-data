@@ -927,6 +927,19 @@
       "is_favorite": false,
       "created_at": "2026-03-31T10:30:23.775705",
       "updated_at": "2026-03-31T10:30:23.775705"
+    },
+    {
+      "id": "e60bd1bd-6adf-4301-8d6d-81e250fc4f50",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "更新claude code",
+      "content": "命令行：npm update -g @anthropic-ai/claude-code\n或者claude对话框：!claude update",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-03T14:30:38.201104",
+      "updated_at": "2026-04-03T14:30:38.201104"
     }
   ]
 }
