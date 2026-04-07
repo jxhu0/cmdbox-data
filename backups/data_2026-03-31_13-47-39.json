@@ -28,15 +28,9 @@
       "id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
       "name": "Git",
       "icon": "🔨",
-<<<<<<<< HEAD:backups/data_2026-04-07_23-26-49.json
-      "description": "",
-      "created_at": "2026-03-25T16:30:43.370368",
-      "updated_at": "2026-03-25T16:30:43.370368"
-========
       "description": "Git系列操作",
       "created_at": "2026-03-25T16:30:43.370368",
       "updated_at": "2026-03-31T13:20:36.585104"
->>>>>>>> 9cddb852c04d25b69d5d9198b65a4d35920fb6bf:backups/data_2026-03-31_13-20-44.json
     },
     {
       "id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
