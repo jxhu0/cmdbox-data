@@ -95,9 +95,9 @@
         "cc",
         "self"
       ],
-      "is_favorite": true,
+      "is_favorite": false,
       "created_at": "2026-03-19T17:34:00.764480",
-      "updated_at": "2026-03-25T14:20:49.777812"
+      "updated_at": "2026-04-07T11:10:32.369303"
     },
     {
       "id": "ab62887f-988c-41ca-bdbc-76f1e2107ce8",
@@ -940,6 +940,19 @@
       "is_favorite": false,
       "created_at": "2026-04-03T14:30:38.201104",
       "updated_at": "2026-04-03T14:30:38.201104"
+    },
+    {
+      "id": "1fa22bbb-12bd-4705-b05c-7396627c7098",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "解决claude闪屏跳屏问题",
+      "content": "export CLAUDE_CODE_NO_FLICKER=1",
+      "description": "添加到.zshrc或者.bashrc",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": true,
+      "created_at": "2026-04-07T11:10:24.599341",
+      "updated_at": "2026-04-07T11:10:28.169076"
     }
   ]
 }
