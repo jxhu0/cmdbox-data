@@ -186,9 +186,9 @@
       "tags": [
         "linux"
       ],
-      "is_favorite": true,
+      "is_favorite": false,
       "created_at": "2026-03-19T09:08:17.859704",
-      "updated_at": "2026-03-25T15:11:25.549997"
+      "updated_at": "2026-04-09T16:04:28.428866"
     },
     {
       "id": "69deacf3-980a-4099-9dee-d1fe3d2e452d",
@@ -199,9 +199,9 @@
       "tags": [
         "linux"
       ],
-      "is_favorite": false,
+      "is_favorite": true,
       "created_at": "2026-03-18T18:03:21.544853",
-      "updated_at": "2026-03-25T15:11:41.534180"
+      "updated_at": "2026-04-09T16:04:06.019080"
     },
     {
       "id": "23cceb89-4e3d-49a0-b8a0-e743bc0872a9",
@@ -720,9 +720,9 @@
       "tags": [
         "linux"
       ],
-      "is_favorite": false,
+      "is_favorite": true,
       "created_at": "2026-03-25T16:25:35.821787",
-      "updated_at": "2026-03-25T16:25:35.821787"
+      "updated_at": "2026-04-09T16:04:26.613834"
     },
     {
       "id": "eba6a8ca-09fd-480d-9934-c8fb631656bf",
@@ -773,9 +773,9 @@
       "tags": [
         "self"
       ],
-      "is_favorite": false,
+      "is_favorite": true,
       "created_at": "2026-03-25T16:30:06.720152",
-      "updated_at": "2026-04-09T14:47:28.552046"
+      "updated_at": "2026-04-09T16:05:10.167964"
     },
     {
       "id": "80c7e787-1786-489a-8d01-1ab91762b575",
@@ -964,9 +964,9 @@
         "cc",
         "git"
       ],
-      "is_favorite": false,
+      "is_favorite": true,
       "created_at": "2026-04-09T15:10:03.744816",
-      "updated_at": "2026-04-09T15:10:03.744816"
+      "updated_at": "2026-04-09T16:05:20.975624"
     },
     {
       "id": "8354b201-43f7-4d43-9c35-ba2413958219",
