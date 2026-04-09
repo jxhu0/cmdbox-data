@@ -28,9 +28,9 @@
       "id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
       "name": "Git",
       "icon": "🔨",
-      "description": "",
+      "description": "Git系列操作",
       "created_at": "2026-03-25T16:30:43.370368",
-      "updated_at": "2026-03-25T16:30:43.370368"
+      "updated_at": "2026-03-31T13:20:36.585104"
     },
     {
       "id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
@@ -95,9 +95,9 @@
         "cc",
         "self"
       ],
-      "is_favorite": true,
+      "is_favorite": false,
       "created_at": "2026-03-19T17:34:00.764480",
-      "updated_at": "2026-03-25T14:20:49.777812"
+      "updated_at": "2026-04-07T11:10:32.369303"
     },
     {
       "id": "ab62887f-988c-41ca-bdbc-76f1e2107ce8",
@@ -768,14 +768,14 @@
       "id": "ca402ddc-74a9-40ab-acdd-86b48c8ca787",
       "board_id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
       "title": "一键将alphallm的改动同步到指定服务器",
-      "content": "/home/hujiaxi/room/utils/bash/alphallm_git_pull.sh gy38 gy69 jxq241 jxq243 gy213 jxq245",
+      "content": "/home/hujiaxi/room/utils/bash/alphallm_git_pull.sh gy38 gy69 jxq241 jxq243 gy213 jxq245 gy172",
       "description": "jxq245",
       "tags": [
         "self"
       ],
       "is_favorite": false,
       "created_at": "2026-03-25T16:30:06.720152",
-      "updated_at": "2026-03-30T14:23:49.860111"
+      "updated_at": "2026-04-09T14:47:28.552046"
     },
     {
       "id": "80c7e787-1786-489a-8d01-1ab91762b575",
@@ -927,6 +927,59 @@
       "is_favorite": false,
       "created_at": "2026-03-31T10:30:23.775705",
       "updated_at": "2026-03-31T10:30:23.775705"
+    },
+    {
+      "id": "e60bd1bd-6adf-4301-8d6d-81e250fc4f50",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "更新claude code",
+      "content": "命令行：npm update -g @anthropic-ai/claude-code\n或者claude对话框：!claude update",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-03T14:30:38.201104",
+      "updated_at": "2026-04-03T14:30:38.201104"
+    },
+    {
+      "id": "1fa22bbb-12bd-4705-b05c-7396627c7098",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "解决claude闪屏跳屏问题",
+      "content": "export CLAUDE_CODE_NO_FLICKER=1",
+      "description": "添加到.zshrc或者.bashrc",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": true,
+      "created_at": "2026-04-07T11:10:24.599341",
+      "updated_at": "2026-04-07T11:10:28.169076"
+    },
+    {
+      "id": "17dba370-1c09-4bef-b3a9-88768670b714",
+      "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "title": "git commit时不加claude相关字段",
+      "content": " 写到记忆文件：git commit的时候不要加上类似Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>的文字",
+      "description": "",
+      "tags": [
+        "cc",
+        "git"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-09T15:10:03.744816",
+      "updated_at": "2026-04-09T15:10:03.744816"
+    },
+    {
+      "id": "8354b201-43f7-4d43-9c35-ba2413958219",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "任务完成时发送邮件通知",
+      "content": "run_cmd.py \"python my_script.py\" --email yourname@citics.com --email_error_only",
+      "description": "",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": true,
+      "created_at": "2026-04-09T16:03:16.103991",
+      "updated_at": "2026-04-09T16:03:18.556979"
     }
   ]
 }
