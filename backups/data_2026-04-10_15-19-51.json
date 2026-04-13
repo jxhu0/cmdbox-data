@@ -655,9 +655,9 @@
       "tags": [
         "linux"
       ],
-      "is_favorite": true,
+      "is_favorite": false,
       "created_at": "2026-03-25T16:23:14.922783",
-      "updated_at": "2026-04-10T13:31:20.058236"
+      "updated_at": "2026-03-25T16:23:14.922783"
     },
     {
       "id": "44e6f085-35fe-4581-93f0-364cfa3af815",
@@ -972,20 +972,13 @@
       "id": "8354b201-43f7-4d43-9c35-ba2413958219",
       "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
       "title": "任务完成时发送邮件通知",
-<<<<<<<< HEAD:backups/data_2026-04-13_09-11-04.json
-      "content": "run_cmd.py \"python my_script.py\" --email hujiaxi@citics.com --email_error_only",
-========
       "content": "run_cmd.py \"python my_script.py\" --email yourname@citics.com --email_error_only",
->>>>>>>> 1185d945b679f3b836713b71ab2b26a1bb6383a4:backups/data_2026-04-10_14-00-44.json
       "description": "",
       "tags": [
         "gy"
       ],
       "is_favorite": true,
       "created_at": "2026-04-09T16:03:16.103991",
-<<<<<<<< HEAD:backups/data_2026-04-13_09-11-04.json
-      "updated_at": "2026-04-09T16:14:50.830253"
-========
       "updated_at": "2026-04-09T16:03:18.556979"
     }
   ],
@@ -998,8 +991,33 @@
       "completed": false,
       "created_at": "2026-04-10T14:00:31.638261",
       "updated_at": "2026-04-10T14:00:42.406549"
->>>>>>>> 1185d945b679f3b836713b71ab2b26a1bb6383a4:backups/data_2026-04-10_14-00-44.json
+    },
+    {
+      "id": "dd9bc593-06ec-4e51-b835-34804751d305",
+      "title": "test2",
+      "description": "ssss",
+      "priority": "medium",
+      "completed": false,
+      "created_at": "2026-04-10T14:38:52.741921",
+      "updated_at": "2026-04-10T14:38:52.741921"
+    },
+    {
+      "id": "9f515feb-f967-409c-ae83-d7639b957b51",
+      "title": "t3",
+      "description": "aaa",
+      "priority": "low",
+      "completed": false,
+      "created_at": "2026-04-10T14:39:02.046543",
+      "updated_at": "2026-04-10T14:39:02.046543"
+    },
+    {
+      "id": "7812a3d8-6ad7-4940-80b4-d98303d9ddc7",
+      "title": "t4",
+      "description": "sss",
+      "priority": "high",
+      "completed": true,
+      "created_at": "2026-04-10T14:39:10.863504",
+      "updated_at": "2026-04-10T15:19:49.067632"
     }
-  ],
-  "tasks": []
+  ]
 }

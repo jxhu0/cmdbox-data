@@ -55,6 +55,14 @@
       "description": "策略组新开服务器后的操作",
       "created_at": "2026-03-25T14:53:11.883663",
       "updated_at": "2026-03-25T14:58:30.554046"
+    },
+    {
+      "id": "755077a8-487b-4d1a-93d0-c01c4c3c1d9f",
+      "name": "Openclaw",
+      "icon": "📟",
+      "description": "",
+      "created_at": "2026-04-12T00:13:59.079915",
+      "updated_at": "2026-04-12T00:13:59.079915"
     }
   ],
   "commands": [
@@ -655,9 +663,9 @@
       "tags": [
         "linux"
       ],
-      "is_favorite": true,
+      "is_favorite": false,
       "created_at": "2026-03-25T16:23:14.922783",
-      "updated_at": "2026-04-10T13:31:20.058236"
+      "updated_at": "2026-03-25T16:23:14.922783"
     },
     {
       "id": "44e6f085-35fe-4581-93f0-364cfa3af815",
@@ -972,21 +980,27 @@
       "id": "8354b201-43f7-4d43-9c35-ba2413958219",
       "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
       "title": "任务完成时发送邮件通知",
-<<<<<<<< HEAD:backups/data_2026-04-13_09-11-04.json
-      "content": "run_cmd.py \"python my_script.py\" --email hujiaxi@citics.com --email_error_only",
-========
       "content": "run_cmd.py \"python my_script.py\" --email yourname@citics.com --email_error_only",
->>>>>>>> 1185d945b679f3b836713b71ab2b26a1bb6383a4:backups/data_2026-04-10_14-00-44.json
       "description": "",
       "tags": [
         "gy"
       ],
       "is_favorite": true,
       "created_at": "2026-04-09T16:03:16.103991",
-<<<<<<<< HEAD:backups/data_2026-04-13_09-11-04.json
-      "updated_at": "2026-04-09T16:14:50.830253"
-========
       "updated_at": "2026-04-09T16:03:18.556979"
+    },
+    {
+      "id": "112ccf51-a4f9-4149-b578-973796eb8c26",
+      "board_id": "755077a8-487b-4d1a-93d0-c01c4c3c1d9f",
+      "title": "更新openclaw",
+      "content": "sudo npm install -g openclaw@latest",
+      "description": "",
+      "tags": [
+        "claw"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-12T00:14:37.311420",
+      "updated_at": "2026-04-12T00:14:50.287411"
     }
   ],
   "tasks": [
@@ -997,9 +1011,34 @@
       "priority": "high",
       "completed": false,
       "created_at": "2026-04-10T14:00:31.638261",
-      "updated_at": "2026-04-10T14:00:42.406549"
->>>>>>>> 1185d945b679f3b836713b71ab2b26a1bb6383a4:backups/data_2026-04-10_14-00-44.json
+      "updated_at": "2026-04-10T17:18:05.831549"
+    },
+    {
+      "id": "dd9bc593-06ec-4e51-b835-34804751d305",
+      "title": "test2",
+      "description": "ssss",
+      "priority": "medium",
+      "completed": true,
+      "created_at": "2026-04-10T14:38:52.741921",
+      "updated_at": "2026-04-10T17:16:03.879839"
+    },
+    {
+      "id": "27f7b2b6-f623-4541-927e-8ee74a92fa60",
+      "title": "ttt",
+      "description": "aaa",
+      "priority": "medium",
+      "completed": true,
+      "created_at": "2026-04-10T15:47:13.728516",
+      "updated_at": "2026-04-10T15:47:15.815620"
+    },
+    {
+      "id": "e8abc5d5-05bb-4e81-a411-1b5c98a2abf5",
+      "title": "tt",
+      "description": "2",
+      "priority": "low",
+      "completed": true,
+      "created_at": "2026-04-10T17:05:01.620780",
+      "updated_at": "2026-04-10T17:16:04.798263"
     }
-  ],
-  "tasks": []
+  ]
 }

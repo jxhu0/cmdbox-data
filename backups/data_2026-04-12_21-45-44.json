@@ -3,18 +3,18 @@
     {
       "id": "9734029c-6505-4802-a8b8-e037324a0525",
       "name": "Linux",
-      "icon": "📖",
+      "icon": "icons/tux.svg",
       "description": "Linux常用命令",
       "created_at": "2026-03-25T15:08:02.810939",
-      "updated_at": "2026-03-25T15:08:02.810939"
+      "updated_at": "2026-04-12T12:34:02.514048"
     },
     {
       "id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
       "name": "System",
-      "icon": "📚",
+      "icon": "icons/gear.svg",
       "description": "策略组系统内置命令",
       "created_at": "2026-03-18T15:57:45.108066",
-      "updated_at": "2026-03-25T15:07:11.183932"
+      "updated_at": "2026-04-12T21:45:37.438764"
     },
     {
       "id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
@@ -27,16 +27,10 @@
     {
       "id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
       "name": "Git",
-      "icon": "🔨",
-<<<<<<<< HEAD:backups/data_2026-04-07_23-26-49.json
-      "description": "",
-      "created_at": "2026-03-25T16:30:43.370368",
-      "updated_at": "2026-03-25T16:30:43.370368"
-========
+      "icon": "icons/git.svg",
       "description": "Git系列操作",
       "created_at": "2026-03-25T16:30:43.370368",
-      "updated_at": "2026-03-31T13:20:36.585104"
->>>>>>>> 9cddb852c04d25b69d5d9198b65a4d35920fb6bf:backups/data_2026-03-31_13-20-44.json
+      "updated_at": "2026-04-12T19:57:24.985882"
     },
     {
       "id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
@@ -49,10 +43,10 @@
     {
       "id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
       "name": "Claude",
-      "icon": "💻",
+      "icon": "icons/claude.svg",
       "description": "服务器安装Claude Code指南",
       "created_at": "2026-03-19T17:22:08.841857",
-      "updated_at": "2026-03-25T14:53:36.099830"
+      "updated_at": "2026-04-12T20:10:39.993640"
     },
     {
       "id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
@@ -61,6 +55,14 @@
       "description": "策略组新开服务器后的操作",
       "created_at": "2026-03-25T14:53:11.883663",
       "updated_at": "2026-03-25T14:58:30.554046"
+    },
+    {
+      "id": "755077a8-487b-4d1a-93d0-c01c4c3c1d9f",
+      "name": "Openclaw",
+      "icon": "icons/openclaw.svg",
+      "description": "",
+      "created_at": "2026-04-12T00:13:59.079915",
+      "updated_at": "2026-04-12T20:10:21.876666"
     }
   ],
   "commands": [
@@ -101,9 +103,9 @@
         "cc",
         "self"
       ],
-      "is_favorite": true,
+      "is_favorite": false,
       "created_at": "2026-03-19T17:34:00.764480",
-      "updated_at": "2026-03-25T14:20:49.777812"
+      "updated_at": "2026-04-07T11:10:32.369303"
     },
     {
       "id": "ab62887f-988c-41ca-bdbc-76f1e2107ce8",
@@ -192,9 +194,9 @@
       "tags": [
         "linux"
       ],
-      "is_favorite": true,
+      "is_favorite": false,
       "created_at": "2026-03-19T09:08:17.859704",
-      "updated_at": "2026-03-25T15:11:25.549997"
+      "updated_at": "2026-04-09T16:04:28.428866"
     },
     {
       "id": "69deacf3-980a-4099-9dee-d1fe3d2e452d",
@@ -205,9 +207,9 @@
       "tags": [
         "linux"
       ],
-      "is_favorite": false,
+      "is_favorite": true,
       "created_at": "2026-03-18T18:03:21.544853",
-      "updated_at": "2026-03-25T15:11:41.534180"
+      "updated_at": "2026-04-09T16:04:06.019080"
     },
     {
       "id": "23cceb89-4e3d-49a0-b8a0-e743bc0872a9",
@@ -726,9 +728,9 @@
       "tags": [
         "linux"
       ],
-      "is_favorite": false,
+      "is_favorite": true,
       "created_at": "2026-03-25T16:25:35.821787",
-      "updated_at": "2026-03-25T16:25:35.821787"
+      "updated_at": "2026-04-09T16:04:26.613834"
     },
     {
       "id": "eba6a8ca-09fd-480d-9934-c8fb631656bf",
@@ -774,14 +776,14 @@
       "id": "ca402ddc-74a9-40ab-acdd-86b48c8ca787",
       "board_id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
       "title": "一键将alphallm的改动同步到指定服务器",
-      "content": "/home/hujiaxi/room/utils/bash/alphallm_git_pull.sh gy38 gy69 jxq241 jxq243 gy213 jxq245",
+      "content": "/home/hujiaxi/room/utils/bash/alphallm_git_pull.sh gy38 gy69 jxq241 jxq243 gy213 jxq245 gy172",
       "description": "jxq245",
       "tags": [
         "self"
       ],
-      "is_favorite": false,
+      "is_favorite": true,
       "created_at": "2026-03-25T16:30:06.720152",
-      "updated_at": "2026-03-30T14:23:49.860111"
+      "updated_at": "2026-04-09T16:05:10.167964"
     },
     {
       "id": "80c7e787-1786-489a-8d01-1ab91762b575",
@@ -933,6 +935,110 @@
       "is_favorite": false,
       "created_at": "2026-03-31T10:30:23.775705",
       "updated_at": "2026-03-31T10:30:23.775705"
+    },
+    {
+      "id": "e60bd1bd-6adf-4301-8d6d-81e250fc4f50",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "更新claude code",
+      "content": "命令行：npm update -g @anthropic-ai/claude-code\n或者claude对话框：!claude update",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-03T14:30:38.201104",
+      "updated_at": "2026-04-03T14:30:38.201104"
+    },
+    {
+      "id": "1fa22bbb-12bd-4705-b05c-7396627c7098",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "解决claude闪屏跳屏问题",
+      "content": "export CLAUDE_CODE_NO_FLICKER=1",
+      "description": "添加到.zshrc或者.bashrc",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": true,
+      "created_at": "2026-04-07T11:10:24.599341",
+      "updated_at": "2026-04-07T11:10:28.169076"
+    },
+    {
+      "id": "17dba370-1c09-4bef-b3a9-88768670b714",
+      "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "title": "git commit时不加claude相关字段",
+      "content": " 写到记忆文件：git commit的时候不要加上类似Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>的文字",
+      "description": "",
+      "tags": [
+        "cc",
+        "git"
+      ],
+      "is_favorite": true,
+      "created_at": "2026-04-09T15:10:03.744816",
+      "updated_at": "2026-04-09T16:05:20.975624"
+    },
+    {
+      "id": "8354b201-43f7-4d43-9c35-ba2413958219",
+      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
+      "title": "任务完成时发送邮件通知",
+      "content": "run_cmd.py \"python my_script.py\" --email yourname@citics.com --email_error_only",
+      "description": "",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": true,
+      "created_at": "2026-04-09T16:03:16.103991",
+      "updated_at": "2026-04-09T16:03:18.556979"
+    },
+    {
+      "id": "112ccf51-a4f9-4149-b578-973796eb8c26",
+      "board_id": "755077a8-487b-4d1a-93d0-c01c4c3c1d9f",
+      "title": "更新openclaw",
+      "content": "sudo npm install -g openclaw@latest",
+      "description": "",
+      "tags": [
+        "claw"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-12T00:14:37.311420",
+      "updated_at": "2026-04-12T00:14:50.287411"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "044e362b-4d03-4729-8560-5b889330dbec",
+      "title": "组织生活会汇报1",
+      "description": "让ai帮我想idea",
+      "priority": "high",
+      "completed": false,
+      "created_at": "2026-04-10T14:00:31.638261",
+      "updated_at": "2026-04-10T17:18:05.831549"
+    },
+    {
+      "id": "dd9bc593-06ec-4e51-b835-34804751d305",
+      "title": "test2",
+      "description": "ssss",
+      "priority": "medium",
+      "completed": true,
+      "created_at": "2026-04-10T14:38:52.741921",
+      "updated_at": "2026-04-10T17:16:03.879839"
+    },
+    {
+      "id": "27f7b2b6-f623-4541-927e-8ee74a92fa60",
+      "title": "ttt",
+      "description": "aaa",
+      "priority": "medium",
+      "completed": true,
+      "created_at": "2026-04-10T15:47:13.728516",
+      "updated_at": "2026-04-10T15:47:15.815620"
+    },
+    {
+      "id": "e8abc5d5-05bb-4e81-a411-1b5c98a2abf5",
+      "title": "tt",
+      "description": "2",
+      "priority": "low",
+      "completed": true,
+      "created_at": "2026-04-10T17:05:01.620780",
+      "updated_at": "2026-04-10T17:16:04.798263"
     }
   ]
 }
