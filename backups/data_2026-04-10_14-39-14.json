@@ -3,18 +3,18 @@
     {
       "id": "9734029c-6505-4802-a8b8-e037324a0525",
       "name": "Linux",
-      "icon": "icons/tux.svg",
+      "icon": "📖",
       "description": "Linux常用命令",
       "created_at": "2026-03-25T15:08:02.810939",
-      "updated_at": "2026-04-13T11:21:21.652372"
+      "updated_at": "2026-03-25T15:08:02.810939"
     },
     {
       "id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
       "name": "System",
-      "icon": "icons/gear.svg",
+      "icon": "📚",
       "description": "策略组系统内置命令",
       "created_at": "2026-03-18T15:57:45.108066",
-      "updated_at": "2026-04-12T21:45:37.438764"
+      "updated_at": "2026-03-25T15:07:11.183932"
     },
     {
       "id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
@@ -27,10 +27,10 @@
     {
       "id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
       "name": "Git",
-      "icon": "icons/git.svg",
+      "icon": "🔨",
       "description": "Git系列操作",
       "created_at": "2026-03-25T16:30:43.370368",
-      "updated_at": "2026-04-12T19:57:24.985882"
+      "updated_at": "2026-03-31T13:20:36.585104"
     },
     {
       "id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
@@ -43,10 +43,10 @@
     {
       "id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
       "name": "Claude",
-      "icon": "icons/claude.svg",
+      "icon": "💻",
       "description": "服务器安装Claude Code指南",
       "created_at": "2026-03-19T17:22:08.841857",
-      "updated_at": "2026-04-12T20:10:39.993640"
+      "updated_at": "2026-03-25T14:53:36.099830"
     },
     {
       "id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
@@ -55,14 +55,6 @@
       "description": "策略组新开服务器后的操作",
       "created_at": "2026-03-25T14:53:11.883663",
       "updated_at": "2026-03-25T14:58:30.554046"
-    },
-    {
-      "id": "755077a8-487b-4d1a-93d0-c01c4c3c1d9f",
-      "name": "Openclaw",
-      "icon": "icons/openclaw.svg",
-      "description": "",
-      "created_at": "2026-04-12T00:13:59.079915",
-      "updated_at": "2026-04-12T20:10:21.876666"
     }
   ],
   "commands": [
@@ -988,19 +980,6 @@
       "is_favorite": true,
       "created_at": "2026-04-09T16:03:16.103991",
       "updated_at": "2026-04-09T16:03:18.556979"
-    },
-    {
-      "id": "112ccf51-a4f9-4149-b578-973796eb8c26",
-      "board_id": "755077a8-487b-4d1a-93d0-c01c4c3c1d9f",
-      "title": "更新openclaw",
-      "content": "sudo npm install -g openclaw@latest",
-      "description": "",
-      "tags": [
-        "claw"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-04-12T00:14:37.311420",
-      "updated_at": "2026-04-12T00:14:50.287411"
     }
   ],
   "tasks": [
@@ -1011,35 +990,34 @@
       "priority": "high",
       "completed": false,
       "created_at": "2026-04-10T14:00:31.638261",
-      "updated_at": "2026-04-10T17:18:05.831549"
+      "updated_at": "2026-04-10T14:00:42.406549"
     },
     {
       "id": "dd9bc593-06ec-4e51-b835-34804751d305",
       "title": "test2",
       "description": "ssss",
       "priority": "medium",
-      "completed": true,
+      "completed": false,
       "created_at": "2026-04-10T14:38:52.741921",
-      "updated_at": "2026-04-10T17:16:03.879839"
+      "updated_at": "2026-04-10T14:38:52.741921"
     },
     {
-      "id": "27f7b2b6-f623-4541-927e-8ee74a92fa60",
-      "title": "ttt",
+      "id": "9f515feb-f967-409c-ae83-d7639b957b51",
+      "title": "t3",
       "description": "aaa",
-      "priority": "medium",
-      "completed": true,
-      "created_at": "2026-04-10T15:47:13.728516",
-      "updated_at": "2026-04-10T15:47:15.815620"
+      "priority": "low",
+      "completed": false,
+      "created_at": "2026-04-10T14:39:02.046543",
+      "updated_at": "2026-04-10T14:39:02.046543"
     },
     {
-      "id": "e8abc5d5-05bb-4e81-a411-1b5c98a2abf5",
-      "title": "tt",
-      "description": "2",
-      "priority": "low",
-      "completed": true,
-      "created_at": "2026-04-10T17:05:01.620780",
-      "updated_at": "2026-04-10T17:16:04.798263"
+      "id": "7812a3d8-6ad7-4940-80b4-d98303d9ddc7",
+      "title": "t4",
+      "description": "sss",
+      "priority": "high",
+      "completed": false,
+      "created_at": "2026-04-10T14:39:10.863504",
+      "updated_at": "2026-04-10T14:39:10.863504"
     }
-  ],
-  "tasks": []
+  ]
 }
