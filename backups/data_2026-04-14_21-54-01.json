@@ -6,7 +6,7 @@
       "icon": "icons/tux.svg",
       "description": "Linux常用命令",
       "created_at": "2026-03-25T15:08:02.810939",
-      "updated_at": "2026-04-13T11:21:21.652372"
+      "updated_at": "2026-04-12T12:34:02.514048"
     },
     {
       "id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
@@ -59,10 +59,10 @@
     {
       "id": "755077a8-487b-4d1a-93d0-c01c4c3c1d9f",
       "name": "Openclaw",
-      "icon": "icons/openclaw.png",
-      "description": "Openclaw命令",
+      "icon": "icons/openclaw.svg",
+      "description": "",
       "created_at": "2026-04-12T00:13:59.079915",
-      "updated_at": "2026-04-14T13:42:54.857969"
+      "updated_at": "2026-04-12T20:10:21.876666"
     }
   ],
   "commands": [
@@ -966,7 +966,7 @@
       "id": "17dba370-1c09-4bef-b3a9-88768670b714",
       "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
       "title": "git commit时不加claude相关字段",
-      "content": "写到全局CLAUDE.md：git commit的时候不要加上类似Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>的文字",
+      "content": " 写到记忆文件：git commit的时候不要加上类似Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>的文字",
       "description": "",
       "tags": [
         "cc",
@@ -974,20 +974,20 @@
       ],
       "is_favorite": true,
       "created_at": "2026-04-09T15:10:03.744816",
-      "updated_at": "2026-04-14T10:31:05.898186"
+      "updated_at": "2026-04-09T16:05:20.975624"
     },
     {
       "id": "8354b201-43f7-4d43-9c35-ba2413958219",
       "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
       "title": "任务完成时发送邮件通知",
-      "content": "run_cmd.py \"python my_script.py\" --email hujiaxi@citics.com --email_error_only",
+      "content": "run_cmd.py \"python my_script.py\" --email yourname@citics.com --email_error_only",
       "description": "",
       "tags": [
         "gy"
       ],
       "is_favorite": true,
       "created_at": "2026-04-09T16:03:16.103991",
-      "updated_at": "2026-04-14T10:16:29.918047"
+      "updated_at": "2026-04-09T16:03:18.556979"
     },
     {
       "id": "112ccf51-a4f9-4149-b578-973796eb8c26",
@@ -1001,30 +1001,44 @@
       "is_favorite": false,
       "created_at": "2026-04-12T00:14:37.311420",
       "updated_at": "2026-04-12T00:14:50.287411"
-    },
-    {
-      "id": "6f91f2dc-94f5-4449-bb99-cf2be0cd0ad7",
-      "board_id": "9734029c-6505-4802-a8b8-e037324a0525",
-      "title": "查看所有用户的内存和cpu占用情况",
-      "content": "ps -eo user,%cpu,%mem --no-headers | awk '{cpu[$1] += $2; mem[$1] += $3} END {printf \"%-15s %10s %10s\\n\", \"USER\", \"CPU(%)\", \"MEM(%)\"; for (u in cpu) printf \"%-15s %10.2f %10.2f\\n\", u, cpu[u], mem[u]}'",
-      "description": "",
-      "tags": [
-        "linux"
-      ],
-      "is_favorite": true,
-      "created_at": "2026-04-14T13:39:16.126796",
-      "updated_at": "2026-04-14T13:39:20.100671"
     }
   ],
   "tasks": [
     {
-      "id": "6447a87b-ed12-409c-ba13-597583a2bcab",
-      "title": "组织生活会分享",
-      "description": "完善ppt、演讲稿、跟同事讨论",
+      "id": "044e362b-4d03-4729-8560-5b889330dbec",
+      "title": "组织生活会汇报1",
+      "description": "让ai帮我想idea",
       "priority": "high",
       "completed": false,
-      "created_at": "2026-04-14T10:05:01.863722",
-      "updated_at": "2026-04-14T10:05:01.863722"
+      "created_at": "2026-04-10T14:00:31.638261",
+      "updated_at": "2026-04-10T17:18:05.831549"
+    },
+    {
+      "id": "dd9bc593-06ec-4e51-b835-34804751d305",
+      "title": "test2",
+      "description": "ssss",
+      "priority": "medium",
+      "completed": true,
+      "created_at": "2026-04-10T14:38:52.741921",
+      "updated_at": "2026-04-10T17:16:03.879839"
+    },
+    {
+      "id": "27f7b2b6-f623-4541-927e-8ee74a92fa60",
+      "title": "ttt",
+      "description": "aaa",
+      "priority": "medium",
+      "completed": true,
+      "created_at": "2026-04-10T15:47:13.728516",
+      "updated_at": "2026-04-10T15:47:15.815620"
+    },
+    {
+      "id": "e8abc5d5-05bb-4e81-a411-1b5c98a2abf5",
+      "title": "tt",
+      "description": "2",
+      "priority": "low",
+      "completed": true,
+      "created_at": "2026-04-10T17:05:01.620780",
+      "updated_at": "2026-04-10T17:16:04.798263"
     }
   ]
 }
