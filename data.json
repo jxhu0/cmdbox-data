@@ -980,14 +980,14 @@
       "id": "8354b201-43f7-4d43-9c35-ba2413958219",
       "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
       "title": "任务完成时发送邮件通知",
-      "content": "run_cmd.py \"python my_script.py\" --email yourname@citics.com --email_error_only",
+      "content": "run_cmd.py \"python my_script.py\" --email hujiaxi@citics.com --email_error_only",
       "description": "",
       "tags": [
         "gy"
       ],
       "is_favorite": true,
       "created_at": "2026-04-09T16:03:16.103991",
-      "updated_at": "2026-04-09T16:03:18.556979"
+      "updated_at": "2026-04-14T10:16:29.918047"
     },
     {
       "id": "112ccf51-a4f9-4149-b578-973796eb8c26",
