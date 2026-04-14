@@ -60,9 +60,9 @@
       "id": "755077a8-487b-4d1a-93d0-c01c4c3c1d9f",
       "name": "Openclaw",
       "icon": "icons/openclaw.png",
-      "description": "",
+      "description": "Openclaw命令",
       "created_at": "2026-04-12T00:13:59.079915",
-      "updated_at": "2026-04-13T13:42:40.387278"
+      "updated_at": "2026-04-14T13:42:54.857969"
     }
   ],
   "commands": [
