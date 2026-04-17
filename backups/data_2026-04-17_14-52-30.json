@@ -1016,17 +1016,52 @@
       "updated_at": "2026-04-14T13:39:20.100671"
     },
     {
-      "id": "6b3e880b-472f-4f44-9c9a-4086d813c103",
-      "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
-      "title": "vpn连接时访问网页",
-      "content": "ssh -D 127.0.0.1:8088 10.24.10.244 -N",
+      "id": "75f4ef7d-0263-45aa-b71a-483c8bf0d903",
+      "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "title": "memory文件检查",
+      "content": " 我之前做了memory机制的相关改动，然后运行python ./alphallm/auto_llm_simple.py --config /home/hujiaxi/room/alphallm/config/hjx_config/hjx_ashare.yaml生成了memory相关文件，保存在/home/hujiaxi/.alphallm/memory，请你帮我检查一下memory相关文件有没有什么大问题",
+      "description": "",
+      "tags": [],
+      "is_favorite": false,
+      "created_at": "2026-04-17T09:14:54.904911",
+      "updated_at": "2026-04-17T09:15:07.746655"
+    },
+    {
+      "id": "4eab6d80-4197-463c-8440-7378d7308ffc",
+      "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "title": "memory代码检查",
+      "content": "我今天做了一些有关memory机制的改动，请你帮我检查一下代码有没有问题",
+      "description": "",
+      "tags": [],
+      "is_favorite": false,
+      "created_at": "2026-04-17T09:50:33.145187",
+      "updated_at": "2026-04-17T09:50:33.145187"
+    },
+    {
+      "id": "a7755e7b-ad45-4407-a161-0b2526a79cf8",
+      "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "title": "生成alphameta",
+      "content": "帮我用/shared_data_gy3/shared_data/home/hujiaxi/ind_index_pool/xml/里面的所有因子构建一个alphameta因子组合",
       "description": "",
       "tags": [
-        "gy"
+        "alpha"
       ],
       "is_favorite": false,
-      "created_at": "2026-04-15T09:15:44.056803",
-      "updated_at": "2026-04-15T09:15:44.056803"
+      "created_at": "2026-04-17T11:16:44.817145",
+      "updated_at": "2026-04-17T11:16:44.817145"
+    },
+    {
+      "id": "751e47dc-7b91-4991-969d-ca72e4885212",
+      "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "title": "生成指定条件的alphameta",
+      "content": "对于目前/home/hujiaxi/room/hjx_alphas/hjx_llm_ind_index_comb/hujiaxi_llm_ind_pv_meta.xml里面的因子，取表达式里包含if的因子，创建一个因子组合（生成新文件保存）；然后取表达式里不包含if的因子，创建另一个因子组合（生成新文件保存），新文件的模板和原文件相同",
+      "description": "",
+      "tags": [
+        "alpha"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-17T09:50:08.554803",
+      "updated_at": "2026-04-17T11:16:34.435416"
     }
   ],
   "tasks": [

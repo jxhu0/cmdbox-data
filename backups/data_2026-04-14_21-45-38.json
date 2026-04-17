@@ -60,9 +60,9 @@
       "id": "755077a8-487b-4d1a-93d0-c01c4c3c1d9f",
       "name": "Openclaw",
       "icon": "icons/openclaw.png",
-      "description": "",
+      "description": "Openclaw命令",
       "created_at": "2026-04-12T00:13:59.079915",
-      "updated_at": "2026-04-13T13:42:40.387278"
+      "updated_at": "2026-04-14T13:42:54.857969"
     }
   ],
   "commands": [
@@ -966,7 +966,7 @@
       "id": "17dba370-1c09-4bef-b3a9-88768670b714",
       "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
       "title": "git commit时不加claude相关字段",
-      "content": " 写到记忆文件：git commit的时候不要加上类似Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>的文字",
+      "content": "写到全局CLAUDE.md：git commit的时候不要加上类似Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>的文字",
       "description": "",
       "tags": [
         "cc",
@@ -974,7 +974,7 @@
       ],
       "is_favorite": true,
       "created_at": "2026-04-09T15:10:03.744816",
-      "updated_at": "2026-04-09T16:05:20.975624"
+      "updated_at": "2026-04-14T10:31:05.898186"
     },
     {
       "id": "8354b201-43f7-4d43-9c35-ba2413958219",
@@ -1001,6 +1001,67 @@
       "is_favorite": false,
       "created_at": "2026-04-12T00:14:37.311420",
       "updated_at": "2026-04-12T00:14:50.287411"
+    },
+    {
+      "id": "6f91f2dc-94f5-4449-bb99-cf2be0cd0ad7",
+      "board_id": "9734029c-6505-4802-a8b8-e037324a0525",
+      "title": "查看所有用户的内存和cpu占用情况",
+      "content": "ps -eo user,%cpu,%mem --no-headers | awk '{cpu[$1] += $2; mem[$1] += $3} END {printf \"%-15s %10s %10s\\n\", \"USER\", \"CPU(%)\", \"MEM(%)\"; for (u in cpu) printf \"%-15s %10.2f %10.2f\\n\", u, cpu[u], mem[u]}'",
+      "description": "",
+      "tags": [
+        "linux"
+      ],
+      "is_favorite": true,
+      "created_at": "2026-04-14T13:39:16.126796",
+      "updated_at": "2026-04-14T13:39:20.100671"
+    },
+    {
+      "id": "75f4ef7d-0263-45aa-b71a-483c8bf0d903",
+      "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "title": "memory文件检查",
+      "content": " 我之前做了memory机制的相关改动，然后运行python ./alphallm/auto_llm_simple.py --config /home/hujiaxi/room/alphallm/config/hjx_config/hjx_ashare.yaml生成了memory相关文件，保存在/home/hujiaxi/.alphallm/memory，请你帮我检查一下memory相关文件有没有什么大问题",
+      "description": "",
+      "tags": [],
+      "is_favorite": false,
+      "created_at": "2026-04-17T09:14:54.904911",
+      "updated_at": "2026-04-17T09:15:07.746655"
+    },
+    {
+      "id": "4eab6d80-4197-463c-8440-7378d7308ffc",
+      "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "title": "memory代码检查",
+      "content": "我今天做了一些有关memory机制的改动，请你帮我检查一下代码有没有问题",
+      "description": "",
+      "tags": [],
+      "is_favorite": false,
+      "created_at": "2026-04-17T09:50:33.145187",
+      "updated_at": "2026-04-17T09:50:33.145187"
+    },
+    {
+      "id": "a7755e7b-ad45-4407-a161-0b2526a79cf8",
+      "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "title": "生成alphameta",
+      "content": "帮我用/shared_data_gy3/shared_data/home/hujiaxi/ind_index_pool/xml/里面的所有因子构建一个alphameta因子组合",
+      "description": "",
+      "tags": [
+        "alpha"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-17T11:16:44.817145",
+      "updated_at": "2026-04-17T11:16:44.817145"
+    },
+    {
+      "id": "751e47dc-7b91-4991-969d-ca72e4885212",
+      "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "title": "生成指定条件的alphameta",
+      "content": "对于目前/home/hujiaxi/room/hjx_alphas/hjx_llm_ind_index_comb/hujiaxi_llm_ind_pv_meta.xml里面的因子，取表达式里包含if的因子，创建一个因子组合（生成新文件保存）；然后取表达式里不包含if的因子，创建另一个因子组合（生成新文件保存），新文件的模板和原文件相同",
+      "description": "",
+      "tags": [
+        "alpha"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-17T09:50:08.554803",
+      "updated_at": "2026-04-17T11:16:34.435416"
     }
   ],
   "tasks": [
