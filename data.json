@@ -1073,6 +1073,87 @@
       "completed": false,
       "created_at": "2026-04-14T10:05:01.863722",
       "updated_at": "2026-04-14T10:05:01.863722"
+    },
+    {
+      "id": "6f60c905-2c57-4d7b-9216-27e59c2b2890",
+      "title": "hc的指数调整预测",
+      "description": "gy245",
+      "priority": "medium",
+      "completed": false,
+      "created_at": "2026-04-17T14:53:12.267898",
+      "updated_at": "2026-04-17T14:53:12.267898"
+    },
+    {
+      "id": "3cd2e754-306b-4d84-900a-f2b0fcf4b70b",
+      "title": "alphallm-memory优化",
+      "description": "",
+      "priority": "high",
+      "completed": false,
+      "created_at": "2026-04-17T14:54:04.173868",
+      "updated_at": "2026-04-17T14:54:10.894198"
+    },
+    {
+      "id": "a873e996-e224-4003-8a86-40a3adb51111",
+      "title": "alphallm",
+      "description": "问一下cc还有什么优化的空间",
+      "priority": "medium",
+      "completed": false,
+      "created_at": "2026-04-17T14:54:30.745301",
+      "updated_at": "2026-04-17T14:54:30.745301"
+    },
+    {
+      "id": "55cc05b5-8345-4c1e-a337-b18019770ead",
+      "title": "试一下新数据hawk",
+      "description": "",
+      "priority": "low",
+      "completed": false,
+      "created_at": "2026-04-17T15:01:45.935866",
+      "updated_at": "2026-04-17T15:01:45.935866"
+    },
+    {
+      "id": "1bd279f8-40cb-44e8-af08-b964b785b485",
+      "title": "etf-universe",
+      "description": "",
+      "priority": "high",
+      "completed": false,
+      "created_at": "2026-04-17T15:02:02.848922",
+      "updated_at": "2026-04-17T15:02:02.848922"
+    },
+    {
+      "id": "3a513ced-eaf7-4887-a976-58c793e2043a",
+      "title": "想一下怎么把ind_index数据转etf",
+      "description": "",
+      "priority": "medium",
+      "completed": false,
+      "created_at": "2026-04-17T15:02:32.240175",
+      "updated_at": "2026-04-17T15:02:32.240175"
+    },
+    {
+      "id": "aba24a40-3b8c-4974-be11-668b04e65cbc",
+      "title": "分析行业轮动pnl",
+      "description": "",
+      "priority": "low",
+      "completed": false,
+      "created_at": "2026-04-17T15:02:43.999070",
+      "updated_at": "2026-04-17T15:02:43.999070"
+    },
+    {
+      "id": "d34ec288-69bb-47d2-9035-e53053d58aba",
+      "title": "alphaml研究因子组合",
+      "description": "",
+      "priority": "low",
+      "completed": false,
+      "created_at": "2026-04-17T15:02:58.413440",
+      "updated_at": "2026-04-17T15:02:58.413440"
+    },
+    {
+      "id": "776e5f3b-732f-4aae-83c4-f02cec7c1e33",
+      "title": "alphaX学习",
+      "description": "",
+      "priority": "low",
+      "completed": false,
+      "created_at": "2026-04-17T15:03:07.444736",
+      "updated_at": "2026-04-17T15:03:07.444736"
     }
   ]
 }
