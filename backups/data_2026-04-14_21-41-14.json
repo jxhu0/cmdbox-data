@@ -6,7 +6,7 @@
       "icon": "icons/tux.svg",
       "description": "Linux常用命令",
       "created_at": "2026-03-25T15:08:02.810939",
-      "updated_at": "2026-04-13T11:21:21.652372"
+      "updated_at": "2026-04-12T12:34:02.514048"
     },
     {
       "id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
@@ -59,10 +59,10 @@
     {
       "id": "755077a8-487b-4d1a-93d0-c01c4c3c1d9f",
       "name": "Openclaw",
-      "icon": "icons/openclaw.png",
-      "description": "Openclaw命令",
+      "icon": "icons/openclaw.svg",
+      "description": "",
       "created_at": "2026-04-12T00:13:59.079915",
-      "updated_at": "2026-04-14T13:42:54.857969"
+      "updated_at": "2026-04-12T20:10:21.876666"
     }
   ],
   "commands": [
