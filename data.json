@@ -1106,9 +1106,9 @@
       "title": "试一下新数据hawk",
       "description": "",
       "priority": "low",
-      "completed": false,
+      "completed": true,
       "created_at": "2026-04-17T15:01:45.935866",
-      "updated_at": "2026-04-17T15:01:45.935866"
+      "updated_at": "2026-04-20T13:45:35.307693"
     },
     {
       "id": "1bd279f8-40cb-44e8-af08-b964b785b485",
@@ -1160,9 +1160,9 @@
       "title": "批改笔试题目",
       "description": "",
       "priority": "high",
-      "completed": false,
+      "completed": true,
       "created_at": "2026-04-20T08:53:33.166502",
-      "updated_at": "2026-04-20T08:53:33.166502"
+      "updated_at": "2026-04-20T13:45:20.694439"
     },
     {
       "id": "896cb7ca-2ce1-41ad-8ab3-0251dd22bb57",
