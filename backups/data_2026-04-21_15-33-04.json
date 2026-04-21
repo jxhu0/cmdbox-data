@@ -1019,12 +1019,12 @@
       "id": "75f4ef7d-0263-45aa-b71a-483c8bf0d903",
       "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
       "title": "memory文件检查",
-      "content": " 我之前做了memory机制的相关改动，然后运行python ./alphallm/auto_llm_simple.py --config /home/hujiaxi/room/alphallm/config/hjx_config/hjx_ashare.yaml生成了memory相关文件，保存在/home/hujiaxi/.alphallm/memory，请你帮我检查一下memory相关文件有没有什么大问题",
+      "content": " 我之前做了memory机制的相关改动，然后运行python ./alphallm/auto_llm_simple.py --config /home/hujiaxi/room/alphallm/config/hjx_config/hjx_ashare.yaml并行生成因子，生成了memory相关文件，保存在/home/hujiaxi/.alphallm/memory，请你帮我检查一下memory相关文件有没有什么大问题",
       "description": "",
       "tags": [],
       "is_favorite": false,
       "created_at": "2026-04-17T09:14:54.904911",
-      "updated_at": "2026-04-17T09:15:07.746655"
+      "updated_at": "2026-04-20T13:32:49.723878"
     },
     {
       "id": "4eab6d80-4197-463c-8440-7378d7308ffc",
@@ -1071,8 +1071,120 @@
       "description": "完善ppt、演讲稿、跟同事讨论",
       "priority": "high",
       "completed": false,
+      "completed_at": "",
       "created_at": "2026-04-14T10:05:01.863722",
       "updated_at": "2026-04-14T10:05:01.863722"
+    },
+    {
+      "id": "6f60c905-2c57-4d7b-9216-27e59c2b2890",
+      "title": "hc的指数调整预测",
+      "description": "gy245",
+      "priority": "medium",
+      "completed": false,
+      "completed_at": "",
+      "created_at": "2026-04-17T14:53:12.267898",
+      "updated_at": "2026-04-17T14:53:12.267898"
+    },
+    {
+      "id": "3cd2e754-306b-4d84-900a-f2b0fcf4b70b",
+      "title": "alphallm-memory优化",
+      "description": "",
+      "priority": "high",
+      "completed": false,
+      "completed_at": "",
+      "created_at": "2026-04-17T14:54:04.173868",
+      "updated_at": "2026-04-17T14:54:10.894198"
+    },
+    {
+      "id": "a873e996-e224-4003-8a86-40a3adb51111",
+      "title": "alphallm",
+      "description": "问一下cc还有什么优化的空间",
+      "priority": "medium",
+      "completed": false,
+      "completed_at": "",
+      "created_at": "2026-04-17T14:54:30.745301",
+      "updated_at": "2026-04-17T14:54:30.745301"
+    },
+    {
+      "id": "55cc05b5-8345-4c1e-a337-b18019770ead",
+      "title": "试一下新数据hawk",
+      "description": "",
+      "priority": "low",
+      "completed": true,
+      "completed_at": "",
+      "created_at": "2026-04-17T15:01:45.935866",
+      "updated_at": "2026-04-20T13:45:35.307693"
+    },
+    {
+      "id": "1bd279f8-40cb-44e8-af08-b964b785b485",
+      "title": "etf-universe",
+      "description": "",
+      "priority": "high",
+      "completed": false,
+      "completed_at": "",
+      "created_at": "2026-04-17T15:02:02.848922",
+      "updated_at": "2026-04-17T15:02:02.848922"
+    },
+    {
+      "id": "3a513ced-eaf7-4887-a976-58c793e2043a",
+      "title": "想一下怎么把ind_index数据转etf",
+      "description": "",
+      "priority": "medium",
+      "completed": false,
+      "completed_at": "",
+      "created_at": "2026-04-17T15:02:32.240175",
+      "updated_at": "2026-04-17T15:02:32.240175"
+    },
+    {
+      "id": "aba24a40-3b8c-4974-be11-668b04e65cbc",
+      "title": "分析行业轮动pnl",
+      "description": "",
+      "priority": "low",
+      "completed": false,
+      "completed_at": "",
+      "created_at": "2026-04-17T15:02:43.999070",
+      "updated_at": "2026-04-17T15:02:43.999070"
+    },
+    {
+      "id": "d34ec288-69bb-47d2-9035-e53053d58aba",
+      "title": "alphaml研究因子组合",
+      "description": "",
+      "priority": "low",
+      "completed": false,
+      "completed_at": "",
+      "created_at": "2026-04-17T15:02:58.413440",
+      "updated_at": "2026-04-17T15:02:58.413440"
+    },
+    {
+      "id": "776e5f3b-732f-4aae-83c4-f02cec7c1e33",
+      "title": "alphaX学习",
+      "description": "",
+      "priority": "low",
+      "completed": false,
+      "completed_at": "",
+      "created_at": "2026-04-17T15:03:07.444736",
+      "updated_at": "2026-04-17T15:03:07.444736"
+    },
+    {
+      "id": "428e7ad9-d79a-45cc-b087-85955c935e14",
+      "title": "批改笔试题目",
+      "description": "",
+      "priority": "high",
+      "completed": true,
+      "completed_at": "",
+      "created_at": "2026-04-20T08:53:33.166502",
+      "updated_at": "2026-04-20T13:45:20.694439"
+    },
+    {
+      "id": "896cb7ca-2ce1-41ad-8ab3-0251dd22bb57",
+      "title": "复盘跟晗总的交流",
+      "description": "学习相关知识",
+      "priority": "high",
+      "completed": false,
+      "completed_at": "",
+      "created_at": "2026-04-20T09:32:26.549506",
+      "updated_at": "2026-04-21T15:33:00.267355"
     }
-  ]
+  ],
+  "questions": []
 }
