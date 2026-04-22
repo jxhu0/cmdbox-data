@@ -395,6 +395,19 @@
       "updated_at": "2026-03-25T14:59:42.182850"
     },
     {
+      "id": "afe607e1-31b9-484d-a89d-2a073607087f",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第八步：设置默认SHELL为zsh",
+      "content": "chsh -s $(which zsh)",
+      "description": "",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-22T14:17:10.576668",
+      "updated_at": "2026-04-22T14:17:29.753951"
+    },
+    {
       "id": "cb269da1-4454-4f34-ae09-be2ff4097754",
       "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
       "title": "tmux：新建一个指定名称的会话",
@@ -458,19 +471,6 @@
       "is_favorite": false,
       "created_at": "2026-03-25T15:04:09.249362",
       "updated_at": "2026-03-25T15:04:09.249362"
-    },
-    {
-      "id": "567f5d8e-61aa-460d-a84d-2ee57dcd8ee4",
-      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
-      "title": "股衍服务器联网",
-      "content": "export http_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTP_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport https_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTPS_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"",
-      "description": "除gy245外，其他服务器需要将这个命令加到~/.zshrc才能联网",
-      "tags": [
-        "gy"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-03-19T17:25:40.582838",
-      "updated_at": "2026-03-25T15:18:46.522307"
     },
     {
       "id": "49f39d4d-bb73-4609-8c2f-40653386deec",
@@ -1062,6 +1062,30 @@
       "is_favorite": false,
       "created_at": "2026-04-17T09:50:08.554803",
       "updated_at": "2026-04-17T11:16:34.435416"
+    },
+    {
+      "id": "2307295b-b321-4932-879c-26c3b1b8555f",
+      "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "title": "更新项目配置",
+      "content": "帮我更新readme文件，requirements.txt和index.html",
+      "description": "",
+      "tags": [],
+      "is_favorite": false,
+      "created_at": "2026-04-21T13:14:08.616957",
+      "updated_at": "2026-04-21T13:14:08.616957"
+    },
+    {
+      "id": "567f5d8e-61aa-460d-a84d-2ee57dcd8ee4",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "股衍服务器联网",
+      "content": "export http_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTP_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport https_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTPS_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"",
+      "description": "除gy245外，其他服务器需要将这个命令加到~/.zshrc才能联网",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-19T17:25:40.582838",
+      "updated_at": "2026-03-25T15:18:46.522307"
     }
   ],
   "tasks": [
@@ -1071,6 +1095,7 @@
       "description": "完善ppt、演讲稿、跟同事讨论",
       "priority": "high",
       "completed": false,
+      "completed_at": "",
       "created_at": "2026-04-14T10:05:01.863722",
       "updated_at": "2026-04-14T10:05:01.863722"
     },
@@ -1080,17 +1105,19 @@
       "description": "gy245",
       "priority": "medium",
       "completed": false,
+      "completed_at": "",
       "created_at": "2026-04-17T14:53:12.267898",
       "updated_at": "2026-04-17T14:53:12.267898"
     },
     {
       "id": "3cd2e754-306b-4d84-900a-f2b0fcf4b70b",
       "title": "alphallm-memory优化",
-      "description": "",
+      "description": "是不是可以改为读log？",
       "priority": "high",
       "completed": false,
+      "completed_at": "",
       "created_at": "2026-04-17T14:54:04.173868",
-      "updated_at": "2026-04-17T14:54:10.894198"
+      "updated_at": "2026-04-22T17:33:24.613664"
     },
     {
       "id": "a873e996-e224-4003-8a86-40a3adb51111",
@@ -1098,6 +1125,7 @@
       "description": "问一下cc还有什么优化的空间",
       "priority": "medium",
       "completed": false,
+      "completed_at": "",
       "created_at": "2026-04-17T14:54:30.745301",
       "updated_at": "2026-04-17T14:54:30.745301"
     },
@@ -1107,6 +1135,7 @@
       "description": "",
       "priority": "low",
       "completed": true,
+      "completed_at": "",
       "created_at": "2026-04-17T15:01:45.935866",
       "updated_at": "2026-04-20T13:45:35.307693"
     },
@@ -1116,6 +1145,7 @@
       "description": "",
       "priority": "high",
       "completed": false,
+      "completed_at": "",
       "created_at": "2026-04-17T15:02:02.848922",
       "updated_at": "2026-04-17T15:02:02.848922"
     },
@@ -1125,6 +1155,7 @@
       "description": "",
       "priority": "medium",
       "completed": false,
+      "completed_at": "",
       "created_at": "2026-04-17T15:02:32.240175",
       "updated_at": "2026-04-17T15:02:32.240175"
     },
@@ -1134,6 +1165,7 @@
       "description": "",
       "priority": "low",
       "completed": false,
+      "completed_at": "",
       "created_at": "2026-04-17T15:02:43.999070",
       "updated_at": "2026-04-17T15:02:43.999070"
     },
@@ -1143,6 +1175,7 @@
       "description": "",
       "priority": "low",
       "completed": false,
+      "completed_at": "",
       "created_at": "2026-04-17T15:02:58.413440",
       "updated_at": "2026-04-17T15:02:58.413440"
     },
@@ -1152,8 +1185,9 @@
       "description": "",
       "priority": "low",
       "completed": false,
+      "completed_at": "",
       "created_at": "2026-04-17T15:03:07.444736",
-      "updated_at": "2026-04-17T15:03:07.444736"
+      "updated_at": "2026-04-22T16:16:42.171963"
     },
     {
       "id": "428e7ad9-d79a-45cc-b087-85955c935e14",
@@ -1161,17 +1195,30 @@
       "description": "",
       "priority": "high",
       "completed": true,
+      "completed_at": "",
       "created_at": "2026-04-20T08:53:33.166502",
       "updated_at": "2026-04-20T13:45:20.694439"
     },
     {
       "id": "896cb7ca-2ce1-41ad-8ab3-0251dd22bb57",
       "title": "复盘跟晗总的交流",
-      "description": "",
+      "description": "学习相关知识",
       "priority": "high",
       "completed": false,
+      "completed_at": "",
       "created_at": "2026-04-20T09:32:26.549506",
       "updated_at": "2026-04-20T09:32:26.549506"
+    },
+    {
+      "id": "a1235450-e9ac-4e51-a2b8-cd1b4e7708a5",
+      "title": "test",
+      "description": "test_daily",
+      "priority": "medium",
+      "completed": true,
+      "completed_at": "2026-04-22 16:16",
+      "created_at": "2026-04-22T16:16:24.520061",
+      "updated_at": "2026-04-22T16:16:29.586709"
     }
-  ]
+  ],
+  "questions": []
 }
