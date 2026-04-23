@@ -36,9 +36,9 @@
       "id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
       "name": "Prompt",
       "icon": "💡",
-      "description": "",
+      "description": "一些常用的Prompts",
       "created_at": "2026-03-18T15:57:45.108107",
-      "updated_at": "2026-03-19T17:22:46.673704"
+      "updated_at": "2026-04-23T08:44:04.548879"
     },
     {
       "id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
@@ -49,12 +49,12 @@
       "updated_at": "2026-04-12T20:10:39.993640"
     },
     {
-      "id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
-      "name": "NewServer",
-      "icon": "🌐",
-      "description": "策略组新开服务器后的操作",
-      "created_at": "2026-03-25T14:53:11.883663",
-      "updated_at": "2026-03-25T14:58:30.554046"
+      "id": "9d7ea706-67ce-43f1-af5a-b05e1eea5e1d",
+      "name": "Qodercli",
+      "icon": "💫",
+      "description": "服务器安装Qodercli指南",
+      "created_at": "2026-04-23T08:43:50.112022",
+      "updated_at": "2026-04-23T08:44:20.298396"
     },
     {
       "id": "755077a8-487b-4d1a-93d0-c01c4c3c1d9f",
@@ -63,6 +63,14 @@
       "description": "Openclaw命令",
       "created_at": "2026-04-12T00:13:59.079915",
       "updated_at": "2026-04-14T13:42:54.857969"
+    },
+    {
+      "id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "name": "NewServer",
+      "icon": "🌐",
+      "description": "策略组新开服务器后的操作",
+      "created_at": "2026-03-25T14:53:11.883663",
+      "updated_at": "2026-03-25T14:58:30.554046"
     }
   ],
   "commands": [
@@ -1116,14 +1124,14 @@
     {
       "id": "3cd2e754-306b-4d84-900a-f2b0fcf4b70b",
       "title": "alphallm-memory优化",
-      "description": "",
+      "description": "是不是可以改为读log？",
       "priority": "high",
       "completed": false,
       "completed_at": "",
       "in_progress": false,
       "recurring": "",
       "created_at": "2026-04-17T14:54:04.173868",
-      "updated_at": "2026-04-17T14:54:10.894198"
+      "updated_at": "2026-04-22T17:33:24.613664"
     },
     {
       "id": "a873e996-e224-4003-8a86-40a3adb51111",
