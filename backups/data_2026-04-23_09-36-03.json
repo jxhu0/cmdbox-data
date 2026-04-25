@@ -3,18 +3,18 @@
     {
       "id": "9734029c-6505-4802-a8b8-e037324a0525",
       "name": "Linux",
-      "icon": "📖",
+      "icon": "icons/tux.svg",
       "description": "Linux常用命令",
       "created_at": "2026-03-25T15:08:02.810939",
-      "updated_at": "2026-03-25T15:08:02.810939"
+      "updated_at": "2026-04-13T11:21:21.652372"
     },
     {
       "id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
       "name": "System",
-      "icon": "📚",
+      "icon": "icons/gear.svg",
       "description": "策略组系统内置命令",
       "created_at": "2026-03-18T15:57:45.108066",
-      "updated_at": "2026-03-25T15:07:11.183932"
+      "updated_at": "2026-04-12T21:45:37.438764"
     },
     {
       "id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
@@ -27,26 +27,42 @@
     {
       "id": "f9bdc76b-2f86-4300-a465-4c50ae527c5e",
       "name": "Git",
-      "icon": "🔨",
+      "icon": "icons/git.svg",
       "description": "Git系列操作",
       "created_at": "2026-03-25T16:30:43.370368",
-      "updated_at": "2026-03-31T13:20:36.585104"
+      "updated_at": "2026-04-12T19:57:24.985882"
     },
     {
       "id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
       "name": "Prompt",
       "icon": "💡",
-      "description": "",
+      "description": "一些常用的Prompts",
       "created_at": "2026-03-18T15:57:45.108107",
-      "updated_at": "2026-03-19T17:22:46.673704"
+      "updated_at": "2026-04-23T08:44:04.548879"
     },
     {
       "id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
       "name": "Claude",
-      "icon": "💻",
+      "icon": "icons/claude.svg",
       "description": "服务器安装Claude Code指南",
       "created_at": "2026-03-19T17:22:08.841857",
-      "updated_at": "2026-03-25T14:53:36.099830"
+      "updated_at": "2026-04-12T20:10:39.993640"
+    },
+    {
+      "id": "9d7ea706-67ce-43f1-af5a-b05e1eea5e1d",
+      "name": "Qodercli",
+      "icon": "💫",
+      "description": "服务器安装Qodercli指南",
+      "created_at": "2026-04-23T08:43:50.112022",
+      "updated_at": "2026-04-23T08:44:20.298396"
+    },
+    {
+      "id": "755077a8-487b-4d1a-93d0-c01c4c3c1d9f",
+      "name": "Openclaw",
+      "icon": "icons/openclaw.png",
+      "description": "Openclaw命令",
+      "created_at": "2026-04-12T00:13:59.079915",
+      "updated_at": "2026-04-14T13:42:54.857969"
     },
     {
       "id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
@@ -387,6 +403,19 @@
       "updated_at": "2026-03-25T14:59:42.182850"
     },
     {
+      "id": "afe607e1-31b9-484d-a89d-2a073607087f",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "第八步：设置默认SHELL为zsh",
+      "content": "chsh -s $(which zsh)",
+      "description": "",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-22T14:17:10.576668",
+      "updated_at": "2026-04-22T14:17:29.753951"
+    },
+    {
       "id": "cb269da1-4454-4f34-ae09-be2ff4097754",
       "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
       "title": "tmux：新建一个指定名称的会话",
@@ -450,19 +479,6 @@
       "is_favorite": false,
       "created_at": "2026-03-25T15:04:09.249362",
       "updated_at": "2026-03-25T15:04:09.249362"
-    },
-    {
-      "id": "567f5d8e-61aa-460d-a84d-2ee57dcd8ee4",
-      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
-      "title": "股衍服务器联网",
-      "content": "export http_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTP_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport https_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTPS_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"",
-      "description": "除gy245外，其他服务器需要将这个命令加到~/.zshrc才能联网",
-      "tags": [
-        "gy"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-03-19T17:25:40.582838",
-      "updated_at": "2026-03-25T15:18:46.522307"
     },
     {
       "id": "49f39d4d-bb73-4609-8c2f-40653386deec",
@@ -958,7 +974,7 @@
       "id": "17dba370-1c09-4bef-b3a9-88768670b714",
       "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
       "title": "git commit时不加claude相关字段",
-      "content": " 写到记忆文件：git commit的时候不要加上类似Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>的文字",
+      "content": "写到全局CLAUDE.md：git commit的时候不要加上类似Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>的文字",
       "description": "",
       "tags": [
         "cc",
@@ -966,58 +982,277 @@
       ],
       "is_favorite": true,
       "created_at": "2026-04-09T15:10:03.744816",
-      "updated_at": "2026-04-09T16:05:20.975624"
+      "updated_at": "2026-04-14T10:31:05.898186"
     },
     {
       "id": "8354b201-43f7-4d43-9c35-ba2413958219",
       "board_id": "2e2e12fb-9b13-4a33-a99d-57698251455e",
       "title": "任务完成时发送邮件通知",
-      "content": "run_cmd.py \"python my_script.py\" --email yourname@citics.com --email_error_only",
+      "content": "run_cmd.py \"python my_script.py\" --email hujiaxi@citics.com --email_error_only",
       "description": "",
       "tags": [
         "gy"
       ],
       "is_favorite": true,
       "created_at": "2026-04-09T16:03:16.103991",
-      "updated_at": "2026-04-09T16:03:18.556979"
+      "updated_at": "2026-04-14T10:16:29.918047"
+    },
+    {
+      "id": "112ccf51-a4f9-4149-b578-973796eb8c26",
+      "board_id": "755077a8-487b-4d1a-93d0-c01c4c3c1d9f",
+      "title": "更新openclaw",
+      "content": "sudo npm install -g openclaw@latest",
+      "description": "",
+      "tags": [
+        "claw"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-12T00:14:37.311420",
+      "updated_at": "2026-04-12T00:14:50.287411"
+    },
+    {
+      "id": "6f91f2dc-94f5-4449-bb99-cf2be0cd0ad7",
+      "board_id": "9734029c-6505-4802-a8b8-e037324a0525",
+      "title": "查看所有用户的内存和cpu占用情况",
+      "content": "ps -eo user,%cpu,%mem --no-headers | awk '{cpu[$1] += $2; mem[$1] += $3} END {printf \"%-15s %10s %10s\\n\", \"USER\", \"CPU(%)\", \"MEM(%)\"; for (u in cpu) printf \"%-15s %10.2f %10.2f\\n\", u, cpu[u], mem[u]}'",
+      "description": "",
+      "tags": [
+        "linux"
+      ],
+      "is_favorite": true,
+      "created_at": "2026-04-14T13:39:16.126796",
+      "updated_at": "2026-04-14T13:39:20.100671"
+    },
+    {
+      "id": "75f4ef7d-0263-45aa-b71a-483c8bf0d903",
+      "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "title": "memory文件检查",
+      "content": " 我之前做了memory机制的相关改动，然后运行python ./alphallm/auto_llm_simple.py --config /home/hujiaxi/room/alphallm/config/hjx_config/hjx_ashare.yaml并行生成因子，生成了memory相关文件，保存在/home/hujiaxi/.alphallm/memory，请你帮我检查一下memory相关文件有没有什么大问题",
+      "description": "",
+      "tags": [],
+      "is_favorite": false,
+      "created_at": "2026-04-17T09:14:54.904911",
+      "updated_at": "2026-04-20T13:32:49.723878"
+    },
+    {
+      "id": "4eab6d80-4197-463c-8440-7378d7308ffc",
+      "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "title": "memory代码检查",
+      "content": "我今天做了一些有关memory机制的改动，请你帮我检查一下代码有没有问题",
+      "description": "",
+      "tags": [],
+      "is_favorite": false,
+      "created_at": "2026-04-17T09:50:33.145187",
+      "updated_at": "2026-04-17T09:50:33.145187"
+    },
+    {
+      "id": "a7755e7b-ad45-4407-a161-0b2526a79cf8",
+      "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "title": "生成alphameta",
+      "content": "帮我用/shared_data_gy3/shared_data/home/hujiaxi/ind_index_pool/xml/里面的所有因子构建一个alphameta因子组合",
+      "description": "",
+      "tags": [
+        "alpha"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-17T11:16:44.817145",
+      "updated_at": "2026-04-17T11:16:44.817145"
+    },
+    {
+      "id": "751e47dc-7b91-4991-969d-ca72e4885212",
+      "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "title": "生成指定条件的alphameta",
+      "content": "对于目前/home/hujiaxi/room/hjx_alphas/hjx_llm_ind_index_comb/hujiaxi_llm_ind_pv_meta.xml里面的因子，取表达式里包含if的因子，创建一个因子组合（生成新文件保存）；然后取表达式里不包含if的因子，创建另一个因子组合（生成新文件保存），新文件的模板和原文件相同",
+      "description": "",
+      "tags": [
+        "alpha"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-17T09:50:08.554803",
+      "updated_at": "2026-04-17T11:16:34.435416"
+    },
+    {
+      "id": "2307295b-b321-4932-879c-26c3b1b8555f",
+      "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "title": "更新项目配置",
+      "content": "帮我更新readme文件，requirements.txt和index.html",
+      "description": "",
+      "tags": [],
+      "is_favorite": false,
+      "created_at": "2026-04-21T13:14:08.616957",
+      "updated_at": "2026-04-21T13:14:08.616957"
+    },
+    {
+      "id": "567f5d8e-61aa-460d-a84d-2ee57dcd8ee4",
+      "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "title": "股衍服务器联网",
+      "content": "export http_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTP_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport https_proxy=\"http://gy245:strategy@10.24.10.245:3128\"\r\nexport HTTPS_PROXY=\"http://gy245:strategy@10.24.10.245:3128\"",
+      "description": "除gy245外，其他服务器需要将这个命令加到~/.zshrc才能联网",
+      "tags": [
+        "gy"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-19T17:25:40.582838",
+      "updated_at": "2026-03-25T15:18:46.522307"
     }
   ],
   "tasks": [
     {
-      "id": "044e362b-4d03-4729-8560-5b889330dbec",
-      "title": "组织生活会汇报1",
-      "description": "让ai帮我想idea",
+      "id": "6447a87b-ed12-409c-ba13-597583a2bcab",
+      "title": "组织生活会分享",
+      "description": "完善ppt、演讲稿、跟同事讨论",
       "priority": "high",
       "completed": false,
-      "created_at": "2026-04-10T14:00:31.638261",
-      "updated_at": "2026-04-10T14:00:42.406549"
+      "completed_at": "",
+      "in_progress": false,
+      "recurring": "",
+      "created_at": "2026-04-14T10:05:01.863722",
+      "updated_at": "2026-04-14T10:05:01.863722"
     },
     {
-      "id": "dd9bc593-06ec-4e51-b835-34804751d305",
-      "title": "test2",
-      "description": "ssss",
+      "id": "6f60c905-2c57-4d7b-9216-27e59c2b2890",
+      "title": "hc的指数调整预测",
+      "description": "gy245",
       "priority": "medium",
       "completed": false,
-      "created_at": "2026-04-10T14:38:52.741921",
-      "updated_at": "2026-04-10T14:38:52.741921"
+      "completed_at": "",
+      "in_progress": false,
+      "recurring": "",
+      "created_at": "2026-04-17T14:53:12.267898",
+      "updated_at": "2026-04-23T09:32:20.585477"
     },
     {
-      "id": "9f515feb-f967-409c-ae83-d7639b957b51",
-      "title": "t3",
-      "description": "aaa",
+      "id": "3cd2e754-306b-4d84-900a-f2b0fcf4b70b",
+      "title": "alphallm-memory优化",
+      "description": "是不是可以改为读log？",
+      "priority": "high",
+      "completed": false,
+      "completed_at": "",
+      "in_progress": false,
+      "recurring": "",
+      "created_at": "2026-04-17T14:54:04.173868",
+      "updated_at": "2026-04-22T17:33:24.613664"
+    },
+    {
+      "id": "a873e996-e224-4003-8a86-40a3adb51111",
+      "title": "alphallm",
+      "description": "问一下cc还有什么优化的空间",
+      "priority": "medium",
+      "completed": false,
+      "completed_at": "",
+      "in_progress": false,
+      "recurring": "",
+      "created_at": "2026-04-17T14:54:30.745301",
+      "updated_at": "2026-04-17T14:54:30.745301"
+    },
+    {
+      "id": "55cc05b5-8345-4c1e-a337-b18019770ead",
+      "title": "试一下新数据hawk",
+      "description": "",
+      "priority": "low",
+      "completed": true,
+      "completed_at": "",
+      "in_progress": false,
+      "recurring": "",
+      "created_at": "2026-04-17T15:01:45.935866",
+      "updated_at": "2026-04-20T13:45:35.307693"
+    },
+    {
+      "id": "1bd279f8-40cb-44e8-af08-b964b785b485",
+      "title": "etf-universe",
+      "description": "",
+      "priority": "high",
+      "completed": false,
+      "completed_at": "",
+      "in_progress": false,
+      "recurring": "",
+      "created_at": "2026-04-17T15:02:02.848922",
+      "updated_at": "2026-04-17T15:02:02.848922"
+    },
+    {
+      "id": "3a513ced-eaf7-4887-a976-58c793e2043a",
+      "title": "想一下怎么把ind_index数据转etf",
+      "description": "",
+      "priority": "medium",
+      "completed": false,
+      "completed_at": "",
+      "in_progress": false,
+      "recurring": "",
+      "created_at": "2026-04-17T15:02:32.240175",
+      "updated_at": "2026-04-17T15:02:32.240175"
+    },
+    {
+      "id": "aba24a40-3b8c-4974-be11-668b04e65cbc",
+      "title": "分析行业轮动pnl",
+      "description": "",
       "priority": "low",
       "completed": false,
-      "created_at": "2026-04-10T14:39:02.046543",
-      "updated_at": "2026-04-10T14:39:02.046543"
+      "completed_at": "",
+      "in_progress": false,
+      "recurring": "",
+      "created_at": "2026-04-17T15:02:43.999070",
+      "updated_at": "2026-04-17T15:02:43.999070"
     },
     {
-      "id": "7812a3d8-6ad7-4940-80b4-d98303d9ddc7",
-      "title": "t4",
-      "description": "sss",
+      "id": "d34ec288-69bb-47d2-9035-e53053d58aba",
+      "title": "alphaml研究因子组合",
+      "description": "",
+      "priority": "low",
+      "completed": false,
+      "completed_at": "",
+      "in_progress": false,
+      "recurring": "",
+      "created_at": "2026-04-17T15:02:58.413440",
+      "updated_at": "2026-04-17T15:02:58.413440"
+    },
+    {
+      "id": "776e5f3b-732f-4aae-83c4-f02cec7c1e33",
+      "title": "alphaX学习",
+      "description": "",
+      "priority": "low",
+      "completed": false,
+      "completed_at": "",
+      "in_progress": false,
+      "recurring": "",
+      "created_at": "2026-04-17T15:03:07.444736",
+      "updated_at": "2026-04-22T16:16:42.171963"
+    },
+    {
+      "id": "428e7ad9-d79a-45cc-b087-85955c935e14",
+      "title": "批改笔试题目",
+      "description": "",
       "priority": "high",
       "completed": true,
-      "created_at": "2026-04-10T14:39:10.863504",
-      "updated_at": "2026-04-10T15:19:49.067632"
+      "completed_at": "",
+      "in_progress": false,
+      "recurring": "",
+      "created_at": "2026-04-20T08:53:33.166502",
+      "updated_at": "2026-04-20T13:45:20.694439"
+    },
+    {
+      "id": "896cb7ca-2ce1-41ad-8ab3-0251dd22bb57",
+      "title": "复盘跟晗总的交流",
+      "description": "学习相关知识",
+      "priority": "high",
+      "completed": false,
+      "completed_at": "",
+      "in_progress": false,
+      "recurring": "",
+      "created_at": "2026-04-20T09:32:26.549506",
+      "updated_at": "2026-04-20T09:32:26.549506"
+    },
+    {
+      "id": "a1235450-e9ac-4e51-a2b8-cd1b4e7708a5",
+      "title": "test",
+      "description": "test_daily",
+      "priority": "medium",
+      "completed": false,
+      "completed_at": "",
+      "in_progress": false,
+      "recurring": "daily",
+      "created_at": "2026-04-22T16:16:24.520061",
+      "updated_at": "2026-04-23T09:31:59.067486"
     }
-  ]
+  ],
+  "questions": []
 }
