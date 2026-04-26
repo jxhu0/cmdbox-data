@@ -1,0 +1,23 @@
+{
+  "boards": [
+    {
+      "id": "7574e0c9-5cc2-4aa0-8b00-baa95437a200",
+      "name": "Commands",
+      "icon": "💻",
+      "description": "",
+      "created_at": "2026-04-26T11:35:38.823511",
+      "updated_at": "2026-04-26T11:35:38.823511"
+    },
+    {
+      "id": "92ee83dd-e31b-4ed7-bce7-555a116261f8",
+      "name": "Prompts",
+      "icon": "🤖",
+      "description": "",
+      "created_at": "2026-04-26T11:35:38.823535",
+      "updated_at": "2026-04-26T11:35:38.823535"
+    }
+  ],
+  "commands": [],
+  "tasks": [],
+  "questions": []
+}
