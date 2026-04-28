@@ -120,14 +120,28 @@
       "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
       "title": "第一步：拷贝nvm",
       "content": "sync.py /home/hujiaxi/.nvm -t jxq244",
-      "description": "安装nvm的替代方式，直接从已安装好的服务器拷贝，可以直接跳到第六步",
+      "description": "安装nvm的替代方式，直接从已安装好的服务器拷贝",
       "tags": [
         "cc",
         "self"
       ],
       "is_favorite": false,
       "created_at": "2026-04-28T09:24:12.819808",
-      "updated_at": "2026-04-28T09:24:55.142800"
+      "updated_at": "2026-04-28T09:33:28.590951"
+    },
+    {
+      "id": "3d78de00-dd7f-4529-a86f-dfbd279d96c5",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "第1.5步：拷贝~/.claude",
+      "content": "sync.py /home/hujiaxi/.claude -t jxq244\n",
+      "description": "然后进行第二步，然后可以直接跳到第六步",
+      "tags": [
+        "cc",
+        "self"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-28T09:32:53.572508",
+      "updated_at": "2026-04-28T09:33:58.463936"
     },
     {
       "id": "ab62887f-988c-41ca-bdbc-76f1e2107ce8",
@@ -182,19 +196,6 @@
       "updated_at": "2026-03-23T15:46:13.496310"
     },
     {
-      "id": "443be85e-61f2-4613-a23c-41838a0586b2",
-      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
-      "title": "第六步：绕过cc登陆",
-      "content": "\"hasCompletedProjectOnboarding\": true",
-      "description": "在~/.claude.json中添加",
-      "tags": [
-        "cc"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-03-19T17:40:22.863422",
-      "updated_at": "2026-03-23T15:46:44.523908"
-    },
-    {
       "id": "b1066766-8a4c-4876-a533-0cbdba25ce69",
       "board_id": "9734029c-6505-4802-a8b8-e037324a0525",
       "title": "查看某用户所有进程",
@@ -219,6 +220,19 @@
       "is_favorite": true,
       "created_at": "2026-03-18T18:03:21.544853",
       "updated_at": "2026-04-09T16:04:06.019080"
+    },
+    {
+      "id": "443be85e-61f2-4613-a23c-41838a0586b2",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "第六步：绕过cc登陆",
+      "content": "\"hasCompletedProjectOnboarding\": true",
+      "description": "在~/.claude.json中添加",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-19T17:40:22.863422",
+      "updated_at": "2026-03-23T15:46:44.523908"
     },
     {
       "id": "1f8401d3-3139-4476-8b1f-f31a0fac2ff3",
@@ -286,19 +300,6 @@
       "updated_at": "2026-03-24T15:38:59.696576"
     },
     {
-      "id": "0d5585f0-043d-4514-98d6-b037c1e8c29e",
-      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
-      "title": "添加应用市场：claude-hud",
-      "content": "/plugin marketplace add jarrodwatts/claude-hud",
-      "description": "",
-      "tags": [
-        "cc"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-03-24T15:37:35.950007",
-      "updated_at": "2026-03-24T15:37:46.224812"
-    },
-    {
       "id": "ffb71674-78b6-410c-9fb9-374e09f1ddee",
       "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
       "title": "第一步：复制room",
@@ -312,17 +313,17 @@
       "updated_at": "2026-03-27T11:00:21.787817"
     },
     {
-      "id": "636c213b-6fc3-4cb0-8334-c05432594a79",
+      "id": "0d5585f0-043d-4514-98d6-b037c1e8c29e",
       "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
-      "title": "添加skill：claude-hud",
-      "content": "/plugin install claude-hud",
+      "title": "添加应用市场：claude-hud",
+      "content": "/plugin marketplace add jarrodwatts/claude-hud",
       "description": "",
       "tags": [
         "cc"
       ],
       "is_favorite": false,
-      "created_at": "2026-03-24T15:38:49.931823",
-      "updated_at": "2026-03-24T15:38:49.931823"
+      "created_at": "2026-03-24T15:37:35.950007",
+      "updated_at": "2026-03-24T15:37:46.224812"
     },
     {
       "id": "1f390f91-c946-4d26-8f3b-911b2235d522",
@@ -946,6 +947,19 @@
       "updated_at": "2026-03-31T10:30:23.775705"
     },
     {
+      "id": "636c213b-6fc3-4cb0-8334-c05432594a79",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加skill：claude-hud",
+      "content": "/plugin install claude-hud",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:38:49.931823",
+      "updated_at": "2026-03-24T15:38:49.931823"
+    },
+    {
       "id": "d280eba9-32bc-4f13-9b7f-94807532b694",
       "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
       "title": "配置skill：claude-hud",
@@ -957,19 +971,6 @@
       "is_favorite": false,
       "created_at": "2026-03-24T15:39:12.784518",
       "updated_at": "2026-03-24T15:39:12.784518"
-    },
-    {
-      "id": "e60bd1bd-6adf-4301-8d6d-81e250fc4f50",
-      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
-      "title": "更新claude code",
-      "content": "命令行：npm update -g @anthropic-ai/claude-code\n或者claude对话框：!claude update",
-      "description": "",
-      "tags": [
-        "cc"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-04-03T14:30:38.201104",
-      "updated_at": "2026-04-03T14:30:38.201104"
     },
     {
       "id": "17dba370-1c09-4bef-b3a9-88768670b714",
@@ -1160,6 +1161,19 @@
       "is_favorite": false,
       "created_at": "2026-04-23T08:47:08.642528",
       "updated_at": "2026-04-23T08:47:15.218325"
+    },
+    {
+      "id": "e60bd1bd-6adf-4301-8d6d-81e250fc4f50",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "更新claude code",
+      "content": "命令行：npm update -g @anthropic-ai/claude-code\n或者claude对话框：!claude update",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-03T14:30:38.201104",
+      "updated_at": "2026-04-03T14:30:38.201104"
     },
     {
       "id": "1fa22bbb-12bd-4705-b05c-7396627c7098",
