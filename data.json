@@ -1187,6 +1187,30 @@
       "is_favorite": true,
       "created_at": "2026-04-07T11:10:24.599341",
       "updated_at": "2026-04-07T11:10:28.169076"
+    },
+    {
+      "id": "2a64b625-c5c1-43f3-b061-41dadefb0189",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加应用市场：autoresearch",
+      "content": "/plugin marketplace add uditgoenka/autoresearch",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-29T10:56:41.962076",
+      "updated_at": "2026-04-29T10:57:01.447813"
+    },
+    {
+      "id": "6a9dc855-e9c1-4f07-9cc7-e45f8743aaca",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加skill：autoresearch",
+      "content": "/plugin install autoresearch@autoresearch",
+      "description": "",
+      "tags": [],
+      "is_favorite": false,
+      "created_at": "2026-04-29T10:58:16.072968",
+      "updated_at": "2026-04-29T10:58:16.072968"
     }
   ],
   "tasks": [
