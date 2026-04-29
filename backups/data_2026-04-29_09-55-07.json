@@ -36,9 +36,9 @@
       "id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
       "name": "Prompt",
       "icon": "💡",
-      "description": "",
+      "description": "一些常用的Prompts",
       "created_at": "2026-03-18T15:57:45.108107",
-      "updated_at": "2026-03-19T17:22:46.673704"
+      "updated_at": "2026-04-23T08:44:04.548879"
     },
     {
       "id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
@@ -49,12 +49,12 @@
       "updated_at": "2026-04-12T20:10:39.993640"
     },
     {
-      "id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
-      "name": "NewServer",
-      "icon": "🌐",
-      "description": "策略组新开服务器后的操作",
-      "created_at": "2026-03-25T14:53:11.883663",
-      "updated_at": "2026-03-25T14:58:30.554046"
+      "id": "9d7ea706-67ce-43f1-af5a-b05e1eea5e1d",
+      "name": "Qodercli",
+      "icon": "💫",
+      "description": "服务器安装Qodercli指南",
+      "created_at": "2026-04-23T08:43:50.112022",
+      "updated_at": "2026-04-23T08:44:20.298396"
     },
     {
       "id": "755077a8-487b-4d1a-93d0-c01c4c3c1d9f",
@@ -63,6 +63,14 @@
       "description": "Openclaw命令",
       "created_at": "2026-04-12T00:13:59.079915",
       "updated_at": "2026-04-14T13:42:54.857969"
+    },
+    {
+      "id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "name": "NewServer",
+      "icon": "🌐",
+      "description": "策略组新开服务器后的操作",
+      "created_at": "2026-03-25T14:53:11.883663",
+      "updated_at": "2026-03-25T14:58:30.554046"
     }
   ],
   "commands": [
@@ -106,6 +114,34 @@
       "is_favorite": false,
       "created_at": "2026-03-19T17:34:00.764480",
       "updated_at": "2026-04-07T11:10:32.369303"
+    },
+    {
+      "id": "53b515fe-676e-4f53-8364-2107a58c4b07",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "第一步：拷贝nvm",
+      "content": "sync.py /home/hujiaxi/.nvm -t jxq244",
+      "description": "安装nvm的替代方式，直接从已安装好的服务器拷贝",
+      "tags": [
+        "cc",
+        "self"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-28T09:24:12.819808",
+      "updated_at": "2026-04-28T09:33:28.590951"
+    },
+    {
+      "id": "3d78de00-dd7f-4529-a86f-dfbd279d96c5",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "第1.5步：拷贝~/.claude",
+      "content": "sync.py /home/hujiaxi/.claude -t jxq244\n",
+      "description": "然后进行第二步，然后可以直接跳到第六步",
+      "tags": [
+        "cc",
+        "self"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-28T09:32:53.572508",
+      "updated_at": "2026-04-28T09:33:58.463936"
     },
     {
       "id": "ab62887f-988c-41ca-bdbc-76f1e2107ce8",
@@ -160,32 +196,6 @@
       "updated_at": "2026-03-23T15:46:13.496310"
     },
     {
-      "id": "443be85e-61f2-4613-a23c-41838a0586b2",
-      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
-      "title": "第六步：绕过cc登陆",
-      "content": "\"hasCompletedProjectOnboarding\": true",
-      "description": "在~/.claude.json中添加",
-      "tags": [
-        "cc"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-03-19T17:40:22.863422",
-      "updated_at": "2026-03-23T15:46:44.523908"
-    },
-    {
-      "id": "1f8401d3-3139-4476-8b1f-f31a0fac2ff3",
-      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
-      "title": "第七步：配置api",
-      "content": "{\n  \"env\": {\n    \"ANTHROPIC_AUTH_TOKEN\": \"your_api_token\",\n    \"ANTHROPIC_BASE_URL\": \"https://open.bigmodel.cn/api/anthropic\",\n    \"ANTHROPIC_DEFAULT_HAIKU_MODEL\": \"glm-4.7\",\n    \"ANTHROPIC_DEFAULT_SONNET_MODEL\": \"glm-5\",\n    \"ANTHROPIC_DEFAULT_OPUS_MODEL\": \"glm-5\",\n    \"API_TIMEOUT_MS\": \"3000000\",\n    \"CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC\": \"1\",\n    \"HTTP_PROXY\": \"http://gy245:strategy@10.24.10.245:3128\",\n    \"HTTPS_PROXY\": \"http://gy245:strategy@10.24.10.245:3128\"\n  },\n  \"enabledPlugins\": {\n    \"document-skills@anthropic-agent-skills\": true,\n    \"superpowers@claude-plugins-official\": true\n  },\n  \"language\": \"中文\"\n}",
-      "description": "写入~/.claude/settings.json",
-      "tags": [
-        "cc"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-03-19T17:45:08.428335",
-      "updated_at": "2026-03-23T15:46:50.194107"
-    },
-    {
       "id": "b1066766-8a4c-4876-a533-0cbdba25ce69",
       "board_id": "9734029c-6505-4802-a8b8-e037324a0525",
       "title": "查看某用户所有进程",
@@ -210,6 +220,32 @@
       "is_favorite": true,
       "created_at": "2026-03-18T18:03:21.544853",
       "updated_at": "2026-04-09T16:04:06.019080"
+    },
+    {
+      "id": "443be85e-61f2-4613-a23c-41838a0586b2",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "第六步：绕过cc登陆",
+      "content": "\"hasCompletedProjectOnboarding\": true",
+      "description": "在~/.claude.json中添加",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-19T17:40:22.863422",
+      "updated_at": "2026-03-23T15:46:44.523908"
+    },
+    {
+      "id": "1f8401d3-3139-4476-8b1f-f31a0fac2ff3",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "第七步：配置api",
+      "content": "{\n  \"env\": {\n    \"ANTHROPIC_AUTH_TOKEN\": \"your_api_token\",\n    \"ANTHROPIC_BASE_URL\": \"https://open.bigmodel.cn/api/anthropic\",\n    \"ANTHROPIC_DEFAULT_HAIKU_MODEL\": \"glm-4.7\",\n    \"ANTHROPIC_DEFAULT_SONNET_MODEL\": \"glm-5\",\n    \"ANTHROPIC_DEFAULT_OPUS_MODEL\": \"glm-5\",\n    \"API_TIMEOUT_MS\": \"3000000\",\n    \"CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC\": \"1\",\n    \"HTTP_PROXY\": \"http://gy245:strategy@10.24.10.245:3128\",\n    \"HTTPS_PROXY\": \"http://gy245:strategy@10.24.10.245:3128\"\n  },\n  \"enabledPlugins\": {\n    \"document-skills@anthropic-agent-skills\": true,\n    \"superpowers@claude-plugins-official\": true\n  },\n  \"language\": \"中文\"\n}",
+      "description": "写入~/.claude/settings.json",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-03-19T17:45:08.428335",
+      "updated_at": "2026-03-23T15:46:50.194107"
     },
     {
       "id": "23cceb89-4e3d-49a0-b8a0-e743bc0872a9",
@@ -264,32 +300,6 @@
       "updated_at": "2026-03-24T15:38:59.696576"
     },
     {
-      "id": "0d5585f0-043d-4514-98d6-b037c1e8c29e",
-      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
-      "title": "添加应用市场：claude-hud",
-      "content": "/plugin marketplace add jarrodwatts/claude-hud",
-      "description": "",
-      "tags": [
-        "cc"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-03-24T15:37:35.950007",
-      "updated_at": "2026-03-24T15:37:46.224812"
-    },
-    {
-      "id": "636c213b-6fc3-4cb0-8334-c05432594a79",
-      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
-      "title": "添加skill：claude-hud",
-      "content": "/plugin install claude-hud",
-      "description": "",
-      "tags": [
-        "cc"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-03-24T15:38:49.931823",
-      "updated_at": "2026-03-24T15:38:49.931823"
-    },
-    {
       "id": "ffb71674-78b6-410c-9fb9-374e09f1ddee",
       "board_id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
       "title": "第一步：复制room",
@@ -303,17 +313,17 @@
       "updated_at": "2026-03-27T11:00:21.787817"
     },
     {
-      "id": "d280eba9-32bc-4f13-9b7f-94807532b694",
+      "id": "0d5585f0-043d-4514-98d6-b037c1e8c29e",
       "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
-      "title": "配置skill：claude-hud",
-      "content": "/claude-hud:setup",
+      "title": "添加应用市场：claude-hud",
+      "content": "/plugin marketplace add jarrodwatts/claude-hud",
       "description": "",
       "tags": [
         "cc"
       ],
       "is_favorite": false,
-      "created_at": "2026-03-24T15:39:12.784518",
-      "updated_at": "2026-03-24T15:39:12.784518"
+      "created_at": "2026-03-24T15:37:35.950007",
+      "updated_at": "2026-03-24T15:37:46.224812"
     },
     {
       "id": "1f390f91-c946-4d26-8f3b-911b2235d522",
@@ -403,9 +413,9 @@
       "tags": [
         "gy"
       ],
-      "is_favorite": false,
+      "is_favorite": true,
       "created_at": "2026-04-22T14:17:10.576668",
-      "updated_at": "2026-04-22T14:17:29.753951"
+      "updated_at": "2026-04-29T09:55:00.522195"
     },
     {
       "id": "cb269da1-4454-4f34-ae09-be2ff4097754",
@@ -783,7 +793,7 @@
       ],
       "is_favorite": true,
       "created_at": "2026-03-25T16:30:06.720152",
-      "updated_at": "2026-04-09T16:05:10.167964"
+      "updated_at": "2026-04-29T09:48:37.159519"
     },
     {
       "id": "80c7e787-1786-489a-8d01-1ab91762b575",
@@ -937,30 +947,30 @@
       "updated_at": "2026-03-31T10:30:23.775705"
     },
     {
-      "id": "e60bd1bd-6adf-4301-8d6d-81e250fc4f50",
+      "id": "636c213b-6fc3-4cb0-8334-c05432594a79",
       "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
-      "title": "更新claude code",
-      "content": "命令行：npm update -g @anthropic-ai/claude-code\n或者claude对话框：!claude update",
+      "title": "添加skill：claude-hud",
+      "content": "/plugin install claude-hud",
       "description": "",
       "tags": [
         "cc"
       ],
       "is_favorite": false,
-      "created_at": "2026-04-03T14:30:38.201104",
-      "updated_at": "2026-04-03T14:30:38.201104"
+      "created_at": "2026-03-24T15:38:49.931823",
+      "updated_at": "2026-03-24T15:38:49.931823"
     },
     {
-      "id": "1fa22bbb-12bd-4705-b05c-7396627c7098",
+      "id": "d280eba9-32bc-4f13-9b7f-94807532b694",
       "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
-      "title": "解决claude闪屏跳屏问题",
-      "content": "export CLAUDE_CODE_NO_FLICKER=1",
-      "description": "添加到.zshrc或者.bashrc",
+      "title": "配置skill：claude-hud",
+      "content": "/claude-hud:setup",
+      "description": "",
       "tags": [
         "cc"
       ],
-      "is_favorite": true,
-      "created_at": "2026-04-07T11:10:24.599341",
-      "updated_at": "2026-04-07T11:10:28.169076"
+      "is_favorite": false,
+      "created_at": "2026-03-24T15:39:12.784518",
+      "updated_at": "2026-03-24T15:39:12.784518"
     },
     {
       "id": "17dba370-1c09-4bef-b3a9-88768670b714",
@@ -1086,6 +1096,97 @@
       "is_favorite": false,
       "created_at": "2026-03-19T17:25:40.582838",
       "updated_at": "2026-03-25T15:18:46.522307"
+    },
+    {
+      "id": "7c7a366e-ed27-4682-9b90-db65ad93b713",
+      "board_id": "9d7ea706-67ce-43f1-af5a-b05e1eea5e1d",
+      "title": "第一步：下载压缩文件",
+      "content": "wget https://download.qoder.com/qodercli/releases/0.1.47/qodercli_0.1.47_linux_amd64.tar.gz",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-23T08:45:08.763153",
+      "updated_at": "2026-04-23T08:45:08.763153"
+    },
+    {
+      "id": "36bc7073-33d7-4c1c-ab43-f7f0e3bc4f3d",
+      "board_id": "9d7ea706-67ce-43f1-af5a-b05e1eea5e1d",
+      "title": "第二步：解压文件",
+      "content": "tar -xzf qodercli_0.1.47_linux_amd64.tar.gz",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-23T08:45:29.094367",
+      "updated_at": "2026-04-23T08:45:29.094367"
+    },
+    {
+      "id": "e4868ead-a8dd-4fcc-a6a4-f2e2def5aa4b",
+      "board_id": "9d7ea706-67ce-43f1-af5a-b05e1eea5e1d",
+      "title": "第三步：移动到bin文件夹",
+      "content": "mv ~/qodercli ~/.local/bin/ ",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-23T08:46:05.266713",
+      "updated_at": "2026-04-23T08:46:05.266713"
+    },
+    {
+      "id": "7256522e-5688-4917-979d-93d57dc50d5c",
+      "board_id": "9d7ea706-67ce-43f1-af5a-b05e1eea5e1d",
+      "title": "第四步：赋予执行权限",
+      "content": "chmod +x ~/.local/bin/qodercli",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-23T08:46:24.879105",
+      "updated_at": "2026-04-23T08:46:24.879105"
+    },
+    {
+      "id": "e5b0dfbc-e7d3-4aac-8d7e-96a9c0c668cd",
+      "board_id": "9d7ea706-67ce-43f1-af5a-b05e1eea5e1d",
+      "title": "第五步：添加到环境变量",
+      "content": "export PATH=\"$HOME/.local/bin:$PATH\"",
+      "description": "添加到.bashrc或.zshrc",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-23T08:47:08.642528",
+      "updated_at": "2026-04-23T08:47:15.218325"
+    },
+    {
+      "id": "e60bd1bd-6adf-4301-8d6d-81e250fc4f50",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "更新claude code",
+      "content": "命令行：npm update -g @anthropic-ai/claude-code\n或者claude对话框：!claude update",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-03T14:30:38.201104",
+      "updated_at": "2026-04-03T14:30:38.201104"
+    },
+    {
+      "id": "1fa22bbb-12bd-4705-b05c-7396627c7098",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "解决claude闪屏跳屏问题",
+      "content": "export CLAUDE_CODE_NO_FLICKER=1",
+      "description": "添加到.zshrc或者.bashrc",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": true,
+      "created_at": "2026-04-07T11:10:24.599341",
+      "updated_at": "2026-04-07T11:10:28.169076"
     }
   ],
   "tasks": [
@@ -1116,14 +1217,14 @@
     {
       "id": "3cd2e754-306b-4d84-900a-f2b0fcf4b70b",
       "title": "alphallm-memory优化",
-      "description": "",
+      "description": "是不是可以改为读log？",
       "priority": "high",
       "completed": false,
       "completed_at": "",
-      "in_progress": false,
+      "in_progress": true,
       "recurring": "",
       "created_at": "2026-04-17T14:54:04.173868",
-      "updated_at": "2026-04-17T14:54:10.894198"
+      "updated_at": "2026-04-23T09:57:54.270692"
     },
     {
       "id": "a873e996-e224-4003-8a86-40a3adb51111",
@@ -1156,10 +1257,10 @@
       "priority": "high",
       "completed": false,
       "completed_at": "",
-      "in_progress": false,
+      "in_progress": true,
       "recurring": "",
       "created_at": "2026-04-17T15:02:02.848922",
-      "updated_at": "2026-04-17T15:02:02.848922"
+      "updated_at": "2026-04-23T10:12:40.743422"
     },
     {
       "id": "3a513ced-eaf7-4887-a976-58c793e2043a",
@@ -1226,25 +1327,73 @@
       "title": "复盘跟晗总的交流",
       "description": "学习相关知识",
       "priority": "high",
+      "completed": true,
+      "completed_at": "2026-04-27 09:35",
+      "in_progress": false,
+      "recurring": "",
+      "created_at": "2026-04-20T09:32:26.549506",
+      "updated_at": "2026-04-27T09:35:09.473951"
+    },
+    {
+      "id": "48179203-e8af-40b8-9a0e-ea955c05dc6c",
+      "title": "自动刷因子",
+      "description": "",
+      "priority": "low",
       "completed": false,
       "completed_at": "",
       "in_progress": false,
       "recurring": "",
-      "created_at": "2026-04-20T09:32:26.549506",
-      "updated_at": "2026-04-20T09:32:26.549506"
+      "created_at": "2026-04-23T09:58:49.461587",
+      "updated_at": "2026-04-24T14:18:11.952393"
     },
     {
-      "id": "a1235450-e9ac-4e51-a2b8-cd1b4e7708a5",
-      "title": "test",
-      "description": "test_daily",
+      "id": "23752621-3de2-42a6-b336-c2d5ff425b5a",
+      "title": "学习优化器",
+      "description": "",
       "priority": "medium",
       "completed": false,
       "completed_at": "",
+      "in_progress": true,
+      "recurring": "",
+      "created_at": "2026-04-27T09:36:21.837518",
+      "updated_at": "2026-04-27T15:13:47.892555"
+    },
+    {
+      "id": "9671c834-a1df-44e8-ac12-4a41dd245776",
+      "title": "组织生活会理论学习",
+      "description": "4.27开会",
+      "priority": "high",
+      "completed": true,
+      "completed_at": "2026-04-27 15:07",
       "in_progress": false,
-      "recurring": "daily",
-      "created_at": "2026-04-22T16:16:24.520061",
-      "updated_at": "2026-04-23T09:31:59.067486"
+      "recurring": "",
+      "created_at": "2026-04-27T09:41:32.065943",
+      "updated_at": "2026-04-27T15:07:00.875217"
+    },
+    {
+      "id": "4986fe7f-8d61-41e5-a994-cfede74751a3",
+      "title": "交human alpha",
+      "description": "每周5个",
+      "priority": "high",
+      "completed": true,
+      "completed_at": "2026-04-28 10:09",
+      "in_progress": false,
+      "recurring": "weekly",
+      "created_at": "2026-04-27T15:49:18.424611",
+      "updated_at": "2026-04-28T10:09:15.151780"
     }
   ],
-  "questions": []
+  "questions": [
+    {
+      "id": "998e044a-5ef2-4908-87cb-11adff961525",
+      "title": "15min因子是怎么用的？",
+      "description": "组会",
+      "answer": "",
+      "priority": "high",
+      "asked": false,
+      "asked_at": "",
+      "created_at": "2026-04-23T15:00:33.506366",
+      "updated_at": "2026-04-23T15:00:33.506366"
+    }
+  ]
 }

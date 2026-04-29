@@ -49,12 +49,12 @@
       "updated_at": "2026-04-12T20:10:39.993640"
     },
     {
-      "id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
-      "name": "NewServer",
-      "icon": "🌐",
-      "description": "策略组新开服务器后的操作",
-      "created_at": "2026-03-25T14:53:11.883663",
-      "updated_at": "2026-03-25T14:58:30.554046"
+      "id": "9d7ea706-67ce-43f1-af5a-b05e1eea5e1d",
+      "name": "Qodercli",
+      "icon": "💫",
+      "description": "服务器安装Qodercli指南",
+      "created_at": "2026-04-23T08:43:50.112022",
+      "updated_at": "2026-04-23T08:44:20.298396"
     },
     {
       "id": "755077a8-487b-4d1a-93d0-c01c4c3c1d9f",
@@ -65,12 +65,12 @@
       "updated_at": "2026-04-14T13:42:54.857969"
     },
     {
-      "id": "9d7ea706-67ce-43f1-af5a-b05e1eea5e1d",
-      "name": "Qodercli",
-      "icon": "💫",
-      "description": "服务器安装Qodercli指南",
-      "created_at": "2026-04-23T08:43:50.112022",
-      "updated_at": "2026-04-23T08:44:20.298396"
+      "id": "3affd006-fd2b-4e7a-98af-82f94ac04d11",
+      "name": "NewServer",
+      "icon": "🌐",
+      "description": "策略组新开服务器后的操作",
+      "created_at": "2026-03-25T14:53:11.883663",
+      "updated_at": "2026-03-25T14:58:30.554046"
     }
   ],
   "commands": [
@@ -784,14 +784,14 @@
       "id": "ca402ddc-74a9-40ab-acdd-86b48c8ca787",
       "board_id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
       "title": "一键将alphallm的改动同步到指定服务器",
-      "content": "/home/hujiaxi/room/utils/bash/alphallm_git_pull.sh gy38 gy69 jxq241 jxq243 gy213 jxq245 gy172",
+      "content": "/home/hujiaxi/room/utils/bash/alphallm_git_pull.sh gy38 gy69 jxq241 jxq243 gy213 jxq245 gy172 gy39",
       "description": "jxq245",
       "tags": [
         "self"
       ],
       "is_favorite": true,
       "created_at": "2026-03-25T16:30:06.720152",
-      "updated_at": "2026-04-09T16:05:10.167964"
+      "updated_at": "2026-04-24T10:16:08.570375"
     },
     {
       "id": "80c7e787-1786-489a-8d01-1ab91762b575",
@@ -1196,7 +1196,7 @@
       "in_progress": false,
       "recurring": "",
       "created_at": "2026-04-17T14:54:04.173868",
-      "updated_at": "2026-04-22T17:33:24.613664"
+      "updated_at": "2026-04-23T09:57:54.270692"
     },
     {
       "id": "a873e996-e224-4003-8a86-40a3adb51111",
@@ -1232,7 +1232,7 @@
       "in_progress": false,
       "recurring": "",
       "created_at": "2026-04-17T15:02:02.848922",
-      "updated_at": "2026-04-17T15:02:02.848922"
+      "updated_at": "2026-04-23T10:12:40.743422"
     },
     {
       "id": "3a513ced-eaf7-4887-a976-58c793e2043a",
@@ -1313,9 +1313,35 @@
       "priority": "medium",
       "completed": true,
       "completed_at": "2026-04-22 16:16",
+      "in_progress": false,
+      "recurring": "",
       "created_at": "2026-04-22T16:16:24.520061",
       "updated_at": "2026-04-22T16:16:29.586709"
+    },
+    {
+      "id": "48179203-e8af-40b8-9a0e-ea955c05dc6c",
+      "title": "自动刷因子",
+      "description": "",
+      "priority": "low",
+      "completed": false,
+      "completed_at": "",
+      "in_progress": true,
+      "recurring": "",
+      "created_at": "2026-04-23T09:58:49.461587",
+      "updated_at": "2026-04-23T09:58:52.273795"
     }
   ],
-  "questions": []
+  "questions": [
+    {
+      "id": "998e044a-5ef2-4908-87cb-11adff961525",
+      "title": "15min因子是怎么用的？",
+      "description": "组会",
+      "answer": "",
+      "priority": "high",
+      "asked": false,
+      "asked_at": "",
+      "created_at": "2026-04-23T15:00:33.506366",
+      "updated_at": "2026-04-23T15:00:33.506366"
+    }
+  ]
 }
