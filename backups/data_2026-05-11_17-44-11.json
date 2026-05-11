@@ -1387,11 +1387,47 @@
       "description": "每周5个",
       "priority": "high",
       "completed": true,
-      "completed_at": "2026-04-28 10:09",
+      "completed_at": "2026-05-11 10:26",
       "in_progress": false,
       "recurring": "weekly",
       "created_at": "2026-04-27T15:49:18.424611",
-      "updated_at": "2026-04-28T10:09:15.151780"
+      "updated_at": "2026-05-11T10:26:49.634032"
+    },
+    {
+      "id": "185493b4-4dcf-45de-b5e1-8ea06e51fc82",
+      "title": "把hk_stock的财报数据切到rt",
+      "description": "要等byf那边落到ddb",
+      "priority": "medium",
+      "completed": false,
+      "completed_at": "",
+      "in_progress": false,
+      "recurring": "",
+      "created_at": "2026-05-06T14:28:32.639331",
+      "updated_at": "2026-05-11T10:31:18.748713"
+    },
+    {
+      "id": "c5c766d5-38af-4b2a-b2bd-9b01222391d8",
+      "title": "更新ind_data",
+      "description": "gy172",
+      "priority": "high",
+      "completed": true,
+      "completed_at": "2026-05-08 10:55",
+      "in_progress": false,
+      "recurring": "",
+      "created_at": "2026-05-06T15:58:26.530003",
+      "updated_at": "2026-05-08T10:55:57.049564"
+    },
+    {
+      "id": "56d76f56-8e2a-41b1-90e2-cc9bb94b9117",
+      "title": "树模型交alpha",
+      "description": "然后研究树模型combo",
+      "priority": "high",
+      "completed": false,
+      "completed_at": "",
+      "in_progress": false,
+      "recurring": "",
+      "created_at": "2026-05-11T10:26:43.828590",
+      "updated_at": "2026-05-11T10:26:43.829594"
     }
   ],
   "questions": [
