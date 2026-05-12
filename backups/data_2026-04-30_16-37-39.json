@@ -413,9 +413,9 @@
       "tags": [
         "gy"
       ],
-      "is_favorite": false,
+      "is_favorite": true,
       "created_at": "2026-04-22T14:17:10.576668",
-      "updated_at": "2026-04-22T14:17:29.753951"
+      "updated_at": "2026-04-29T09:55:00.522195"
     },
     {
       "id": "cb269da1-4454-4f34-ae09-be2ff4097754",
@@ -786,14 +786,14 @@
       "id": "ca402ddc-74a9-40ab-acdd-86b48c8ca787",
       "board_id": "cd276315-a4c4-4de2-9d0b-b1086cfc9456",
       "title": "一键将alphallm的改动同步到指定服务器",
-      "content": "/home/hujiaxi/room/utils/bash/alphallm_git_pull.sh gy38 gy69 jxq241 jxq243 gy213 jxq245 gy172 gy39",
+      "content": "/home/hujiaxi/room/utils/bash/alphallm_git_pull.sh gy38 gy69 jxq241 jxq243 gy213 jxq245 gy172",
       "description": "jxq245",
       "tags": [
         "self"
       ],
       "is_favorite": true,
       "created_at": "2026-03-25T16:30:06.720152",
-      "updated_at": "2026-04-24T10:16:08.570375"
+      "updated_at": "2026-04-29T09:48:37.159519"
     },
     {
       "id": "80c7e787-1786-489a-8d01-1ab91762b575",
@@ -1064,14 +1064,14 @@
       "id": "751e47dc-7b91-4991-969d-ca72e4885212",
       "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
       "title": "生成指定条件的alphameta",
-      "content": "对于目前/home/hujiaxi/room/hjx_alphas/hjx_llm_ind_index_comb/hujiaxi_llm_ind_pv_meta.xml里面的因子，取表达式里包含if的因子，创建一个因子组合（生成新文件保存）；然后取表达式里不包含if的因子，创建另一个因子组合（生成新文件保存），新文件的模板和原文件相同",
+      "content": "对于目前/home/hujiaxi/room/hjx_alphas/hjx_llm_ind_index_comb/hujiaxi_llm_ind_pv_meta.xml里面的因子，取表达式里包含if的因子，创建一个因子组合（生成新文件保存）；然后取其余因子，创建另一个因子组合（生成新文件保存），新文件的模板和原文件相同，你可以参考/home/hujiaxi/room/alphallm/log/daily_ind_index_funda/qualified.csv获取因子表现",
       "description": "",
       "tags": [
         "alpha"
       ],
       "is_favorite": false,
       "created_at": "2026-04-17T09:50:08.554803",
-      "updated_at": "2026-04-17T11:16:34.435416"
+      "updated_at": "2026-04-30T14:49:40.384787"
     },
     {
       "id": "2307295b-b321-4932-879c-26c3b1b8555f",
@@ -1098,69 +1098,17 @@
       "updated_at": "2026-03-25T15:18:46.522307"
     },
     {
-      "id": "7c7a366e-ed27-4682-9b90-db65ad93b713",
+      "id": "22285f46-d596-471f-902d-2550f07e4a2d",
       "board_id": "9d7ea706-67ce-43f1-af5a-b05e1eea5e1d",
-      "title": "第一步：下载压缩文件",
-      "content": "wget https://download.qoder.com/qodercli/releases/0.1.47/qodercli_0.1.47_linux_amd64.tar.gz",
+      "title": "第一步：下载qodercli",
+      "content": "curl -fsSL https://qoder.com/install | zsh",
       "description": "",
       "tags": [
         "cc"
       ],
       "is_favorite": false,
-      "created_at": "2026-04-23T08:45:08.763153",
-      "updated_at": "2026-04-23T08:45:08.763153"
-    },
-    {
-      "id": "36bc7073-33d7-4c1c-ab43-f7f0e3bc4f3d",
-      "board_id": "9d7ea706-67ce-43f1-af5a-b05e1eea5e1d",
-      "title": "第二步：解压文件",
-      "content": "tar -xzf qodercli_0.1.47_linux_amd64.tar.gz",
-      "description": "",
-      "tags": [
-        "cc"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-04-23T08:45:29.094367",
-      "updated_at": "2026-04-23T08:45:29.094367"
-    },
-    {
-      "id": "e4868ead-a8dd-4fcc-a6a4-f2e2def5aa4b",
-      "board_id": "9d7ea706-67ce-43f1-af5a-b05e1eea5e1d",
-      "title": "第三步：移动到bin文件夹",
-      "content": "mv ~/qodercli ~/.local/bin/ ",
-      "description": "",
-      "tags": [
-        "cc"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-04-23T08:46:05.266713",
-      "updated_at": "2026-04-23T08:46:05.266713"
-    },
-    {
-      "id": "7256522e-5688-4917-979d-93d57dc50d5c",
-      "board_id": "9d7ea706-67ce-43f1-af5a-b05e1eea5e1d",
-      "title": "第四步：赋予执行权限",
-      "content": "chmod +x ~/.local/bin/qodercli",
-      "description": "",
-      "tags": [
-        "cc"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-04-23T08:46:24.879105",
-      "updated_at": "2026-04-23T08:46:24.879105"
-    },
-    {
-      "id": "e5b0dfbc-e7d3-4aac-8d7e-96a9c0c668cd",
-      "board_id": "9d7ea706-67ce-43f1-af5a-b05e1eea5e1d",
-      "title": "第五步：添加到环境变量",
-      "content": "export PATH=\"$HOME/.local/bin:$PATH\"",
-      "description": "添加到.bashrc或.zshrc",
-      "tags": [
-        "cc"
-      ],
-      "is_favorite": false,
-      "created_at": "2026-04-23T08:47:08.642528",
-      "updated_at": "2026-04-23T08:47:15.218325"
+      "created_at": "2026-04-30T16:37:04.128617",
+      "updated_at": "2026-04-30T16:37:30.655667"
     },
     {
       "id": "e60bd1bd-6adf-4301-8d6d-81e250fc4f50",
@@ -1187,6 +1135,69 @@
       "is_favorite": true,
       "created_at": "2026-04-07T11:10:24.599341",
       "updated_at": "2026-04-07T11:10:28.169076"
+    },
+    {
+      "id": "2a64b625-c5c1-43f3-b061-41dadefb0189",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加应用市场：autoresearch",
+      "content": "/plugin marketplace add uditgoenka/autoresearch",
+      "description": "",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-29T10:56:41.962076",
+      "updated_at": "2026-04-29T10:57:01.447813"
+    },
+    {
+      "id": "6a9dc855-e9c1-4f07-9cc7-e45f8743aaca",
+      "board_id": "ffe8e9bd-40d7-45ea-82a1-d0fbe6b750a7",
+      "title": "添加skill：autoresearch",
+      "content": "/plugin install autoresearch@autoresearch",
+      "description": "",
+      "tags": [],
+      "is_favorite": false,
+      "created_at": "2026-04-29T10:58:16.072968",
+      "updated_at": "2026-04-29T10:58:16.072968"
+    },
+    {
+      "id": "870d4f84-f240-45e5-9a57-57a8a0aa2bc1",
+      "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "title": "IT策略研究助手-研报搜索因子hint",
+      "content": "我想找一些日频价量表达式因子的idea，请你浏览论文，帮我生成10个价量因子的idea，要求：idea能够支持生成表达式因子，要有能实际落地的逻辑，而不是只给出构建因子的方法论。不要给出机器学习因子（比如用LSTM、图神经网络、编码器、大语言模型）。可以指出推荐使用的数据、函数、算符。简洁易懂、可行性高、逻辑严谨、语句通顺、30字以内。\r\nidea的参考示例：\r\n        - 捕捉机构资金流入的趋势性\r\n        - 度量散户对机构资金的跟随程度\r\n        - 衡量散户关注度\r\n        - 计算算法单中，非做市单的占比\r\n        - 考量主动买卖量的中/短期趋势或加速度\r\n        - 判断信号单资金流入是否独立于（or不相关）传统意义上的大小单流入\r\n        - 考虑撤单流的不平衡，包括时间间隔意义上的不平衡和撤单量大小意义上的不平衡\r\n        - 考量不同资金属性对应的撤单激进度趋势或不平衡\r\n        - 利用盘口计算流动性，可以细分到不同资金属性的盘口\r\n        - 考虑主动买入vs主动卖出的不平衡关系",
+      "description": "",
+      "tags": [
+        "alpha"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-29T17:04:42.438913",
+      "updated_at": "2026-04-29T17:04:48.303671"
+    },
+    {
+      "id": "d12b28a7-c4c9-4b67-9107-6d9600cecc22",
+      "board_id": "7b16fa24-2f3e-40ac-a631-15f1704696f9",
+      "title": "IT策略研究助手-研报搜索基本面因子hint",
+      "content": "我想找一些日频基本面表达式因子的idea，请你浏览论文，帮我生成10个基本面因子的idea，要求：idea能够支持生成表达式因子，要有能实际落地的逻辑，而不是只给出构建因子的方法论。不要给出机器学习因子（比如用LSTM、图神经网络、编码器、大语言模型）。可以指出推荐使用的数据、函数、算符。简洁易懂、可行性高、逻辑严谨、语句通顺、30字以内。\r\nidea的参考示例：\r\n        - 针对估值指标尝试剥离指标自身历史趋势的干扰，捕捉指标相对自身历史的异常偏离\r\n        - 聚焦价格与内在价值的错配机会，基于估值、收益指标与规模的匹配度判断低估\r\n        - 将相关联的两个数据x与y通过中性化处理剥离x对y的影响，捕捉未被市场预期的错配\r\n        - 捕捉公司基本面指标（资产负债表、利润表）增长的趋势强度或加速度\r\n        - 使用一致预期数据捕捉市场参与者的预期变化和情绪波动，或剔除一致预期数据对基准年度数据的影响、基准年度数据对一致预期数据的影响，聚焦未预期部分\r\n        - 关注比率、周转率、现金流等指标的稳定性或高质量增长\r\n        - 从统计分布和风险测度的角度来选股，寻找“尖峰厚尾”或分布形态发生变化的股票\r\n        - 根据收入指标的相对程度进行分类，该指标表现好时关注x指标表现，该指标表现差时关注y指标的表现",
+      "description": "",
+      "tags": [
+        "alpha"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-30T11:03:29.954300",
+      "updated_at": "2026-04-30T11:03:29.954300"
+    },
+    {
+      "id": "e5b0dfbc-e7d3-4aac-8d7e-96a9c0c668cd",
+      "board_id": "9d7ea706-67ce-43f1-af5a-b05e1eea5e1d",
+      "title": "第二步：添加到环境变量",
+      "content": "export PATH=\"$HOME/.local/bin:$PATH\"",
+      "description": "添加到.bashrc或.zshrc",
+      "tags": [
+        "cc"
+      ],
+      "is_favorite": false,
+      "created_at": "2026-04-23T08:47:08.642528",
+      "updated_at": "2026-04-30T16:37:24.798003"
     }
   ],
   "tasks": [
@@ -1221,7 +1232,7 @@
       "priority": "high",
       "completed": false,
       "completed_at": "",
-      "in_progress": true,
+      "in_progress": false,
       "recurring": "",
       "created_at": "2026-04-17T14:54:04.173868",
       "updated_at": "2026-04-23T09:57:54.270692"
@@ -1257,7 +1268,7 @@
       "priority": "high",
       "completed": false,
       "completed_at": "",
-      "in_progress": true,
+      "in_progress": false,
       "recurring": "",
       "created_at": "2026-04-17T15:02:02.848922",
       "updated_at": "2026-04-23T10:12:40.743422"
@@ -1375,12 +1386,12 @@
       "title": "交human alpha",
       "description": "每周5个",
       "priority": "high",
-      "completed": false,
-      "completed_at": "",
+      "completed": true,
+      "completed_at": "2026-04-28 10:09",
       "in_progress": false,
       "recurring": "weekly",
       "created_at": "2026-04-27T15:49:18.424611",
-      "updated_at": "2026-04-27T18:03:01.382415"
+      "updated_at": "2026-04-28T10:09:15.151780"
     }
   ],
   "questions": [
